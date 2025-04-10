@@ -1,9 +1,6 @@
 package com.Runner;
-
-
 	import io.cucumber.testng.AbstractTestNGCucumberTests;
 	import io.cucumber.testng.CucumberOptions;
-
 	@CucumberOptions(
 	    plugin = {
 	        "pretty",
@@ -11,7 +8,7 @@ package com.Runner;
 	        
 	    },
 	    features = {
-	        "src/test/resources/com/features/Login.feature",
+	        "src/test/resources/com/features/PIM.feature",
 	        
 	    },
 	    glue = "com.Definations",
