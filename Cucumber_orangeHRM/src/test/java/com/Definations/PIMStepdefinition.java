@@ -33,12 +33,18 @@ public class PIMStepdefinition {
 	}
 
 	@When("the user fill the Employee form with details:")
-	public void the_user_fill_the_employee_form_with_details(io.cucumber.datatable.DataTable dataTable) {
+	public void the_user_fill_the_employee_form_with_details(io.cucumber.datatable.DataTable dataTable) throws InterruptedException {
 	    pimact.senddata(dataTable);
+	    Thread.sleep(2000);
+	}
+	@When("the user click the Save Button")
+	public void the_user_click_the_save_Button() {
+		pimact.save1();
 	}
 
 	@When("the user click the Save button")
 	public void the_user_click_the_save_button() {
+		
 		pimact.saveclick();
 	}
 

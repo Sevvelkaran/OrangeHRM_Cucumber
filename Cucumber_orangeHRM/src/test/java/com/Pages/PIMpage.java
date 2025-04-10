@@ -14,6 +14,8 @@ public class PIMpage {
   public WebElement lastname;
   @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
   public WebElement id;
+  @FindBy(xpath="//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
+  public WebElement saveemp1;
   @FindBy(xpath="//button[text()=' Save ']")
   public WebElement save;
   @FindBy(xpath="(//a[@class='oxd-topbar-body-nav-tab-item'])[2]")

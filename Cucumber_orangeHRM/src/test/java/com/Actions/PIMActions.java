@@ -57,15 +57,18 @@ public class PIMActions {
 		  Map<String, String> data = datatable.asMap(String.class, String.class);
 		  Actions actions = new Actions(driver);
 		  pimpage.name.sendKeys(data.get("Name"));
-		  Thread.sleep(30000); 
+		  Thread.sleep(3000); 
 		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 		  pimpage.reportdrop.click();
-		  Thread.sleep(30000);
+		  Thread.sleep(3000);
 		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 		}
       public void verify() {
     	  if(pimpage.verifyadd.isDisplayed()) {
     		  System.out.println("Superviser added");
     	  }
+      }
+      public void save1() {
+    	  pimpage.saveemp1.click();
       }
 }
