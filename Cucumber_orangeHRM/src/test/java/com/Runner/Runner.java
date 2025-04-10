@@ -12,7 +12,7 @@ package com.Runner;
 	    },
 	    features = {
 	        "src/test/resources/com/features/Login.feature",
-	        
+	        "src/test/resources/com/features/TimePunchoutDashboard.feature",
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
