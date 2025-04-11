@@ -11,8 +11,9 @@ package com.Runner;
 	        
 	    },
 	    features = {
-	        "src/test/resources/com/features/Login.feature",
-	        
+	        //"src/test/resources/com/features/Login.feature",
+	        "src/test/resources/com/features/Performance.feature",
+	    	"src/test/resources/com/features/PIM.feature"
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
