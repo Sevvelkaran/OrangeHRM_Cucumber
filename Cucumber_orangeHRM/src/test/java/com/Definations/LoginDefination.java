@@ -33,7 +33,7 @@ public void i_want_to_go_to_orange_hrm(String url) {
 }
 @When("The user enters username and password")
 public void the_user_enters_username_and_password() throws InterruptedException {
-	Thread.sleep(4000);
+	//Thread.sleep(4000);
 
     objLogin.Valid();
     

@@ -1,6 +1,9 @@
 package com.Runner;
+
+
 	import io.cucumber.testng.AbstractTestNGCucumberTests;
 	import io.cucumber.testng.CucumberOptions;
+
 	@CucumberOptions(
 	    plugin = {
 	        "pretty",
@@ -8,8 +11,8 @@ package com.Runner;
 	        
 	    },
 	    features = {
-	        "src/test/resources/com/features/PIM.feature",
-	        
+	        "src/test/resources/com/features/Login.feature",
+	        "src/test/resources/com/features/TimePunchoutDashboard.feature",
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
@@ -17,4 +20,3 @@ package com.Runner;
 	)
 	public class Runner extends AbstractTestNGCucumberTests {
 	}
-
