@@ -53,7 +53,7 @@ public class Configaction {
 	  Thread.sleep(3000);
   }
   public void filldetail() {
-	  con.fieldname.sendKeys("Address(personal)");
+	  con.fieldname.sendKeys("Address");
 	  Actions act=new Actions(driver);
 	  con.screendropdown.click();
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();

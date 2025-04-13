@@ -2,90 +2,90 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-13T20:20:54 IST" name="Default suite" finished-at="2025-04-13T20:24:07 IST" duration-ms="193184">
+  <suite started-at="2025-04-13T20:40:34 IST" name="Default suite" finished-at="2025-04-13T20:43:49 IST" duration-ms="195791">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-13T20:20:54 IST" name="Default test" finished-at="2025-04-13T20:24:07 IST" duration-ms="193184">
+    <test started-at="2025-04-13T20:40:34 IST" name="Default test" finished-at="2025-04-13T20:43:49 IST" duration-ms="195791">
       <class name="com.Runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:20:54 IST" name="setUpClass" finished-at="2025-04-13T20:20:55 IST" duration-ms="798" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:40:34 IST" name="setUpClass" finished-at="2025-04-13T20:40:35 IST" duration-ms="1149" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@81b5db0]]>
+                <![CDATA[org.testng.TestRunner@2459319c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:20:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:22:10 IST" duration-ms="74617" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:40:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:41:19 IST" duration-ms="43801" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add two new employees and assign a supervisor"]]>
+                <![CDATA["Enable optional fields in PIM configuration"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Admin Functionalities"]]>
+                <![CDATA["Validate OrangeHRM PIM Configuration Menu"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:22:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:22:48 IST" duration-ms="38236" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:42:11 IST" duration-ms="52589" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Search employee with valid credentials"]]>
+                <![CDATA["Add Custom fields in PIM configuration"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Admin Functionalities"]]>
+                <![CDATA["Validate OrangeHRM PIM Configuration Menu"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:22:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:23:27 IST" duration-ms="38692" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:42:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:42:57 IST" duration-ms="45304" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Search employee with valid credentials"]]>
+                <![CDATA["Add Reporting methods in PIM configuration"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Admin Functionalities"]]>
+                <![CDATA["Validate OrangeHRM PIM Configuration Menu"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:23:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:24:07 IST" duration-ms="40600" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:42:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T20:43:49 IST" duration-ms="52629" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Search employee with valid credentials"]]>
+                <![CDATA["Add Termination Reson in PIM configuration"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Admin Functionalities"]]>
+                <![CDATA["Validate OrangeHRM PIM Configuration Menu"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:24:07 IST" name="tearDownClass" finished-at="2025-04-13T20:24:07 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-13T20:43:49 IST" name="tearDownClass" finished-at="2025-04-13T20:43:49 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
