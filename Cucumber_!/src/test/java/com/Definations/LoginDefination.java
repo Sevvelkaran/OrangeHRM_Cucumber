@@ -24,7 +24,12 @@ WebDriver driver;
 	            HelperClass.setUpDriver();
 	            driver = HelperClass.getDriver();
 	        }
-	    
+
+	@After
+    public void tearDown() {
+        HelperClass.teardown(); 
+    }
+	
 @Given("I want to go to OrangeHRM {string}")
 public void i_want_to_go_to_orange_hrm(String url) {
     HelperClass.openPage(url);
