@@ -38,12 +38,12 @@ public class PIMStepdefinition {
 	    Thread.sleep(2000);
 	}
 	@When("the user click the Save Button")
-	public void the_user_click_the_save_Button() {
+	public void the_user_click_the_save_Button() throws InterruptedException {
 		pimact.save1();
 	}
 
 	@When("the user click the Save button")
-	public void the_user_click_the_save_button() {
+	public void the_user_click_the_save_button() throws InterruptedException {
 		
 		pimact.saveclick();
 	}
@@ -68,9 +68,17 @@ public class PIMStepdefinition {
 		pimact.senddataforsuper(dataTable);
 	}
 
-	@Then("the user should be added to the employee Records")
-	public void the_user_should_be_added_to_the_employee_records() {
-	    pimact.verify();
+	@Then("the user should get the error message{string}")
+	public void the_user_should_get_the_error_message(String string) {
+	    pimact.verifyerror(string);
 	}
-
+	@Then("the user should be added to the supervisor Records")
+	public void the_user_should_be_added_to_the_supervisor_records() {
+		pimact.verifysuper();
+	}
+	
+	@When("the user fills the employee form with {string}, {string}, {string}, and {string}")
+	public void the_user_fills_the_employee_form_with_and(String firstname, String middlename, String lastname, String id) {
+	    pimact.sendemployeedettails(firstname,middlename,lastname,id);
+	}
 }

@@ -20,8 +20,21 @@ Scenario: Add two new employees and assign a supervisor
   And the user click the Report-to
   And the user click the Add button under Assigned Supervisors
   And the user fill the Supervisor form with:
-    |Name|Gayu R|
+    |Name|Thoushi F|
     |ReportingMethod|Direct|
   And the user click the Save button
-  Then the user should be added to the employee Records
-  And Logout
+  Then the user should be added to the supervisor Records
+  
+  @SearchEmployee
+Scenario Outline: Search employee with valid credentials
+  Given the user is on the DashBoard page
+  When the user click the PIM menu
+  And the user click the Add Button
+  And the user fills the employee form with "<Firstname>", "<Middlename>", "<Lastname>", and "<Employeeid>"
+  And the user click the Save button
+  Then the user should get the error message"<message>"
+Examples:
+  | Firstname | Middlename | Lastname | Employeeid |message |
+  |           |            | M        | 102        |Required|
+  | Thoushi   |    Mary    |          | 10921      |Required|
+  |           |            |          |            |Required| 

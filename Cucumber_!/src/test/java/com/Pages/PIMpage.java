@@ -10,6 +10,8 @@ public class PIMpage {
   public WebElement add;
   @FindBy(xpath="//input[@name='firstName']")
   public WebElement firstname;
+  @FindBy(xpath="//input[@name='middleName']")
+  public WebElement middlename;
   @FindBy(xpath="//input[@name='lastName']")
   public WebElement lastname;
   @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
@@ -34,4 +36,8 @@ public class PIMpage {
   public WebElement savesuper;
   @FindBy(xpath="//i[@class='oxd-icon bi-trash']")
   public WebElement verifyadd;
+  @FindBy(xpath="//h6[@class='oxd-text oxd-text--h6 --strong']")
+  public WebElement savedemp;
+  @FindBy(xpath="(//span[text()='Required'])[1]")
+  public WebElement nameerr;
 }

@@ -13,6 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import com.Pages.PIMpage;
 import com.Utils.HelperClass;
@@ -40,9 +41,13 @@ public class PIMActions {
 		    pimpage.lastname.sendKeys(data.get("Lastname"));
 		    pimpage.id.clear();
 		    pimpage.id.sendKeys(data.get("Employeeid"));
+		    Actions act=new Actions(driver);
+		    act.sendKeys(Keys.ENTER);
 		}
-	  public void saveclick() {
+	  public void saveclick() throws InterruptedException {
+		  Thread.sleep(3000);
 		  pimpage.save.click();
+		  Thread.sleep(3000);
 	  }
 	  public void addempclcik() {
 		  pimpage.addemployee.click();
@@ -63,12 +68,32 @@ public class PIMActions {
 		  Thread.sleep(3000);
 		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 		}
-      public void verify() {
-    	  if(pimpage.verifyadd.isDisplayed()) {
+	  public void verifysuper() {
+		  if(pimpage.verifyadd.isDisplayed()) {
     		  System.out.println("Superviser added");
     	  }
+	  }
+      public void verify() {
+    	  if(pimpage.savedemp.getText().contains("Dharani")||pimpage.savedemp.getText().contains("Thoushi")||pimpage.savedemp.getText().contains("Gayu")) {
+           		 System.out.println("Employee added in the list");
+    	  }
       }
-      public void save1() {
+      
+      public void save1() throws InterruptedException {
+    	  Thread.sleep(3000);
     	  pimpage.saveemp1.click();
+    	  Thread.sleep(3000);
+      }
+      public void sendemployeedettails(String firstname,String middlename,String lastname,String id) {
+    	  pimpage.firstname.sendKeys(firstname);
+    	  pimpage.middlename.sendKeys(middlename);
+		    //pimpage.lastname.sendKeys(lastname);
+		    Actions act=new Actions(driver);
+		    pimpage.lastname.sendKeys(lastname);
+		    act.sendKeys(Keys.ENTER).build().perform();	  
+      }
+      public void verifyerror(String expected) {
+    	  String actual=pimpage.nameerr.getText();
+    	  Assert.assertEquals(expected,actual);
       }
 }
