@@ -52,3 +52,11 @@ Feature: User Management functionality in OrangeHRM
   | Admin1   |              |  abcd        |          |Invalid|
   | abcd     |              |  Thoushi F   |          |No Records Found|
   
+  @Delete_User
+  Scenario: Delete a user account
+  Given the user is on the DashBoard page
+  When the user click the Admin menu
+  And the user selects the user to be deleted
+  And the user clicks the Delete button
+  And the user confirms the deletion
+  Then the user account should be successfully deleted

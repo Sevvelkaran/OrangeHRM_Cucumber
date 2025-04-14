@@ -99,8 +99,15 @@ public class UsermanagementAction {
 		  Assert.assertEquals(expected,user.invalid.getText());
 	  }
         }
-  public void delete() {
+  
+  //deleteuser
+  public void select() {
+	  user.selectcheckbox.click();
+  }
+  public void Deleteclick() {
 	  user.delete.click();
+  }
+  public void ConformDelete() {
 	  user.condelete.click();
   }
 }

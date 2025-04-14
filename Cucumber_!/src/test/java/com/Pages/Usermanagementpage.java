@@ -29,6 +29,8 @@ public WebElement conpass;
 public WebElement submit;
 @FindBy(xpath="(//div[@class='oxd-table-cell oxd-padding-cell'])[8]")
 public WebElement text;
+@FindBy(xpath="(//i[@class='oxd-icon bi-check oxd-checkbox-input-icon'])[2]")
+public WebElement selectcheckbox;
 @FindBy(xpath="(//i[@class='oxd-icon bi-trash'])[2]")
 public WebElement delete;
 @FindBy(xpath="//i[@class='oxd-icon bi-trash oxd-button-icon']")
