@@ -15,7 +15,7 @@ package com.Runner;
 	       "src/test/resources/com/features/PIM.feature",
 	      // "src/test/resources/com/features/TimePunchoutDashboard.feature",
 	       "src/test/resources/com/features/Configuration.feature",
-	       "src/test/resources/com/features/UsermanagementAction.feature",
+	       "src/test/resources/com/features/Q_UserManagement.feature",
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
