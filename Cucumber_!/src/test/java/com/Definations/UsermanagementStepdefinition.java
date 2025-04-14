@@ -54,4 +54,25 @@ public class UsermanagementStepdefinition {
 	public void the_user_should_see_the_message(String string) {
 		user.errorverify(string);
 	}
+	//delete user
+	@When("the user selects the user to be deleted")
+	public void the_user_selects_the_user_to_be_deleted() {
+		user.select();
+		
+	}
+
+	@When("the user clicks the Delete button")
+	public void the_user_clicks_the_delete_button() {
+		user.Deleteclick();
+	}
+
+	@When("the user confirms the deletion")
+	public void the_user_confirms_the_deletion() {
+		user.ConformDelete();
+	}
+
+	@Then("the user account should be successfully deleted")
+	public void the_user_account_should_be_successfully_deleted() {
+		
+	}
 }
