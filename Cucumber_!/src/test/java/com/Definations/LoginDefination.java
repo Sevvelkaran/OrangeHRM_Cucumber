@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import com.Actions.LoginActions;
 import com.Pages.LoginPages;
 import com.Utils.HelperClass;
+import com.Utils.LogManagers;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -35,19 +36,22 @@ WebDriver driver;
 public void i_want_to_go_to_orange_hrm(String url) {
     HelperClass.openPage(url);
     objLogin = new LoginActions();
-
+LogManagers.logInfo("WebPage Opend");
 }
 @When("The user enters username and password")
 public void the_user_enters_username_and_password() throws InterruptedException {
 	//Thread.sleep(4000);
 
     objLogin.Valid();
-    
+    LogManagers.logInfo("Credentials Entred");
+
 }
 
 @When("Clicks on the Login button")
 public void clicks_on_the_login_button() {
     objLogin.Login();
+    LogManagers.logInfo("Login button Clicked");
+
 }
 
 @Then("Assert them for valid login")
@@ -64,11 +68,15 @@ public void assert_them_for_valid_login() {
 public void logout() {
     objLogin.dro();
     objLogin.logout();
+    LogManagers.logInfo("Logout button Clicked");
+
 }
 
 @When("The user enters invalid username and invalid password")
 public void the_user_enters_invalid_username_and_invalid_password() {
     objLogin.Invalid();
+    LogManagers.logInfo("Invalid Credentials Entered");
+
 
 }
 
@@ -83,6 +91,8 @@ public void assert_them_for_invalid_login() {
 @When("The user enters Empty username and invalid password as")
 public void the_user_enters_empty_username_and_invalid_password_as() {
     objLogin.empty();
+    LogManagers.logInfo("Invalid Credentials Entered");
+
 }
 
 @Then("Assert them for empty login")
@@ -96,6 +106,8 @@ public void assert_them_for_empty_login() {
 @When("The user clicks on the Forgot Password link")
 public void the_user_clicks_on_the_forgot_password_link() {
     objLogin.forgot();
+    LogManagers.logInfo("Forgot Password Clicked");
+
 }
 
 @Then("Assert the Forgot Password page is displayed")
