@@ -19,7 +19,7 @@ package com.Runner;
 	       "src/test/resources/com/features/Performance.feature",
 	       "src/test/resources/com/features/Performance2.feature",
 	       "src/test/resources/com/features/Buzz.feature",
-	      // "src/test/resources/com/features/U_Configure.feature",
+	       "src/test/resources/com/features/U_Configure.feature",
 	       "src/test/resources/com/features/Admin.feature",
 	    },
 	    glue = "com.Definations",

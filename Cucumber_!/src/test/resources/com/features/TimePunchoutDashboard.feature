@@ -13,7 +13,8 @@ Feature: Dashboard
     
      @QuickLaunch_Assert
   Scenario Outline: QuickLaunch Assert
-  
+   Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    When The user enters the username and password to login
     And Assert the name Dashboard "<Dashboard>"
     Then the user asserts all the quick Action "<QuickAction>"
     

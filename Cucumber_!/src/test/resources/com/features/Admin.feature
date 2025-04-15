@@ -13,7 +13,7 @@ Background:
     And enters the following Education Details
       | Level                        |
       | Information Technology       |
-    And clicks the Save button
+    And clicks to the Save button
     Then verify that the Education Details are successfully added
 
   @DuplicateEducation
@@ -24,7 +24,7 @@ Background:
     And enters the following Education Details
       | Level                       |
       | Information Technology      |
-    And clicks the Save button
+    And clicks to the Save button
     Then verify that an error message "Already exists" is displayed
     
     @EmptyfieldEducation
@@ -35,15 +35,9 @@ Background:
      And enters the following Education Details
        |  Level     |
        |            |
-      And clicks the Save button
+      And clicks to the Save button
      Then verify the error message "Required" is displayed
-    
-    
-    
-    
-    
-    
-    
+     
     @Memberships
     Scenario: Adding Membership Details in Education field in Qualifications
     And the user navigates to the Admin module
@@ -52,7 +46,7 @@ Background:
     And enters the following Membership Details
     |      Name                                        | 
     |  Computer Society of India(CSI)                  |
-    And clicks the Save button
+    And clicks to the Save button
     Then verify that the Memberships Details are successfully added
     
     
@@ -64,7 +58,7 @@ Background:
     And enters the following Membership Details
     |      Name                                         | 
     |   Computer Society of India(CSI)                  |
-    And clicks the Save button
+    And clicks to the Save button
     Then verify that an error message "Already exists" is displayed
     
    
@@ -76,7 +70,7 @@ Background:
      And enters the following Membership Details
        |  Name      |
        |            |
-     And clicks the Save button 
+     And clicks to the Save button 
      Then verify the error message "Required" is displayed
     
     

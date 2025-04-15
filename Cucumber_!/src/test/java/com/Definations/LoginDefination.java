@@ -105,6 +105,7 @@ public void assert_the_forgot_password_page_is_displayed() {
 	String oorg = Forgot.getText();
 	
 	assertEquals(oorg, str1);
+	driver.navigate().back();
 }
 
 

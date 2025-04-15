@@ -59,8 +59,8 @@ public class AdminDefinitions {
         admin.enterEducationLevel(level);
     }
 
-    @When("clicks the Save button")
-    public void clicks_the_save_button() {
+    @When("clicks to the Save button")
+    public void clicks_to_the_save_button() {
         admin.clickSaveButton();
     }
 
