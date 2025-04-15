@@ -1,0 +1,121 @@
+2025-04-15 17:04:03 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:04:04 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:04:10 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:04:10 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:04:11 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-15 17:04:12 [main] INFO  org.apache.logging.log4j.LogManager - Login button Clicked
+2025-04-15 17:04:14 [main] INFO  org.apache.logging.log4j.LogManager - Logout button Clicked
+2025-04-15 17:04:20 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:04:20 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:04:28 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:04:28 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:04:30 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Credentials Entered
+2025-04-15 17:04:36 [main] INFO  org.apache.logging.log4j.LogManager - Login button Clicked
+2025-04-15 17:04:42 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:04:42 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:04:48 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:04:48 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:04:49 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Credentials Entered
+2025-04-15 17:04:49 [main] INFO  org.apache.logging.log4j.LogManager - Login button Clicked
+2025-04-15 17:04:55 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:04:55 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:05:03 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:05:03 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:05:06 [main] INFO  org.apache.logging.log4j.LogManager - Forgot Password Clicked
+2025-04-15 17:10:00 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:10:00 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:10:04 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:10:04 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:10:07 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:10:09 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Clock
+2025-04-15 17:10:21 [main] INFO  org.apache.logging.log4j.LogManager - Time Entered
+2025-04-15 17:10:21 [main] INFO  org.apache.logging.log4j.LogManager - Out Clicked
+2025-04-15 17:10:22 [main] INFO  org.apache.logging.log4j.LogManager - In Dashboard Page
+2025-04-15 17:10:27 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:10:28 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:10:38 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:10:38 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:10:45 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:10:45 [main] INFO  org.apache.logging.log4j.LogManager - Align Leave Asserted
+2025-04-15 17:10:50 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:10:51 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:10:57 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:10:57 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:11:03 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:11:03 [main] INFO  org.apache.logging.log4j.LogManager - Leave list Asserted
+2025-04-15 17:11:09 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:11:09 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:11:16 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:11:16 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:11:22 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:11:22 [main] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
+2025-04-15 17:11:27 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:11:28 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:11:33 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:11:33 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:11:36 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:11:37 [main] INFO  org.apache.logging.log4j.LogManager - Apply Leave Asserted
+2025-04-15 17:11:43 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:11:43 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:11:48 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:11:48 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:11:51 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:11:53 [main] INFO  org.apache.logging.log4j.LogManager - My Leave Asserted
+2025-04-15 17:11:58 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:11:59 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:12:06 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:12:06 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:12:09 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:12:10 [main] INFO  org.apache.logging.log4j.LogManager - My Timesheet Asserted
+2025-04-15 17:14:26 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:14:26 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:14:30 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:14:30 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:14:33 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:14:35 [main] INFO  org.apache.logging.log4j.LogManager - On Buzz Page
+2025-04-15 17:14:35 [main] INFO  org.apache.logging.log4j.LogManager - Text Entered
+2025-04-15 17:14:36 [main] INFO  org.apache.logging.log4j.LogManager - Clicked On Post
+2025-04-15 17:14:36 [main] INFO  org.apache.logging.log4j.LogManager - Liked the Post
+2025-04-15 17:14:42 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 17:14:43 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 17:14:48 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 17:14:48 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-15 17:14:51 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-15 17:14:52 [main] INFO  org.apache.logging.log4j.LogManager - DashBoard Menu Clicked
+2025-04-15 17:14:54 [main] INFO  org.apache.logging.log4j.LogManager - Asserted the Post
+2025-04-15 22:13:46 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 22:13:47 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 22:13:52 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 22:13:55 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-15 22:13:55 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-15 22:13:58 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-15 22:13:59 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-15 22:14:05 [main] INFO  org.apache.logging.log4j.LogManager - Employee Selected
+2025-04-15 22:14:06 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-15 22:14:07 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Create Timesheet
+2025-04-15 22:14:12 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 22:14:13 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 22:14:17 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 22:14:20 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-15 22:14:20 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-15 22:14:22 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-15 22:14:23 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-15 22:14:25 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-15 22:21:20 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 22:21:21 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 22:21:26 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 22:21:29 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-15 22:21:29 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-15 22:21:31 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-15 22:21:32 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-15 22:21:39 [main] INFO  org.apache.logging.log4j.LogManager - Employee Selected
+2025-04-15 22:21:39 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-15 22:21:40 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Create Timesheet
+2025-04-15 22:21:46 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-15 22:21:47 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-15 22:21:50 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-15 22:21:52 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-15 22:21:52 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-15 22:21:55 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-15 22:21:55 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-15 22:21:57 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet

@@ -4,6 +4,7 @@ import com.Actions.PerformanceActions2;
 import com.Actions.LoginActions;
 import com.Pages.PerformancePages2;
 import com.Utils.HelperClass;
+import com.Utils.LogManagers;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
@@ -31,12 +32,18 @@ public class PerformanceDefinitions2 {
     @When("the user clicks Manage Reviews and selects My Reviews")
     public void the_user_clicks_manage_reviews_and_selects_my_reviews() {
         actions.clickManageReviewsAndSelectMyReviews();
+        LogManagers.logInfo("Clicked on Managed Review");
+        LogManagers.logInfo("Selected My Reviews");
+
+
     }
 
     @Then("verify the following credentials")
     public void verify_the_following_credentials(DataTable dataTable) {
         List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
         actions.verifyCredentials(data);
+        LogManagers.logInfo("Verified");
+
     }
     
     
