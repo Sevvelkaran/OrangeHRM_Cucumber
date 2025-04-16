@@ -5,6 +5,7 @@ import com.Actions.PerformanceActions;
 import com.Pages.LoginPages;
 import com.Pages.PerformancePages;
 import com.Utils.HelperClass;
+import com.Utils.LogManagers;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -39,20 +40,28 @@ public class PerformanceDefinition{
 
     @Given("The user launches the browser and navigates to the Performance module")
     public void the_user_launches_the_browser_and_navigates_to_the_performance_module() {
-       
+
         login.Valid();
         login.Login();
+        LogManagers.logInfo("Entered Credentials and clicked login");
+
     }
     
     @When("navigates to the Performance module")
     public void navigates_to_the_performance_module() {
         performancePages.performanceTab.click();
+        LogManagers.logInfo("On Performance Module");
+
     }
     
     @When("The user clicks on Configure and selects Trackers")
     public void the_user_clicks_on_configure_and_selects_trackers() {
         performancePages.configureTab.click();
         performancePages.trackersLink.click();
+        LogManagers.logInfo("Configure Clicked");
+        LogManagers.logInfo("Trackers Clicked");
+
+
     }
 
     @And("The user clicks the Add button")
@@ -60,6 +69,8 @@ public class PerformanceDefinition{
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement addTrackerButton = wait.until(ExpectedConditions.elementToBeClickable(performancePages.addTrackerButton));
         performancePages.addTrackerButton.click();
+        LogManagers.logInfo("Clicked on Add Button");
+
     }
     
     @And("The user enters the following tracker details")
@@ -72,11 +83,15 @@ public class PerformanceDefinition{
             String reviewers = tracker.get("Reviewers");
             per.addTracker(trackerName, employeeName, reviewers);
        }
+        LogManagers.logInfo("Trackers details have been entered");
+
     }
 
     @And("The user clicks the Save button")
     public void the_user_clicks_the_save_button() {
         performancePages.saveButton.click();
+        LogManagers.logInfo("Clicked on Save button");
+
     }
 
     @Then("The tracker {string} should be successfully added")
@@ -84,6 +99,8 @@ public class PerformanceDefinition{
        String successMessage = performancePages.successMessage.getText();
        assert successMessage.contains(trackerName) : "Tracker not added successfully";
        System.out.println("Successfully Asserted ");
+       LogManagers.logInfo("Asserted");
+
     }
     
     @And("The user enters the invalid tracker details")
@@ -98,12 +115,16 @@ public class PerformanceDefinition{
         per.addTrackerWithInvalidData1(trackerName, employeeName, reviewers); 
         performancePages.saveButton.click();
         }
+        LogManagers.logInfo("Invalid Trackers details have been Given and Asserted");
+
     }
     
     
     @Then("The system should display an error message indicating {string}")
     public void the_system_should_display_an_error_message_indicating_employee_name(String string) {
     	per.VerifyErrorMessage(string);
+        LogManagers.logInfo("Error Message Displayed");
+
     }
     
  

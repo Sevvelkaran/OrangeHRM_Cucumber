@@ -12,6 +12,7 @@ import com.Actions.LoginActions;
 import com.Pages.BuzzPages;
 import com.Pages.LoginPages;
 import com.Utils.HelperClass;
+import com.Utils.LogManagers;
 
 import io.cucumber.java.en.*;
 
@@ -29,7 +30,8 @@ public class BuzzDefinition {
 @When("The user click on Buzz Menu, Assert it to check")
 public void the_user_click_on_buzz_menu_assert_it_to_check() {
     objActions.buzz();
-    
+    LogManagers.logInfo("On Buzz Page");
+
     String Exp = driver.getCurrentUrl();
     String Orginal  = driver.getCurrentUrl();
     assertEquals(Orginal, Exp);
@@ -38,19 +40,24 @@ public void the_user_click_on_buzz_menu_assert_it_to_check() {
 @When("Once the User is on Buzz page Type in the Field box as {string} and click on post")
 public void once_the_user_is_on_buzz_page_type_in_the_field_box_as_and_click_on_post(String string) {
     objActions.text();
+    LogManagers.logInfo("Text Entered");
 
 	driver.findElement(By.xpath("//textarea[@class=\"oxd-buzz-post-input\"]")).sendKeys(string);
 	objActions.post();
+	LogManagers.logInfo("Clicked On Post");
 }
 
 @When("Like the Post")
 public void like_the_post() {
     objActions.like();
+    LogManagers.logInfo("Liked the Post");
+
 }
 
 @When("the user clicks on Dashboard menu")
 public void the_user_clicks_on_dashboard_menu() {
     objAct.DashBoard();
+    LogManagers.logInfo("DashBoard Menu Clicked");
 
 }
 
@@ -60,6 +67,8 @@ public void assert_the_post_to_check_its_pressence() {
 	WebElement Org = driver.findElement(By.xpath("//p[text()='Selenium Cucumber Java']"));
 	String orG = Org.getText();
 	assertEquals(orG, Expected);
+    LogManagers.logInfo("Asserted the Post");
+
 }
 
 

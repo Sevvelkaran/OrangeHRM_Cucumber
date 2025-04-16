@@ -15,7 +15,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	    features = {
 	       "src/test/resources/com/features/A_Login.feature",
 	       "src/test/resources/com/features/PIM.feature",
-	       "src/test/resources/com/features/TimePunchoutDashboard.feature",
+	       "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
 	       "src/test/resources/com/features/Configuration.feature",
 	       "src/test/resources/com/features/Q_UserManagement.feature",
 	       "src/test/resources/com/features/Performance.feature",
@@ -23,6 +23,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	       "src/test/resources/com/features/Buzz.feature",
 	       //"src/test/resources/com/features/U_Configure.feature",
 	       "src/test/resources/com/features/Admin.feature",
+	       "src/test/resources/com/features/TimePage.feature",
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
