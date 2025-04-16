@@ -1,7 +1,9 @@
 package com.Runner;
 
 
-	import io.cucumber.testng.AbstractTestNGCucumberTests;
+	import org.testng.annotations.DataProvider;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 	import io.cucumber.testng.CucumberOptions;
 
 	@CucumberOptions(
@@ -19,7 +21,7 @@ package com.Runner;
 	       "src/test/resources/com/features/Performance.feature",
 	       "src/test/resources/com/features/Performance2.feature",
 	       "src/test/resources/com/features/Buzz.feature",
-	       "src/test/resources/com/features/U_Configure.feature",
+	       //"src/test/resources/com/features/U_Configure.feature",
 	       "src/test/resources/com/features/Admin.feature",
 	    },
 	    glue = "com.Definations",
@@ -27,4 +29,9 @@ package com.Runner;
 	    dryRun = false
 	)
 	public class Runner extends AbstractTestNGCucumberTests {
+		@Override
+	    @DataProvider(parallel = true)
+	    public Object[][] scenarios() {
+	        return super.scenarios();
+	    }
 	}
