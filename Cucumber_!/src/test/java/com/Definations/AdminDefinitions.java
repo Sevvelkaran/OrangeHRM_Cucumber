@@ -21,78 +21,91 @@ public class AdminDefinitions {
     private WebDriver driver;
     private LoginActions login;
     private AdminActions admin;
-    private String level;  
-    private String membershipName; 
+    private String level;  // Stores education level for verification
+    private String membershipName; // Stores membership name for verification
 
+    // Constructor initializes driver and action classes
     public AdminDefinitions() {
         driver = HelperClass.getDriver();
         login = new LoginActions();
         admin = new AdminActions();
     }
     
+    // Logs in to the application
     @Given("The user launches the browser and login")
     public void the_user_launches_the_browser_and_navigates_to_the_performance_module() {
-       
-        login.Valid();
-        login.Login();
+        login.Valid();  // Validates credentials or fields
+        login.Login();  // Performs login action
     }
     
+    // Navigates to Admin module
     @When("the user navigates to the Admin module")
     public void the_user_navigates_to_the_admin_module() {
     	admin.goToAdminModule();
     }
 
+    // Navigates to Qualifications > Education section
     @When("the user clicks on Qualifications and selects Education")
     public void the_user_clicks_on_qualifications_and_selects_education() {
         admin.goToEducationSection();
     }
 
+    // Clicks the Add button in Education section
     @When("clicks the Add button")
     public void clicks_the_add_button() {
         admin.clickAddButton();
     }
 
+    // Fills in the Education details using DataTable input
     @When("enters the following Education Details")
     public void enters_the_following_education_details(DataTable dataTable) {
         List<Map<String, String>> rows = dataTable.asMaps(String.class, String.class);
-        level = rows.get(0).get("Level");
-        admin.enterEducationLevel(level);
+        level = rows.get(0).get("Level");  // Extracts Level from data
+        admin.enterEducationLevel(level);  // Enters Level
     }
 
+    // Saves the Education entry
     @When("clicks to the Save button")
     public void clicks_to_the_save_button() {
         admin.clickSaveButton();
     }
 
+    // Verifies the added education level is displayed
     @Then("verify that the Education Details are successfully added")
     public void verify_that_the_education_details_are_successfully_added() {
         Assert.assertTrue(
             admin.isEducationDisplayed(level),"Education level is invalid"
         );
     }
+
+    // Verifies duplicate entry error message for Education
     @Then("verify that an error message {string} is displayed")
     public void verify_that_an_error_message_is_displayed(String errorMessage) {
         Assert.assertTrue(admin.isDuplicateErrorDisplayed(errorMessage), 
             "Expected error message '" + errorMessage + "' was not displayed");
     }
+
+    // Navigates to Qualifications > Memberships section
     @When("the user clicks the Qualificatins and selects Memberships")
     public void the_user_clicks_the_qualificatins_and_selects_memberships() {
         admin.goToMembershipsSection();
     }
 
+    // Fills in the Membership details using DataTable input
     @When("enters the following Membership Details")
     public void enters_the_following_membership_details(DataTable dataTable) {
         List<Map<String, String>> rows = dataTable.asMaps(String.class, String.class);
-        membershipName = rows.get(0).get("Name");
-        admin.enterMembershipName(membershipName);
+        membershipName = rows.get(0).get("Name");  // Extracts Name from data
+        admin.enterMembershipName(membershipName);  // Enters Name
     }
 
+    // Verifies the added membership name is displayed
     @Then("verify that the Memberships Details are successfully added")
     public void verify_that_the_memberships_details_are_successfully_added() {
         Assert.assertTrue(admin.isMembershipDisplayed(membershipName), "Membership name is not displayed!");
     }
-     
     
+    // Verifies validation error messages (like blank input)
     @Then("verify the error message {string} is displayed")
     public void verify_the_error_message_is_displayed(String expectedError) {
         WebElement errorElement = driver.findElement(By.xpath("//span[@class=\"oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message\"]"));
@@ -101,5 +114,3 @@ public class AdminDefinitions {
     }
 
 }
-    
-
