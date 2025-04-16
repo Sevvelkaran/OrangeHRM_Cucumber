@@ -119,3 +119,53 @@
 2025-04-15 22:21:55 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
 2025-04-15 22:21:55 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
 2025-04-15 22:21:57 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 12:37:43 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-16 12:37:43 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-16 12:37:50 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-16 12:37:50 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-16 12:38:15 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-16 12:38:15 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-16 12:38:18 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-16 12:38:21 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 12:38:21 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 12:38:23 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-16 12:38:24 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-16 12:38:30 [main] INFO  org.apache.logging.log4j.LogManager - Employee Selected
+2025-04-16 12:38:31 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 12:38:32 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Create Timesheet
+2025-04-16 12:38:38 [main] INFO  org.apache.logging.log4j.LogManager - FireFox Opened
+2025-04-16 12:38:38 [main] INFO  org.apache.logging.log4j.LogManager - Window have Been Maximised
+2025-04-16 12:38:42 [main] INFO  org.apache.logging.log4j.LogManager - Got the URL
+2025-04-16 12:38:45 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 12:38:45 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 12:38:48 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-16 12:38:49 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-16 12:38:51 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 14:25:40 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 14:25:40 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 14:25:44 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 14:25:53 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 14:25:58 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 14:25:58 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 14:26:01 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 14:26:11 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 14:26:53 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 14:26:53 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 14:26:56 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 14:27:00 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 14:27:00 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 14:27:02 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-16 14:27:02 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-16 14:27:09 [main] INFO  org.apache.logging.log4j.LogManager - Employee Selected
+2025-04-16 14:27:10 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 14:27:11 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Create Timesheet
+2025-04-16 14:27:12 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 14:27:21 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 14:27:21 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 14:27:25 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 14:27:28 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 14:27:28 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 14:27:31 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-16 14:27:31 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-16 14:27:34 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 14:27:36 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
