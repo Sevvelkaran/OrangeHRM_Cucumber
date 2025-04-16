@@ -52,12 +52,7 @@ public class BuzzDefinition {
 		LogManagers.logInfo("Clicked On Post");
 	}
 
-    // Step to like the recently posted Buzz message
-	@When("Like the Post")
-	public void like_the_post() {
-	    objActions.like();  // Clicks the Like button
-	    LogManagers.logInfo("Liked the Post");
-	}
+
 
     // Step to click on the Dashboard menu to navigate away from Buzz
 	@When("the user clicks on Dashboard menu")

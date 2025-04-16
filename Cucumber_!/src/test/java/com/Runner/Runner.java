@@ -8,6 +8,9 @@ package com.Runner;
 	    plugin = {
 	        "pretty",
 	        "json:target/cucumber-reports/Cucumber.json",
+	        "html:target/cucumber-reports/Cucumber.html",
+//	        "",
+	        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 	        
 	    },
 	    features = {

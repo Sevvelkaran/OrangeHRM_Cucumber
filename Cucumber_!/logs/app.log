@@ -687,3 +687,592 @@
 2025-04-16 15:02:13 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
 2025-04-16 15:02:15 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
 2025-04-16 15:02:16 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 15:30:12 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 15:30:13 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 15:30:16 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 15:30:16 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 15:30:18 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 15:30:30 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 15:30:36 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 15:30:36 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 15:30:40 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 15:30:40 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 15:30:43 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 15:30:51 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 15:30:55 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 15:30:55 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 15:30:58 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 15:30:58 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 15:31:00 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 15:31:09 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 15:31:17 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 15:31:17 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 15:31:20 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 15:31:20 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 15:31:24 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 15:31:35 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 15:31:41 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 15:31:41 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 15:31:44 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 15:31:44 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 15:31:46 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 15:31:54 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 15:32:00 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 15:32:00 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 15:32:04 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 15:32:04 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 15:32:06 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 15:32:14 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:18:38 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:18:38 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:18:41 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:18:41 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:18:44 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:18:59 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:19:04 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:19:04 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:19:07 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:19:07 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:19:09 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:19:17 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:19:21 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:19:21 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:19:24 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:19:24 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:19:26 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:19:33 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:19:37 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:19:37 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:19:40 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:19:40 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:19:44 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:19:56 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:20:00 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:20:00 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:20:03 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:20:03 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:20:05 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:20:13 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:20:18 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:20:18 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:20:21 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:20:21 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:20:23 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:20:30 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:38:55 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:38:55 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:38:58 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:38:58 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:38:59 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 16:39:00 [main] INFO  org.apache.logging.log4j.LogManager - Login button Clicked
+2025-04-16 16:39:02 [main] INFO  org.apache.logging.log4j.LogManager - Logout button Clicked
+2025-04-16 16:39:03 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:39:08 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:39:08 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:39:11 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:39:11 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:39:11 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Credentials Entered
+2025-04-16 16:39:13 [main] INFO  org.apache.logging.log4j.LogManager - Login button Clicked
+2025-04-16 16:39:15 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:39:19 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:39:19 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:39:22 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:39:22 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:39:23 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Credentials Entered
+2025-04-16 16:39:23 [main] INFO  org.apache.logging.log4j.LogManager - Login button Clicked
+2025-04-16 16:39:24 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:39:28 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:39:28 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:39:31 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:39:31 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:39:33 [main] INFO  org.apache.logging.log4j.LogManager - Forgot Password Clicked
+2025-04-16 16:39:34 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:39:39 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:39:39 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:39:42 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:39:42 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:39:44 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:40:00 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:40:05 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:40:05 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:40:08 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:40:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:40:11 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:40:18 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:40:22 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:40:22 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:40:25 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:40:25 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:40:27 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:40:34 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:40:38 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:40:39 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:40:41 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:40:41 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:40:43 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:41:00 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:41:05 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:41:05 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:41:08 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:41:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:41:10 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:41:17 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:41:21 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:41:21 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:41:24 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:41:24 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:41:26 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:41:33 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:41:37 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:41:37 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:41:41 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:41:41 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:41:43 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:41:45 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Clock
+2025-04-16 16:41:58 [main] INFO  org.apache.logging.log4j.LogManager - Time Entered
+2025-04-16 16:41:58 [main] INFO  org.apache.logging.log4j.LogManager - Out Clicked
+2025-04-16 16:41:59 [main] INFO  org.apache.logging.log4j.LogManager - In Dashboard Page
+2025-04-16 16:42:00 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:42:05 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:42:05 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:42:08 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:42:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:42:11 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:42:12 [main] INFO  org.apache.logging.log4j.LogManager - Align Leave Asserted
+2025-04-16 16:42:14 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:42:19 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:42:19 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:42:22 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:42:22 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:42:24 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:42:26 [main] INFO  org.apache.logging.log4j.LogManager - Leave list Asserted
+2025-04-16 16:42:27 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:42:32 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:42:32 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:42:35 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:42:35 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:42:37 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:42:38 [main] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
+2025-04-16 16:42:40 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:42:44 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:42:44 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:42:48 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:42:48 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:42:50 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:42:51 [main] INFO  org.apache.logging.log4j.LogManager - Apply Leave Asserted
+2025-04-16 16:42:52 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:42:57 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:42:57 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:43:00 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:43:00 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:43:02 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:43:03 [main] INFO  org.apache.logging.log4j.LogManager - My Leave Asserted
+2025-04-16 16:43:04 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:43:08 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:43:08 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:43:11 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:43:11 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:43:13 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:43:14 [main] INFO  org.apache.logging.log4j.LogManager - My Timesheet Asserted
+2025-04-16 16:43:15 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:43:20 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:43:20 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:43:23 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:43:23 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:43:24 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:43:26 [main] INFO  org.apache.logging.log4j.LogManager - On Buzz Page
+2025-04-16 16:43:27 [main] INFO  org.apache.logging.log4j.LogManager - Text Entered
+2025-04-16 16:43:27 [main] INFO  org.apache.logging.log4j.LogManager - Clicked On Post
+2025-04-16 16:43:29 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:43:35 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:43:35 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:43:38 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:43:38 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:43:41 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:43:43 [main] INFO  org.apache.logging.log4j.LogManager - DashBoard Menu Clicked
+2025-04-16 16:43:43 [main] INFO  org.apache.logging.log4j.LogManager - Asserted the Post
+2025-04-16 16:43:45 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:43:51 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:43:51 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:43:54 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:44:04 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:44:09 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:44:09 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:44:13 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:44:21 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:44:25 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:44:25 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:44:28 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:44:30 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:44:30 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:44:30 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:44:32 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:44:37 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Configuration Fields
+2025-04-16 16:44:37 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the Optional Fields
+2025-04-16 16:44:37 [main] INFO  org.apache.logging.log4j.LogManager - Align Leave Asserted
+2025-04-16 16:44:37 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:44:38 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:44:43 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:44:43 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:44:46 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:44:51 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:44:51 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:44:51 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:44:52 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:44:53 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Configuration Menu
+2025-04-16 16:44:58 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Add button
+2025-04-16 16:44:59 [main] INFO  org.apache.logging.log4j.LogManager - Data Filled
+2025-04-16 16:45:02 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:45:04 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:45:10 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:45:10 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:45:13 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:45:15 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:45:15 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:45:15 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:45:17 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:45:23 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Add button
+2025-04-16 16:45:23 [main] INFO  org.apache.logging.log4j.LogManager - Enters Name
+2025-04-16 16:45:26 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:45:28 [main] INFO  org.apache.logging.log4j.LogManager - Reporting Method Added
+2025-04-16 16:45:29 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:45:33 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:45:33 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:45:36 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:45:38 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:45:38 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:45:38 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:45:40 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:45:42 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Reason 
+2025-04-16 16:45:46 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Add button
+2025-04-16 16:45:46 [main] INFO  org.apache.logging.log4j.LogManager - Termination Reason Entered
+2025-04-16 16:45:49 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:45:52 [main] INFO  org.apache.logging.log4j.LogManager - Reason Added
+2025-04-16 16:45:53 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:45:57 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:45:57 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:46:00 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:46:02 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:46:02 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:46:02 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:46:04 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:46:06 [main] INFO  org.apache.logging.log4j.LogManager - Add Button Clicked
+2025-04-16 16:46:08 [main] INFO  org.apache.logging.log4j.LogManager - Data Have Been Entered
+2025-04-16 16:46:14 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:46:15 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:46:19 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:46:19 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:46:23 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:46:25 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:46:25 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:46:25 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:46:27 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:46:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Add Employee
+2025-04-16 16:46:31 [main] INFO  org.apache.logging.log4j.LogManager - Data Have Been Entered
+2025-04-16 16:46:37 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:46:39 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Report To
+2025-04-16 16:46:40 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Add button under supervisior
+2025-04-16 16:46:46 [main] INFO  org.apache.logging.log4j.LogManager - Supervisor field is filled
+2025-04-16 16:46:52 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:46:52 [main] INFO  org.apache.logging.log4j.LogManager - Verified the user added to supervisior
+2025-04-16 16:46:53 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:46:58 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:46:58 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:47:01 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:47:03 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:47:03 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:47:03 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:47:05 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:47:07 [main] INFO  org.apache.logging.log4j.LogManager - Add Button Clicked
+2025-04-16 16:47:07 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Employee Form
+2025-04-16 16:47:13 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:47:13 [main] INFO  org.apache.logging.log4j.LogManager - Error message recived 
+2025-04-16 16:47:14 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:47:18 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:47:18 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:47:21 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:47:23 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:47:23 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:47:23 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:47:25 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:47:27 [main] INFO  org.apache.logging.log4j.LogManager - Add Button Clicked
+2025-04-16 16:47:27 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Employee Form
+2025-04-16 16:47:33 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:47:33 [main] INFO  org.apache.logging.log4j.LogManager - Error message recived 
+2025-04-16 16:47:34 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:47:38 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:47:38 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:47:41 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:47:43 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:47:43 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:47:43 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:47:45 [main] INFO  org.apache.logging.log4j.LogManager - Clicked PIM Menu
+2025-04-16 16:47:47 [main] INFO  org.apache.logging.log4j.LogManager - Add Button Clicked
+2025-04-16 16:47:47 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Employee Form
+2025-04-16 16:47:53 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:47:53 [main] INFO  org.apache.logging.log4j.LogManager - Error message recived 
+2025-04-16 16:47:54 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:47:58 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:47:58 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:48:01 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:48:01 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:48:04 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:48:06 [main] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-16 16:48:08 [main] INFO  org.apache.logging.log4j.LogManager - Configure Clicked
+2025-04-16 16:48:08 [main] INFO  org.apache.logging.log4j.LogManager - Trackers Clicked
+2025-04-16 16:48:10 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-16 16:48:16 [main] INFO  org.apache.logging.log4j.LogManager - Trackers details have been entered
+2025-04-16 16:48:17 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-16 16:48:21 [main] INFO  org.apache.logging.log4j.LogManager - Asserted
+2025-04-16 16:48:22 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:48:26 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:48:26 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:48:29 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:48:29 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:48:31 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:48:33 [main] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-16 16:48:35 [main] INFO  org.apache.logging.log4j.LogManager - Configure Clicked
+2025-04-16 16:48:35 [main] INFO  org.apache.logging.log4j.LogManager - Trackers Clicked
+2025-04-16 16:48:37 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-16 16:48:38 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Trackers details have been Given and Asserted
+2025-04-16 16:48:38 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-16 16:48:38 [main] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
+2025-04-16 16:48:39 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:48:43 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:48:43 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:48:47 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:48:47 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:48:52 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:48:56 [main] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-16 16:48:59 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Managed Review
+2025-04-16 16:48:59 [main] INFO  org.apache.logging.log4j.LogManager - Selected My Reviews
+2025-04-16 16:49:10 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:49:15 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:49:15 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:49:20 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:49:20 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:49:23 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:49:25 [main] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-16 16:49:31 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:49:36 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:49:36 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:49:43 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:49:43 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:49:45 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:49:47 [main] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-16 16:49:52 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:49:56 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:49:57 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:50:00 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:50:00 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-16 16:50:02 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:50:06 [main] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-16 16:50:08 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:50:13 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:50:13 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:50:15 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:50:17 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:50:17 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:50:17 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:50:19 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:50:23 [main] INFO  org.apache.logging.log4j.LogManager - Clicked UserManagement
+2025-04-16 16:50:23 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Selected users
+2025-04-16 16:50:24 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Add Button
+2025-04-16 16:50:34 [main] INFO  org.apache.logging.log4j.LogManager - User Details Filled
+2025-04-16 16:50:35 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the save button
+2025-04-16 16:50:36 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:50:40 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:50:40 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:50:43 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:50:45 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:50:45 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:50:45 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:50:46 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:50:47 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:50:50 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:50:51 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:50:56 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:50:56 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:51:00 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:51:05 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:51:05 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:51:05 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:51:08 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:51:12 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:51:15 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:51:16 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:51:20 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:51:20 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:51:23 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:51:25 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:51:25 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:51:25 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:51:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:51:31 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:51:35 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:51:36 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:51:41 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:51:41 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:51:44 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:51:48 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:51:48 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:51:48 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:51:50 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:51:54 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:51:58 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:51:59 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:52:03 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:52:03 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:52:06 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:52:10 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:52:10 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:52:10 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:52:12 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:52:16 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:52:20 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:52:21 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:52:25 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:52:25 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:52:28 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:52:30 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:52:30 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:52:30 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:52:33 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:52:39 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:52:43 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:52:44 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:52:48 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:52:48 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:52:51 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:52:54 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:52:54 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:52:54 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:52:56 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:53:03 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:53:07 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:53:07 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:53:12 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:53:12 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:53:15 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:53:20 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:53:20 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:53:20 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:53:26 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:53:37 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:53:41 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:53:42 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:53:46 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:53:46 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:53:50 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:53:56 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:53:56 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:53:56 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:54:03 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:54:12 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:54:16 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:54:17 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:54:22 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:54:22 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:54:26 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:54:33 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:54:33 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:54:33 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:54:41 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:54:49 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:54:52 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:54:53 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:54:57 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:54:57 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:55:01 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:55:05 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:55:05 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:55:05 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:55:08 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:55:18 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:55:21 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:55:22 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:55:26 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:55:26 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:55:30 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:55:34 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:55:34 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:55:34 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:55:36 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:55:43 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:55:47 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:55:48 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:55:52 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:55:52 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:55:55 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:55:57 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:55:57 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:55:57 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:55:59 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:55:59 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:56:03 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:56:03 [main] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
+2025-04-16 16:56:04 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:56:09 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:56:09 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:56:12 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:56:14 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:56:14 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:56:14 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:56:17 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:56:20 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:56:24 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:56:24 [main] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
+2025-04-16 16:56:24 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:56:29 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:56:30 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:56:33 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:56:34 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:56:34 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:56:34 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:56:37 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:56:47 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:56:50 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:56:50 [main] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
+2025-04-16 16:56:51 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:56:56 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:56:56 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:56:59 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:57:01 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:57:01 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:57:01 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:57:02 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:57:06 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:57:09 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:57:09 [main] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
+2025-04-16 16:57:10 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:57:15 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:57:15 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:57:18 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:57:20 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:57:20 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-16 16:57:20 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Login button
+2025-04-16 16:57:21 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Admin Menu
+2025-04-16 16:57:25 [main] INFO  org.apache.logging.log4j.LogManager - Filled the Filter Fileds
+2025-04-16 16:57:28 [main] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
+2025-04-16 16:57:28 [main] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
+2025-04-16 16:57:29 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:57:34 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:57:34 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:57:37 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:57:39 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:57:39 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 16:57:40 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-16 16:57:41 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-16 16:57:47 [main] INFO  org.apache.logging.log4j.LogManager - Employee Selected
+2025-04-16 16:57:48 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 16:57:50 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on Create Timesheet
+2025-04-16 16:57:51 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully
+2025-04-16 16:57:55 [main] INFO  org.apache.logging.log4j.LogManager - Firefox opened
+2025-04-16 16:57:55 [main] INFO  org.apache.logging.log4j.LogManager - Window has been maximized
+2025-04-16 16:57:58 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-16 16:58:00 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-04-16 16:58:00 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-04-16 16:58:02 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Module
+2025-04-16 16:58:03 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Time Sheets
+2025-04-16 16:58:04 [main] INFO  org.apache.logging.log4j.LogManager - Clicked on the employee Timesheet
+2025-04-16 16:58:05 [main] INFO  org.apache.logging.log4j.LogManager - Browser closed successfully

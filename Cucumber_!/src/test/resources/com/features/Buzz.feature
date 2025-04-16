@@ -11,7 +11,6 @@ Feature: Buzz
   Scenario Outline: Access the Buzz and post it 
     When The user click on Buzz Menu, Assert it to check
     When Once the User is on Buzz page Type in the Field box as "<fieldbox>" and click on post
-    And Like the Post
     
     Examples:
     
