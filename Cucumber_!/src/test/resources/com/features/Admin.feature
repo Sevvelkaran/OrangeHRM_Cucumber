@@ -5,18 +5,19 @@ Background:
   Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
   When The user enters the username and password to login
 
-  
-@DuplicateEducation
-  Scenario: Adding an already existing Education Detail should show an error
-  
-  And the user navigates to the Admin module
+  @Education
+  Scenario: Adding Education Details in Education field in Qualifications
+    And the user navigates to the Admin module
     And the user clicks on Qualifications and selects Education
     And clicks the Add button
     And enters the following Education Details
       | Level                        |
       | Information Technology       |
     And clicks to the Save button
-  
+    Then verify that the Education Details are successfully added
+
+  @DuplicateEducation
+  Scenario: Adding an already existing Education Detail should show an error
     And the user navigates to the Admin module
     And the user clicks on Qualifications and selects Education
     And clicks the Add button
@@ -37,10 +38,8 @@ Background:
       And clicks to the Save button
      Then verify the error message "Required" is displayed
      
-
-    
-@DuplicateMemberships
-    Scenario: Adding an already existing Memberships Detail should show an error
+    @Memberships
+    Scenario: Adding Membership Details in Education field in Qualifications
     And the user navigates to the Admin module
     And the user clicks the Qualificatins and selects Memberships
     And clicks the Add button
@@ -48,8 +47,11 @@ Background:
     |      Name                                        | 
     |  Computer Society of India(CSI)                  |
     And clicks to the Save button
+    Then verify that the Memberships Details are successfully added
     
     
+    @DuplicateMemberships
+    Scenario: Adding an already existing Memberships Detail should show an error
     And the user navigates to the Admin module
     And the user clicks the Qualificatins and selects Memberships
     And clicks the Add button
@@ -70,7 +72,3 @@ Background:
        |            |
      And clicks to the Save button 
      Then verify the error message "Required" is displayed
-    
-    
-    
-  
