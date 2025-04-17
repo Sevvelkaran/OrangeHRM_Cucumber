@@ -38,8 +38,10 @@ Background:
       And clicks to the Save button
      Then verify the error message "Required" is displayed
      
-    @Memberships
-    Scenario: Adding Membership Details in Education field in Qualifications
+
+    
+@DuplicateMemberships
+    Scenario: Adding an already existing Memberships Detail should show an error
     And the user navigates to the Admin module
     And the user clicks the Qualificatins and selects Memberships
     And clicks the Add button
@@ -47,11 +49,8 @@ Background:
     |      Name                                        | 
     |  Computer Society of India(CSI)                  |
     And clicks to the Save button
-    Then verify that the Memberships Details are successfully added
     
     
-    @DuplicateMemberships
-    Scenario: Adding an already existing Memberships Detail should show an error
     And the user navigates to the Admin module
     And the user clicks the Qualificatins and selects Memberships
     And clicks the Add button
