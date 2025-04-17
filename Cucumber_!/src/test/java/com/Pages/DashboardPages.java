@@ -15,7 +15,7 @@ public class DashboardPages {
 	
 	
 	//click
-	@FindBy(xpath="//button[text()=' Out ']")
+	@FindBy(xpath="//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\"]")
 	public WebElement Out;
 
 	//Click Dashboard
