@@ -12,7 +12,7 @@ Background:
   When the user clicks Manage Reviews and selects My Reviews
   Then verify the following credentials
     | Job Title   | Review Status |
-    | HR Manager  |  In Progress    |
+    | HR Manager  |  Activated    |
 
  @MyTrackers
  Scenario: Verifying the Tracker name in My Trackers
