@@ -2,15 +2,12 @@
 Feature: Adding Tracker Details in Tracker field
 
 Background:
-    #Given The user launches the browser and navigates to the Performance module
-    Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-    When The user enters the username and password to login
-    #And navigates to the Performance module
-    #And The user clicks on Configure and selects Trackers
-    #And The user clicks the Add button
+    Given The user launches the browser and navigates to the Performance module  "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+
     
   @Trackers
   Scenario: Add a new performance tracker with reviewers
+  
     And navigates to the Performance module
    And The user clicks on Configure and selects Trackers
     And The user clicks the Add button
@@ -23,6 +20,7 @@ Background:
     
   @TrackersNegative
   Scenario: Add a performance tracker with invalid employee details
+  
     And navigates to the Performance module
     And The user clicks on Configure and selects Trackers
     And The user clicks the Add button

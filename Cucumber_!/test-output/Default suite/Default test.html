@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>48/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 15 22:21:10 IST 2025</td>
+<td>Started on:</td><td>Sat Apr 19 21:32:58 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>48 seconds (48717 ms)</td>
+<tr><td>Total time:</td><td>559 seconds (559879 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,387 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding Membership Details in Education field in Qualifications", "Adding Education Details in Admin Qualifications"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7e4a8ebf-229f-4d90-9657-5533fc462dc2, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35212, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7e4a8ebf-229f-4d90-9657-5533fc462dc2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace620729419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace620729419'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7e4a8ebf-229f-4d90-9657-5533fc462dc2, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35212, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7e4a8ebf-229f-4d90-9657-5533fc462dc2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:43)
+</pre></div></td>
+<td>100</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding Education Details in Education field in Qualifications", "Adding Education Details in Admin Qualifications"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fbfd371f-243f-4773-b7a2-0668aa78ce70, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35211, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: fbfd371f-243f-4773-b7a2-0668aa78ce70
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace935133977", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace935133977'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fbfd371f-243f-4773-b7a2-0668aa78ce70, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35211, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: fbfd371f-243f-4773-b7a2-0668aa78ce70
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:10)
+</pre></div></td>
+<td>100</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Providing an empty value in Education field in Qualifications", "Adding Education Details in Admin Qualifications"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14db446b-8a5e-447c-9956-71c3fa4ec853, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35216, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 14db446b-8a5e-447c-9956-71c3fa4ec853
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace154382438", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace154382438'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14db446b-8a5e-447c-9956-71c3fa4ec853, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35216, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 14db446b-8a5e-447c-9956-71c3fa4ec853
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:32)
+</pre></div></td>
+<td>105</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding an already existing Memberships Detail should show an error", "Adding Education Details in Admin Qualifications"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f3bb3475-6954-4156-b5a6-94d846d4cbac, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35213, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: f3bb3475-6954-4156-b5a6-94d846d4cbac
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:55)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1236173910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1236173910'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f3bb3475-6954-4156-b5a6-94d846d4cbac, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35213, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: f3bb3475-6954-4156-b5a6-94d846d4cbac
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:55)
+</pre></div></td>
+<td>95</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Providing an empty value in Memberships field in Qualifications", "Adding Education Details in Admin Qualifications"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ec530e5c-783f-4dc6-b84e-158bfff930f3, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35243, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: ec530e5c-783f-4dc6-b84e-158bfff930f3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:67)
+</pre></div><a href='#' onClick='toggleBox("stack-trace35204912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace35204912'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ec530e5c-783f-4dc6-b84e-158bfff930f3, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35243, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: ec530e5c-783f-4dc6-b84e-158bfff930f3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:67)
+</pre></div></td>
+<td>110</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding an already existing Education Detail should show an error", "Adding Education Details in Admin Qualifications"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [71615ee3-972c-4fd0-b837-ee891062b2d9, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35218, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 71615ee3-972c-4fd0-b837-ee891062b2d9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1292788180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1292788180'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&apos;Admin&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [71615ee3-972c-4fd0-b837-ee891062b2d9, findElement {value=//span[text()=&apos;Admin&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 35218, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 71615ee3-972c-4fd0-b837-ee891062b2d9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.Actions.AdminActions.goToAdminModule(AdminActions.java:23)
+	at com.Definations.AdminDefinitions.the_user_navigates_to_the_admin_module(AdminDefinitions.java:52)
+	at ✽.the user navigates to the Admin module(file:///Users/sevvelkaranpalanivetrivel/git/OrangeHRM_Cucumbert/Cucumber_!/src/test/resources/com/features/Admin.feature:21)
+</pre></div></td>
+<td>95</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,14 +457,244 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>88</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "QuickLaunch Assert", "Dashboard"</td>
+<td></td>
+<td>98</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a performance tracker with invalid employee details", "Adding Tracker Details in Tracker field"</td>
+<td></td>
+<td>117</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>89</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with Invalid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>91</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with Invalid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>88</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "QuickLaunch Assert", "Dashboard"</td>
+<td></td>
+<td>100</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search employee with valid credentials", "Admin Functionalities"</td>
+<td></td>
+<td>131</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>76</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying the Job Title and Review Status in Manage Reviews", "Accessing Manage Reviews,Trackers,Employee Trackers Fields"</td>
+<td></td>
+<td>75</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in with empty credentials", "Login"</td>
+<td></td>
+<td>92</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Termination Reson in PIM configuration", "Validate OrangeHRM PIM Configuration Menu"</td>
+<td></td>
+<td>118</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying the Tracker name in My Trackers", "Accessing Manage Reviews,Trackers,Employee Trackers Fields"</td>
+<td></td>
+<td>78</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Time at Work", "Dashboard"</td>
+<td></td>
+<td>99</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a new user", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>97</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with Invalid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>85</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>86</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Reporting methods in PIM configuration", "Validate OrangeHRM PIM Configuration Menu"</td>
+<td></td>
+<td>105</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in with invalid credentials", "Login"</td>
+<td></td>
+<td>99</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>93</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>86</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add two new employees and assign a supervisor", "Admin Functionalities"</td>
+<td></td>
+<td>106</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "QuickLaunch Assert", "Dashboard"</td>
+<td></td>
+<td>88</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enable optional fields in PIM configuration", "Validate OrangeHRM PIM Configuration Menu"</td>
+<td></td>
+<td>140</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>85</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "QuickLaunch Assert", "Dashboard"</td>
+<td></td>
+<td>97</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Searching the Employee name in Employee Trackers", "Accessing Manage Reviews,Trackers,Employee Trackers Fields"</td>
+<td></td>
+<td>105</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Searching the Employee name in Employee Trackers (Invalid)", "Accessing Manage Reviews,Trackers,Employee Trackers Fields"</td>
+<td></td>
+<td>109</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search employee with valid credentials", "Admin Functionalities"</td>
+<td></td>
+<td>125</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
 <td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a new timesheet for a valid employee", "Manage Timesheets in OrangeHRM"</td>
 <td></td>
-<td>30</td>
+<td>67</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search employee with valid credentials", "Admin Functionalities"</td>
+<td></td>
+<td>131</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Custom fields in PIM configuration", "Validate OrangeHRM PIM Configuration Menu"</td>
+<td></td>
+<td>110</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>90</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a new performance tracker with reviewers", "Adding Tracker Details in Tracker field"</td>
+<td></td>
+<td>147</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>84</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in with valid credentials", "Login"</td>
+<td></td>
+<td>109</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Chech the Post is displayed in the Dashboard", "Buzz"</td>
+<td></td>
+<td>107</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Access the Buzz and post it", "Buzz"</td>
+<td></td>
+<td>99</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with Invalid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>88</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "QuickLaunch Assert", "Dashboard"</td>
+<td></td>
+<td>99</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password functionality", "Login"</td>
+<td></td>
+<td>101</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>79</td>
 <td>com.Runner.Runner@510f3d34</td></tr>
 <tr>
 <td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error message for an invalid employee", "Manage Timesheets in OrangeHRM"</td>
 <td></td>
-<td>16</td>
+<td>51</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>83</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with valid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>79</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "QuickLaunch Assert", "Dashboard"</td>
+<td></td>
+<td>100</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Assign a supervisor", "Admin Functionalities"</td>
+<td></td>
+<td>166</td>
+<td>com.Runner.Runner@510f3d34</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View user with Invalid credentials", "User Management functionality in OrangeHRM"</td>
+<td></td>
+<td>87</td>
 <td>com.Runner.Runner@510f3d34</td></tr>
 </table><p>
 </body>

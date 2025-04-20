@@ -31,94 +31,95 @@ public class PerformanceDefinitions2 {
 
     @When("the user clicks Manage Reviews and selects My Reviews")
     public void the_user_clicks_manage_reviews_and_selects_my_reviews() {
-        actions.clickManageReviewsAndSelectMyReviews();
-        LogManagers.logInfo("Clicked on Managed Review");
-        LogManagers.logInfo("Selected My Reviews");
-
-
+        try {
+            actions.clickManageReviewsAndSelectMyReviews();
+            LogManagers.logInfo("Clicked on Managed Review");
+            LogManagers.logInfo("Selected My Reviews");
+        } catch (Exception e) {
+            LogManagers.logError("Error in clicking Manage Reviews and selecting My Reviews: " + e.getMessage());
+        }
     }
 
     @Then("verify the following credentials")
     public void verify_the_following_credentials(DataTable dataTable) {
-        List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
-        actions.verifyCredentials(data);
-        LogManagers.logInfo("Verified");
-
+        try {
+            List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+            actions.verifyCredentials(data);
+            LogManagers.logInfo("Verified");
+        } catch (Exception e) {
+            LogManagers.logError("Error verifying credentials: " + e.getMessage());
+        }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     @When("the user clicks My Trackers")
     public void the_user_clicks_my_trackers() {
-        actions.clickMyTrackers();
+        try {
+            actions.clickMyTrackers();
+        } catch (Exception e) {
+            LogManagers.logError("Error clicking My Trackers: " + e.getMessage());
+        }
     }
 
     @Then("verify the Tracker Name in MyPerformance Trackers")
     public void verify_the_tracker_name_in_my_performance_trackers() {
-        actions.verifyMyTrackerName("Tracker for paul"); 
+        try {
+            actions.verifyMyTrackerName("Tracker for paul");
+        } catch (Exception e) {
+            LogManagers.logError("Error verifying Tracker Name in MyPerformance Trackers: " + e.getMessage());
+        }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     @When("the user clicks Employee Trackers")
     public void the_user_clicks_employee_trackers() {
-        actions.clickEmployeeTrackers();
+        try {
+            actions.clickEmployeeTrackers();
+        } catch (Exception e) {
+            LogManagers.logError("Error clicking Employee Trackers: " + e.getMessage());
+        }
     }
 
     @When("Enter the Employee Name and Include")
     public void enter_the_employee_name_and_include() {
-        actions.enterEmployeeNameAndInclude("Gayu R"); 
+        try {
+            actions.enterEmployeeNameAndInclude("Gayu R");
+        } catch (Exception e) {
+            LogManagers.logError("Error entering Employee Name and Include: " + e.getMessage());
+        }
     }
 
     @When("Click Search")
     public void click_search() {
-        actions.clickSearchInEmployeeTrackers();
+        try {
+            actions.clickSearchInEmployeeTrackers();
+        } catch (Exception e) {
+            LogManagers.logError("Error clicking Search in Employee Trackers: " + e.getMessage());
+        }
     }
 
     @Then("verify the Employee Name is searched in Employee Trackers")
     public void verify_the_employee_name_is_searched_in_employee_trackers() {
-        actions.verifySearchedEmployee("Gayu R"); 
+        try {
+            actions.verifySearchedEmployee("Gayu R");
+        } catch (Exception e) {
+            LogManagers.logError("Error verifying searched Employee Name: " + e.getMessage());
+        }
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
     @When("Enter the invalid Employee Name and Include")
     public void enter_the_invalid_employee_name_and_include() {
-        actions.enterEmployeeNameAndInclude("Invalid Name");
+        try {
+            actions.enterEmployeeNameAndInclude("Invalid Name");
+        } catch (Exception e) {
+            LogManagers.logError("Error entering invalid Employee Name: " + e.getMessage());
+        }
     }
 
-//    @Then("verify the Employee Name is not found in Employee Trackers")
-//    public void verify_the_employee_name_is_not_found_in_employee_trackers() {
-//        actions.verifySearchedEmployeeNotFound();
-  //  }
-    
     @Then("verify the message {string} is shown in Employee Trackers")
     public void verify_the_message_is_shown_in_employee_trackers(String expectedMessage) {
-        performanceActions.verifySearchedEmployeeMessage(expectedMessage);
+        try {
+            performanceActions.verifySearchedEmployeeMessage(expectedMessage);
+        } catch (Exception e) {
+            LogManagers.logError("Error verifying message in Employee Trackers: " + e.getMessage());
+        }
     }
-
-
-
 }

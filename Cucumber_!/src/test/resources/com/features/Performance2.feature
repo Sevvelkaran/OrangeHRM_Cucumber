@@ -2,9 +2,8 @@
 Feature: Accessing Manage Reviews,Trackers,Employee Trackers Fields
 
 Background:
- #Given The user launches the browser and navigates to the Performance module
- Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-  When The user enters the username and password to login
+    Given The user launches the browser and navigates to the Performance module  "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+
 
 @ManageReviews
   Scenario: Verifying the Job Title and Review Status in Manage Reviews
