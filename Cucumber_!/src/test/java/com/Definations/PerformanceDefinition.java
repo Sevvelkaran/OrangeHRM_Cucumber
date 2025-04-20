@@ -145,7 +145,7 @@ public class PerformanceDefinition {
         try {
             per.VerifyErrorMessage(message);
             LogManagers.logInfo("Error message asserted successfully");
-        } catch (AssertionError | Exception e) {
+        } catch ( Exception e) {
             LogManagers.logError("Error message assertion failed: " + e.getMessage());
         }
     }
