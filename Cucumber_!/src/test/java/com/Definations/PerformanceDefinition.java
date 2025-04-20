@@ -117,7 +117,7 @@ public class PerformanceDefinition {
             String successMessage = performancePages.successMessage.getText();
             Assert.assertTrue(successMessage.contains(trackerName), "Tracker not added successfully");
             LogManagers.logInfo("Tracker addition asserted successfully");
-        } catch (AssertionError | Exception e) {
+        } catch (Exception e) {
             LogManagers.logError("Assertion failed for tracker addition: " + e.getMessage());
         }
     }
