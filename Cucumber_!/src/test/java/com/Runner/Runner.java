@@ -11,7 +11,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	        
 	    },
 	    features = {
-	    		 "src/test/resources/com/features/A_Login.feature",
+	    	   "src/test/resources/com/features/A_Login.feature",
 	  	       "src/test/resources/com/features/PIM.feature",
 	  	       "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
 	  	       "src/test/resources/com/features/Configuration.feature",

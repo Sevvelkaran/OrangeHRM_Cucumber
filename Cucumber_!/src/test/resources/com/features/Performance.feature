@@ -1,5 +1,5 @@
 @Performance
-Feature: Adding Tracker Details in Tracker field
+Feature: Thoushika_13APR2025_OrangeHRM_Performance
 
 Background:
     Given The user launches the browser and navigates to the Performance module  "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
