@@ -14,17 +14,17 @@ package com.Runner;
 	        
 	    },
 	    features = {
-	       "src/test/resources/com/features/A_Login.feature",
-	       "src/test/resources/com/features/PIM.feature",
-	       "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
-	       "src/test/resources/com/features/Configuration.feature",
-	       "src/test/resources/com/features/Q_UserManagement.feature",
-	       "src/test/resources/com/features/Performance.feature",
-	       "src/test/resources/com/features/Performance2.feature",
-	       "src/test/resources/com/features/Buzz.feature",
-	       "src/test/resources/com/features/Admin.feature",
-	       "src/test/resources/com/features/TimePage.feature",
-	       "src/test/resources/com/features/Claim.feature"
+	       "src/test/resources/com/features/01_Karan_08APR2025_OrangeHRM_Login.feature",
+	       "src/test/resources/com/features/02_Dharani_10APR2025_OrangeHRM_PIM.feature",
+	       "src/test/resources/com/features/03_Karan_08APR2025_OrangeHRM_Dashboard.feature",
+	       "src/test/resources/com/features/04_Dharani_13APR2025_OrangeHRM_Configuration.feature",
+	       "src/test/resources/com/features/05_Dharani_12APR2025_OrangeHRM_Q_UserManagement.feature",
+	       "src/test/resources/com/features/06_Thoushika_13APR2025_OrangeHRM_Performance.feature",
+	       "src/test/resources/com/features/07_Thoushika_14APR2025_OrangeHRM_Performance2.feature",
+	       "src/test/resources/com/features/08_Thoushika_15APR2025_OrangeHRM_Buzz.feature",
+	       "src/test/resources/com/features/09_Thoushika_12APR2025_OrangeHRM_Admin.feature",
+	       "src/test/resources/com/features/10_Chandru_11APR2025_OrangeHRM_TimePage.feature",
+	       "src/test/resources/com/features/11_Chandru_11APR2025_OrangeHRM_Claim.feature"
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
