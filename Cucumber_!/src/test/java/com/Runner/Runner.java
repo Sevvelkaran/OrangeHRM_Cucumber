@@ -11,10 +11,10 @@ package com.Runner;
 	        
 	    },
 	    features = {
-	       "src/test/resources/com/features/A_Login.feature",
+	       //"src/test/resources/com/features/A_Login.feature",
 	      
 	    		"src/test/resources/com/features/TimeSheet.feature",
-	      // "src/test/resources/com/features/Claim.feature",
+	      //"src/test/resources/com/features/Claim.feature",
 	     // "src/test/resources/com/features/PIM.feature",
     //"src/test/resources/com/features/TimePunchoutDashboard.feature",
 //	       "src/test/resources/com/features/Configuration.feature",
