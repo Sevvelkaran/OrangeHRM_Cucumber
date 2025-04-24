@@ -31,8 +31,9 @@ public class TimePage {
     @FindBy(xpath = "//button[normalize-space()='View']")
     public WebElement viewButton;
     
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/form/div[3]/div[2]/button")
+    @FindBy(xpath = "//button[normalize-space()='Create Timesheet']")
     public WebElement createTimesheetButton;
+
     
     @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/form/div[1]/div/div/div/span")
     public WebElement invalidMessage;
