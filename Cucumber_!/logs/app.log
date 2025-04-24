@@ -2617,3 +2617,58 @@ Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [7f7a103c-8328-44d7-8118-b6774577dcab, findElement {value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[3]/div[2]/button, using=xpath}]
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 21.6.0, moz:processID: 36317, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
 Session ID: 7f7a103c-8328-44d7-8118-b6774577dcab
+2025-04-22 09:59:54 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-22 09:59:55 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-22 09:59:57 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-22 09:59:58 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-22 09:59:59 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Invalid Tracker details entered
+2025-04-22 09:59:59 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-22 09:59:59 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Error message asserted successfully
+2025-04-22 10:00:55 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-22 10:00:56 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-22 10:00:58 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-22 10:00:59 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-22 10:00:59 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Tracker details have been entered
+2025-04-22 10:01:00 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-22 10:01:10 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Assertion failed for tracker addition: Unable to locate element: //div[text()="Sevvel"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d338241a-5f60-4941-b3e7-170c9dd0e65c, findElement {value=//div[text()="Sevvel"], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 10580, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d338241a-5f60-4941-b3e7-170c9dd0e65c
+2025-04-22 10:05:11 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-22 10:05:12 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-22 10:05:14 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-22 10:05:15 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-22 10:05:15 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Tracker details have been entered
+2025-04-22 10:05:15 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-22 10:05:25 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Assertion failed for tracker addition: Unable to locate element: //div[text()="Sevvel"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cb6a5c5c-0505-4ff9-ad02-1c8c3dc679a3, findElement {value=//div[text()="Sevvel"], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 23816, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: cb6a5c5c-0505-4ff9-ad02-1c8c3dc679a3
+2025-04-22 10:09:51 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-22 10:09:53 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-22 10:09:55 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-22 10:09:57 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-22 10:09:57 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Tracker details have been entered
+2025-04-22 10:09:58 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-22 10:10:08 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Assertion failed for tracker addition: Unable to locate element: //div[text()="Sevvel"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [56757d60-b025-4775-92c2-d4d1e7c9eaad, findElement {using=xpath, value=//div[text()="Sevvel"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 8648, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 56757d60-b025-4775-92c2-d4d1e7c9eaad
+2025-04-22 10:11:41 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-22 10:11:42 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-22 10:11:44 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-22 10:11:46 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-22 10:11:46 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Tracker details have been entered
+2025-04-22 10:11:47 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button

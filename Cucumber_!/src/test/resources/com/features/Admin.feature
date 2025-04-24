@@ -1,5 +1,5 @@
 @Admin
-Feature: Adding Education Details in Admin Qualifications
+Feature: Thoushika_12APR2025_OrangeHRM_Admin
 
 Background:
   Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"

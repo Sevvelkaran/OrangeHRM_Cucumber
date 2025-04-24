@@ -1,5 +1,5 @@
 @PerformanceTrackers
-Feature: Accessing Manage Reviews,Trackers,Employee Trackers Fields
+Feature: 07_Thoushika_14APR2025_OrangeHRM_Performance2
 
 Background:
     Given The user launches the browser and navigates to the Performance module  "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"

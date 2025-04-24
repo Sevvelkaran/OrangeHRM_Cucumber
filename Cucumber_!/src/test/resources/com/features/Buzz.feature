@@ -1,10 +1,7 @@
 @tag
-Feature: Buzz
+Feature: Thoushika_15APR2025_OrangeHRM_Buzz
   I want to access my Buzz and Post
    
-
-
-
   @Buzz_Post
   Scenario Outline: Access the Buzz and post it 
     Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
