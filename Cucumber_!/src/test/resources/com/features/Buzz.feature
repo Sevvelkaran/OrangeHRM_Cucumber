@@ -1,4 +1,4 @@
-@tag
+@Buzz
 Feature: Thoushika_15APR2025_OrangeHRM_Buzz
   I want to access my Buzz and Post
    
