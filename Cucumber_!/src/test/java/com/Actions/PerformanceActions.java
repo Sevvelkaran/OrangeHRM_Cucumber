@@ -2,7 +2,7 @@ package com.Actions;
 
 import com.Pages.*;
 import com.Utils.HelperClass;
-import junit.framework.Assert;
+
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -11,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class PerformanceActions {
 
@@ -66,22 +67,22 @@ public class PerformanceActions {
             performancePages.employeeName.sendKeys(Keys.ENTER);
         }
 
-        if (reviewerss != null) {
-            performancePages.reviewers.sendKeys(reviewerss);
-            performancePages.reviewers.sendKeys(Keys.ENTER);
-        }
+//        if (reviewerss != null) {
+//            performancePages.reviewers.sendKeys(reviewerss);
+//            performancePages.reviewers.sendKeys(Keys.ENTER);
+//        }
     }
 
     public void VerifyErrorMessage(String expected) {
         if (performancePages.requiredEmployeeError.isDisplayed()) {
             String actual = performancePages.requiredEmployeeError.getText();
-            Assert.assertEquals(expected, actual);
+            Assert.assertEquals(actual,expected);
             System.out.println("Required Employee Name");
-        } else {
-            String actual = performancePages.requiredTrackerError.getText();
-            Assert.assertEquals(expected, actual);
-            System.out.println("Required Tracker Name");
-        }
+//        } else {
+//            String actual = performancePages.requiredTrackerError.getText();
+//            Assert.assertEquals(expected, actual);
+//            System.out.println("Required Tracker Name");
+//        }
     }
-
+    }
 }

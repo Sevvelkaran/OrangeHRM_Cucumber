@@ -13,7 +13,7 @@ Background:
     And The user clicks the Add button
     And The user enters the following tracker details
       | Tracker Name | Employee Name | Reviewers  |
-      | Sevvel       |    dhaar      |   laks     |
+      | Sevvel       |    Gayu R     | Thoushi F  |
     And The user clicks the Save button
     Then The tracker "Sevvel" should be successfully added
     

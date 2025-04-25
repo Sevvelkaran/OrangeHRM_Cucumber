@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 22 10:11:12 IST 2025</td>
+<td>Started on:</td><td>Fri Apr 25 06:56:25 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>46 seconds (46723 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18930 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,64 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a new performance tracker with reviewers", "Adding Tracker Details in Tracker field"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&quot;Sevvel&quot;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4900e050-7fa7-4dec-abeb-34755d456de5, findElement {value=//div[text()=&quot;Sevvel&quot;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 14576, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4900e050-7fa7-4dec-abeb-34755d456de5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
-	at com.Definations.PerformanceDefinition.the_tracker_should_be_successfully_added(PerformanceDefinition.java:117)
-	at ✽.The tracker &quot;Sevvel&quot; should be successfully added(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:18)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1202597902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1202597902'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&quot;Sevvel&quot;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4900e050-7fa7-4dec-abeb-34755d456de5, findElement {value=//div[text()=&quot;Sevvel&quot;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 14576, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4900e050-7fa7-4dec-abeb-34755d456de5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
-	at com.Definations.PerformanceDefinition.the_tracker_should_be_successfully_added(PerformanceDefinition.java:117)
-	at ✽.The tracker &quot;Sevvel&quot; should be successfully added(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:18)
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a performance tracker with invalid employee details", "Thoushika_13APR2025_OrangeHRM_Performance"</td>
+<td><div><pre>java.lang.AssertionError: expected [Required] but found [Invalid]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.Actions.PerformanceActions.VerifyErrorMessage(PerformanceActions.java:79)
+	at com.Definations.PerformanceDefinition.the_system_should_display_an_error_message_indicating_employee_name(PerformanceDefinition.java:288)
+	at ✽.The system should display an error message indicating &quot;Required&quot;(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1655488440", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1655488440'><pre>java.lang.AssertionError: expected [Required] but found [Invalid]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.Actions.PerformanceActions.VerifyErrorMessage(PerformanceActions.java:79)
+	at com.Definations.PerformanceDefinition.the_system_should_display_an_error_message_indicating_employee_name(PerformanceDefinition.java:288)
+	at ✽.The system should display an error message indicating &quot;Required&quot;(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:32)
 </pre></div></td>
-<td>45</td>
+<td>18</td>
 <td>com.Runner.Runner@385e9564</td></tr>
 </table><p>
 </body>

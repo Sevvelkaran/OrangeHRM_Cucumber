@@ -42,7 +42,7 @@ public class AdminDefinitions {
             login.Login();
         } catch (Exception e) {
             logger.error("Error occurred during login: " + e.getMessage(), e);
-            throw e; // rethrow the exception to fail the test
+            throw e; 
         }
     }
 
@@ -52,7 +52,7 @@ public class AdminDefinitions {
             admin.goToAdminModule();
         } catch (Exception e) {
             logger.error("Error navigating to Admin module: " + e.getMessage(), e);
-            throw e; // rethrow the exception to fail the test
+            throw e; 
         }
     }
 
