@@ -67,10 +67,7 @@ public class PerformanceActions {
             performancePages.employeeName.sendKeys(Keys.ENTER);
         }
 
-//        if (reviewerss != null) {
-//            performancePages.reviewers.sendKeys(reviewerss);
-//            performancePages.reviewers.sendKeys(Keys.ENTER);
-//        }
+        
     }
 
     public void VerifyErrorMessage(String expected) {
@@ -78,11 +75,6 @@ public class PerformanceActions {
             String actual = performancePages.requiredEmployeeError.getText();
             Assert.assertEquals(actual,expected);
             System.out.println("Required Employee Name");
-//        } else {
-//            String actual = performancePages.requiredTrackerError.getText();
-//            Assert.assertEquals(expected, actual);
-//            System.out.println("Required Tracker Name");
-//        }
     }
     }
 }

@@ -10,7 +10,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	        "json:target/cucumber-reports/Cucumber.json",
 	        
 	    },
-	    		 tags="@TrackersNegative",
+	    		
 	    features = {
 //	    	   "src/test/resources/com/features/A_Login.feature",
 //	  	       "src/test/resources/com/features/PIM.feature",
