@@ -1,5 +1,4 @@
-@tag
-Feature: Dashboard
+Feature: Karan_08APR2025_OrangeHRM_Dashboard
   I want to go to the dashboard and assert the elements
 
   @To_Punch_Out
