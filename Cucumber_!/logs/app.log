@@ -5731,3 +5731,85 @@ Session ID: 5ea973a7-ce63-49cd-8166-3904bfa9852e
 2025-04-25 06:56:42 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
 2025-04-25 06:56:43 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Invalid Tracker details entered
 2025-04-25 06:56:43 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-25 10:23:56 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:23:56 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-25 10:23:56 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:23:56 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-25 10:23:56 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:24:00 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:24:00 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-25 10:24:00 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:24:01 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:24:01 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-25 10:24:01 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:24:08 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Navigated to Dashboard menu
+2025-04-25 10:24:08 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-25 10:24:10 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-25 10:24:11 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Buzz Page
+2025-04-25 10:24:11 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - URL assertion passed: https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz
+2025-04-25 10:24:13 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:24:14 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-25 10:24:15 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-25 10:24:15 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:24:16 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Post assertion passed: Selenium Cucumber Java
+2025-04-25 10:24:16 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Focus set on text area
+2025-04-25 10:24:17 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Invalid Tracker details entered
+2025-04-25 10:24:17 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-25 10:24:18 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Error message asserted successfully
+2025-04-25 10:24:19 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Tracker details have been entered
+2025-04-25 10:24:19 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-25 10:24:19 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:24:20 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:24:24 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:24:26 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Clicked on Managed Review
+2025-04-25 10:24:26 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Selected My Reviews
+2025-04-25 10:24:29 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Assertion failed for tracker addition: Unable to locate element: //div[text()="Sevvel"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [de4c3cbd-046a-4265-aa27-897e9e232511, findElement {value=//div[text()="Sevvel"], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 64280, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: de4c3cbd-046a-4265-aa27-897e9e232511
+2025-04-25 10:25:16 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-25 10:25:21 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-25 10:25:24 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:25:24 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:25:27 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Navigated to Dashboard menu
+2025-04-25 10:25:28 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:25:29 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:25:31 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Post assertion passed: Selenium Cucumber Java
+2025-04-25 10:25:33 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:25:33 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-25 10:25:38 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-25 10:25:39 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opend
+2025-04-25 10:25:39 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Invalid Tracker details entered
+2025-04-25 10:25:40 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:25:40 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-25 10:25:41 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Error message asserted successfully
+2025-04-25 10:25:42 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:25:46 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:25:46 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entered
+2025-04-25 10:25:47 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Entered Credentials and clicked login
+2025-04-25 10:25:48 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:25:50 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:25:52 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Buzz Page
+2025-04-25 10:25:52 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - URL assertion passed: https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz
+2025-04-25 10:25:53 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - On Performance Module
+2025-04-25 10:25:54 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Focus set on text area
+2025-04-25 10:25:55 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered text: Selenium Cucumber Java
+2025-04-25 10:25:55 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked on Post button
+2025-04-25 10:25:55 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Clicked on Managed Review
+2025-04-25 10:25:55 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Selected My Reviews
+2025-04-25 10:25:56 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Configure and Trackers clicked
+2025-04-25 10:25:58 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Clicked on Add Button
+2025-04-25 10:26:00 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Tracker details have been entered
+2025-04-25 10:26:00 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Clicked on Save button
+2025-04-25 10:26:10 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Assertion failed for tracker addition: Unable to locate element: //div[text()="Sevvel"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [248ae6b4-6510-4df4-aa4f-24f8bf42d5db, findElement {using=xpath, value=//div[text()="Sevvel"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 69444, moz:profile: C:\Users\thous\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 248ae6b4-6510-4df4-aa4f-24f8bf42d5db

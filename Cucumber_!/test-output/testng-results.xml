@@ -1,27 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-25T06:56:25 IST" name="Default suite" finished-at="2025-04-25T06:56:44 IST" duration-ms="18930">
+  <suite started-at="2025-04-25T10:24:56 IST" name="Default suite" finished-at="2025-04-25T10:26:11 IST" duration-ms="75393">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-25T06:56:25 IST" name="Default test" finished-at="2025-04-25T06:56:44 IST" duration-ms="18930">
+    <test started-at="2025-04-25T10:24:56 IST" name="Default test" finished-at="2025-04-25T10:26:11 IST" duration-ms="75393">
       <class name="com.Runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T06:56:25 IST" name="setUpClass" finished-at="2025-04-25T06:56:25 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="setUpClass" finished-at="2025-04-25T10:24:56 IST" duration-ms="221" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fd46303]]>
+                <![CDATA[org.testng.TestRunner@1e5f4170]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T06:56:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T06:56:44 IST" duration-ms="18439" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:26:00 IST" duration-ms="63941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching the Employee name in Employee Trackers (Invalid)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_14APR2025_OrangeHRM_Performance2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:26:00 IST" duration-ms="63856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Access the Buzz and post it"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_15APR2025_OrangeHRM_Buzz"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:25:59 IST" duration-ms="63338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Chech the Post is displayed in the Dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_15APR2025_OrangeHRM_Buzz"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:25:59 IST" duration-ms="63682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching the Employee name in Employee Trackers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_14APR2025_OrangeHRM_Performance2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:26:00 IST" duration-ms="63916" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,28 +98,75 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:26:11 IST" duration-ms="74863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a new performance tracker with reviewers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_13APR2025_OrangeHRM_Performance"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:26:00 IST" duration-ms="63981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the Tracker name in My Trackers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_14APR2025_OrangeHRM_Performance2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:24:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-25T10:26:01 IST" duration-ms="65124" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the Job Title and Review Status in Manage Reviews"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Thoushika_14APR2025_OrangeHRM_Performance2"]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Required] but found [Invalid]]]>
+              <![CDATA[Job Title does not match expected [HR Manager] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Required] but found [Invalid]
+              <![CDATA[java.lang.AssertionError: Job Title does not match expected [HR Manager] but found []
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.Actions.PerformanceActions.VerifyErrorMessage(PerformanceActions.java:79)
-at com.Definations.PerformanceDefinition.the_system_should_display_an_error_message_indicating_employee_name(PerformanceDefinition.java:288)
-at ✽.The system should display an error message indicating "Required"(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:32)
+at com.Actions.PerformanceActions2.verifyCredentials(PerformanceActions2.java:43)
+at com.Definations.PerformanceDefinitions2.verify_the_following_credentials(PerformanceDefinitions2.java:181)
+at ✽.verify the following credentials(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance2.feature:12)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T06:56:44 IST" name="tearDownClass" finished-at="2025-04-25T06:56:44 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Runner.Runner@385e9564]" started-at="2025-04-25T10:26:11 IST" name="tearDownClass" finished-at="2025-04-25T10:26:11 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

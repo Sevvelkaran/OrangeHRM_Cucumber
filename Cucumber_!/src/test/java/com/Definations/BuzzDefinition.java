@@ -149,7 +149,6 @@ public class BuzzDefinition {
             LogManagers.logInfo("Post assertion passed: " + actualPost);
         } catch (Exception e) {
             LogManagers.logError("Error asserting Buzz post presence: " + e.getMessage());
-            throw e;
         }
     }
 

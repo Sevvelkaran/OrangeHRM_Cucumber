@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 25 06:56:25 IST 2025</td>
+<td>Started on:</td><td>Fri Apr 25 10:24:56 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18930 ms)</td>
+<tr><td>Total time:</td><td>75 seconds (75393 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,72 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a performance tracker with invalid employee details", "Thoushika_13APR2025_OrangeHRM_Performance"</td>
-<td><div><pre>java.lang.AssertionError: expected [Required] but found [Invalid]
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying the Job Title and Review Status in Manage Reviews", "Thoushika_14APR2025_OrangeHRM_Performance2"</td>
+<td><div><pre>java.lang.AssertionError: Job Title does not match expected [HR Manager] but found []
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.Actions.PerformanceActions.VerifyErrorMessage(PerformanceActions.java:79)
-	at com.Definations.PerformanceDefinition.the_system_should_display_an_error_message_indicating_employee_name(PerformanceDefinition.java:288)
-	at ✽.The system should display an error message indicating &quot;Required&quot;(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:32)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1655488440", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1655488440'><pre>java.lang.AssertionError: expected [Required] but found [Invalid]
+	at com.Actions.PerformanceActions2.verifyCredentials(PerformanceActions2.java:43)
+	at com.Definations.PerformanceDefinitions2.verify_the_following_credentials(PerformanceDefinitions2.java:181)
+	at ✽.verify the following credentials(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance2.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace712072424", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace712072424'><pre>java.lang.AssertionError: Job Title does not match expected [HR Manager] but found []
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.Actions.PerformanceActions.VerifyErrorMessage(PerformanceActions.java:79)
-	at com.Definations.PerformanceDefinition.the_system_should_display_an_error_message_indicating_employee_name(PerformanceDefinition.java:288)
-	at ✽.The system should display an error message indicating &quot;Required&quot;(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance.feature:32)
+	at com.Actions.PerformanceActions2.verifyCredentials(PerformanceActions2.java:43)
+	at com.Definations.PerformanceDefinitions2.verify_the_following_credentials(PerformanceDefinitions2.java:181)
+	at ✽.verify the following credentials(file:///C:/Users/thous/git/OrangeHRM_CucumberPro/Cucumber_!/src/test/resources/com/features/Performance2.feature:12)
 </pre></div></td>
-<td>18</td>
+<td>65</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Searching the Employee name in Employee Trackers (Invalid)", "Thoushika_14APR2025_OrangeHRM_Performance2"</td>
+<td></td>
+<td>63</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Access the Buzz and post it", "Thoushika_15APR2025_OrangeHRM_Buzz"</td>
+<td></td>
+<td>63</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Chech the Post is displayed in the Dashboard", "Thoushika_15APR2025_OrangeHRM_Buzz"</td>
+<td></td>
+<td>63</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Searching the Employee name in Employee Trackers", "Thoushika_14APR2025_OrangeHRM_Performance2"</td>
+<td></td>
+<td>63</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a performance tracker with invalid employee details", "Thoushika_13APR2025_OrangeHRM_Performance"</td>
+<td></td>
+<td>63</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a new performance tracker with reviewers", "Thoushika_13APR2025_OrangeHRM_Performance"</td>
+<td></td>
+<td>74</td>
+<td>com.Runner.Runner@385e9564</td></tr>
+<tr>
+<td title='com.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying the Tracker name in My Trackers", "Thoushika_14APR2025_OrangeHRM_Performance2"</td>
+<td></td>
+<td>63</td>
 <td>com.Runner.Runner@385e9564</td></tr>
 </table><p>
 </body>
