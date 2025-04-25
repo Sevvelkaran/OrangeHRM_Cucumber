@@ -1,5 +1,4 @@
-@tag
-Feature: Login 
+Feature: Karan_08APR2025_OrangeHRM_Login 
   I want to login into the OrangeHRM WebPage
 
 Background:
