@@ -1,0 +1,75 @@
+//package com.Pages;
+//
+//import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.support.FindBy;
+//
+//public class AdminPage2{
+//
+//    @FindBy(xpath = "//a[@class=\"oxd-main-menu-item active\"]")
+//    public WebElement adminModule;
+//
+////    @FindBy(xpath = "(//i[@class=\"oxd-icon bi-chevron-down\"])[4]")
+////    public WebElement qualificationsMenu;
+//
+//    @FindBy(xpath = "//a[text()='Nationalities']")
+//    public WebElement nationalitiesOption;
+//
+//    @FindBy(xpath = "//button[normalize-space()='Add']")
+//    public WebElement addButton;
+//
+//    @FindBy(xpath = "//label[text()='Name']/following::input[1]")
+//    public WebElement nameInput;
+//
+//    @FindBy(xpath = "//button[normalize-space()='Save']")
+//    public WebElement saveButton;
+//    
+//    
+//    
+//    
+//    
+//  
+//    
+//    
+//
+//}
+
+
+
+
+package com.Pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AdminPage2 {
+
+    @FindBy(xpath = "//span[text()='Admin']")
+    public WebElement adminModule;
+
+    @FindBy(xpath = "//a[text()='Nationalities']")
+    public WebElement nationalitiesOption;
+
+    @FindBy(xpath = "//button[normalize-space()='Add']")
+    public WebElement addButton;
+
+    @FindBy(xpath = "//label[text()='Name']/following::input[1]")
+    public WebElement nameInput;
+
+    @FindBy(xpath = "//button[normalize-space()='Save']")
+    public WebElement saveButton;
+    
+    
+    
+
+    @FindBy(xpath = "//div[@class=\"orangehrm-horizontal-padding orangehrm-vertical-padding\"]")
+    WebElement recordsFoundTextElement;
+
+
+    public String getRecordsFoundText() {
+        return recordsFoundTextElement.getText();
+    }
+
+
+}
+
