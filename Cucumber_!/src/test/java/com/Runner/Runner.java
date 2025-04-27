@@ -23,6 +23,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	          //"src/test/resources/com/features/Admin.feature",
 	  	       "src/test/resources/com/features/TimePage.feature",
 	  	       //"src/test/resources/com/features/Claim.feature"
+	  	       "src/test/resources/com/features/Admin2.feature"
 	    		
 	    },
 	    glue = "com.Definations",
