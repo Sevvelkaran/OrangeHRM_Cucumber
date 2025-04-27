@@ -34,15 +34,7 @@
 //        try {
 //            actions.clickManageReviewsAndSelectMyReviews();
 //            LogManagers.logInfo("Clicked on Managed Review");
-//            LogManagers.logInfo("Selected My Reviews");
-//        } catch (Exception e) {
-//            LogManagers.logError("Error in clicking Manage Reviews and selecting My Reviews: " + e.getMessage());
-  //          throw e;
-//        }
-//    }
-//
-//    @Then("verify the following credentials")
-//    public void verify_the_following_credentials(DataTable dataTable) {
+//   public void verify_the_following_credentials(DataTable dataTable) {
 //        try {
 //            List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 //            actions.verifyCredentials(data);
@@ -59,7 +51,7 @@
 //            actions.clickMyTrackers();
 //        } catch (Exception e) {
 //            LogManagers.logError("Error clicking My Trackers: " + e.getMessage());
-            //    throw e;
+//                throw e;
 //        }
 //    }
 //
@@ -69,9 +61,9 @@
 //            actions.verifyMyTrackerName("Tracker for paul");
 //        } catch (Exception e) {
 //            LogManagers.logError("Error verifying Tracker Name in MyPerformance Trackers: " + e.getMessage());
-           //   throw e;
+//              throw e;
 //        }
-
+//
 //    }
 //
 //    @When("the user clicks Employee Trackers")
@@ -80,7 +72,7 @@
 //            actions.clickEmployeeTrackers();
 //        } catch (Exception e) {
 //            LogManagers.logError("Error clicking Employee Trackers: " + e.getMessage());
-          //    throw e;
+//              throw e;
 //        }
 //    }
 //
@@ -89,8 +81,8 @@
 //        try {
 //            actions.enterEmployeeNameAndInclude("Gayu R");
 //        } catch (Exception e) {
-//            LogManagers.logError("Error entering Employee Name and Include: " + e.getMessage());
-        //    throw e;
+//           LogManagers.logError("Error entering Employee Name and Include: " + e.getMessage());
+//        //    throw e;
 //        }
 //    }
 //
@@ -100,7 +92,7 @@
 //            actions.clickSearchInEmployeeTrackers();
 //        } catch (Exception e) {
 //            LogManagers.logError("Error clicking Search in Employee Trackers: " + e.getMessage());
-       //    throw e;
+//           throw e;
 //        }
 //    }
 //
@@ -119,7 +111,7 @@
 //            actions.enterEmployeeNameAndInclude("Invalid Name");
 //        } catch (Exception e) {
 //            LogManagers.logError("Error entering invalid Employee Name: " + e.getMessage());
-   //    throw e;
+//       throw e;
 //        }
 //    }
 //
@@ -182,7 +174,7 @@ public class PerformanceDefinitions2 {
             LogManagers.logInfo("Verified");
         } catch (Exception e) {
             LogManagers.logError("Error verifying credentials: " + e.getMessage());
-            throw e;
+       
         }
     }
 

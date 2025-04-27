@@ -119,7 +119,7 @@ public class AdminDefinitions {
         }
     }
 
-    @When("the user clicks the Qualifications and selects Memberships")
+    @When("the user clicks the Qualificatins and selects Memberships")
     public void the_user_clicks_the_qualificatins_and_selects_memberships() {
         try {
             admin.goToMembershipsSection();

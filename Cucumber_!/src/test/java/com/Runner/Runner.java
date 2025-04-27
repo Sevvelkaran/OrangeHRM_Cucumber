@@ -1,5 +1,5 @@
 package com.Runner;
-	import org.testng.annotations.DataProvider;
+import org.testng.annotations.DataProvider;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 	import io.cucumber.testng.CucumberOptions;
@@ -12,17 +12,18 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	    },
 	    		
 	    features = {
-//	    	   "src/test/resources/com/features/A_Login.feature",
-//	  	       "src/test/resources/com/features/PIM.feature",
-//	  	       "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
-//	  	       "src/test/resources/com/features/Configuration.feature",
-//	  	       "src/test/resources/com/features/Q_UserManagement.feature",
-  	        "src/test/resources/com/features/Performance.feature",
-            "src/test/resources/com/features/Performance2.feature",
-	  	    "src/test/resources/com/features/Buzz.feature",
-//	            //"src/test/resources/com/features/Admin.feature",
-//	  	       "src/test/resources/com/features/TimePage.feature",
-//	  	       "src/test/resources/com/features/Claim.feature"
+	    	   "src/test/resources/com/features/A_Login.feature",
+	  	       "src/test/resources/com/features/PIM.feature",
+	  	       "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
+	  	       "src/test/resources/com/features/Configuration.feature",
+	  	       "src/test/resources/com/features/Q_UserManagement.feature",
+  	          "src/test/resources/com/features/Performance.feature",
+              "src/test/resources/com/features/Performance2.feature",
+  	          "src/test/resources/com/features/Buzz.feature",
+	          //"src/test/resources/com/features/Admin.feature",
+	  	       "src/test/resources/com/features/TimePage.feature",
+	  	       //"src/test/resources/com/features/Claim.feature"
+	    		
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,

@@ -16,7 +16,7 @@ Feature: Thoushika_15APR2025_OrangeHRM_Buzz
     
   @Buzz_Post_Check
   Scenario: Chech the Post is displayed in the Dashboard
-    Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+  Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
   When The user enters the username and password to login
   When the user clicks on Dashboard menu
   And Assert The post to check its pressence
