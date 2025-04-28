@@ -17,6 +17,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked on the Optional Fields");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Optional Fields: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -27,6 +28,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Enabled Show Deprecated Fields option");
 		} catch (Exception e) {
 			LogManagers.logError("Error enabling Deprecated Fields: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -37,6 +39,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked the save button");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking save button: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -47,6 +50,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Verified Deprecated Fields is enabled");
 		} catch (Exception e) {
 			LogManagers.logError("Error verifying Deprecated Fields: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -58,6 +62,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked the Configuration Menu");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Custom Fields: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -68,6 +73,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked Add button");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Add button: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -78,6 +84,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Custom Field Data Filled");
 		} catch (Exception e) {
 			LogManagers.logError("Error filling custom field form: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -88,6 +95,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked the save button");
 		} catch (Exception e) {
 			LogManagers.logError("Error saving custom field: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -98,6 +106,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Custom Field added to records");
 		} catch (Exception e) {
 			LogManagers.logError("Error verifying saved custom field: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -109,6 +118,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked Reporting Methods");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Reporting Methods: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -119,6 +129,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Entered Reporting Method Name");
 		} catch (Exception e) {
 			LogManagers.logError("Error entering reporting method: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -129,6 +140,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Reporting Method Added to List");
 		} catch (Exception e) {
 			LogManagers.logError("Error verifying reporting method: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -140,6 +152,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Clicked Termination Reasons");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Termination Reasons: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -150,6 +163,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Entered Termination Reason");
 		} catch (Exception e) {
 			LogManagers.logError("Error entering Termination Reason: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -160,6 +174,7 @@ public class ConfigStepdefinition {
 			LogManagers.logInfo("Termination Reason Added to List");
 		} catch (Exception e) {
 			LogManagers.logError("Error verifying Termination Reason: " + e.getMessage());
+			throw e;
 		}
 	}
 }

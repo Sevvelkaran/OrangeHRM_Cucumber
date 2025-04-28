@@ -22,7 +22,6 @@ public class PIMStepdefinition {
 	public void the_user_is_on_the_dash_board_page() {
 		try {
 			HelperClass.openPage("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-			log = new LoginActions();
 			log.Valid(); 
 			log.Login();
 			LogManagers.logInfo("WebPage Opened");
@@ -30,6 +29,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked Login button");
 		} catch (Exception e) {
 			LogManagers.logError("Error during login setup: " + e.getMessage());
+			throw  e;
 		}
 	}
 
@@ -40,6 +40,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked PIM Menu");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking PIM menu: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -50,6 +51,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Add Button Clicked");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Add button: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -57,10 +59,10 @@ public class PIMStepdefinition {
 	public void the_user_fill_the_employee_form_with_details(io.cucumber.datatable.DataTable dataTable) throws InterruptedException {
 		try {
 			pimact.senddata(dataTable);
-			Thread.sleep(2000);
 			LogManagers.logInfo("Data Have Been Entered");
 		} catch (Exception e) {
 			LogManagers.logError("Error filling Employee form: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -71,9 +73,10 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked the save button");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Save Button (save1): " + e.getMessage());
+			throw e;
 		}
 	}
-
+    
 	@When("the user click the Save button")
 	public void the_user_click_the_save_button() throws InterruptedException {
 		try {
@@ -81,9 +84,10 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked the save button");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Save button (saveclick): " + e.getMessage());
+			throw e;
 		}
 	}
-
+ 
 	@When("the user click the Add Employee button")
 	public void the_user_click_the_add_employee_button() {
 		try {
@@ -91,6 +95,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked the Add Employee");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Add Employee button: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -101,6 +106,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked the Report To");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Report-to: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -111,6 +117,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked Add button under supervisior");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Add under supervisors: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -121,6 +128,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Supervisor field is filled");
 		} catch (Exception e) {
 			LogManagers.logError("Error filling Supervisor form: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -131,6 +139,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Error message received");
 		} catch (Exception e) {
 			LogManagers.logError("Error verifying error message: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -141,6 +150,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Verified the user added to supervisor");
 		} catch (Exception e) {
 			LogManagers.logError("Error verifying supervisor record: " + e.getMessage());
+			throw e;
 		}
 	}
 
@@ -151,6 +161,7 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Filled the Employee Form");
 		} catch (Exception e) {
 			LogManagers.logError("Error filling employee form with parameters: " + e.getMessage());
+			throw e;
 		}
 	}
 }

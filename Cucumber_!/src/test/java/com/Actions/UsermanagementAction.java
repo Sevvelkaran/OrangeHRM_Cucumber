@@ -1,15 +1,10 @@
 package com.Actions;
 
 import java.util.Map;
-import java.util.NoSuchElementException;
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
-
-import com.Pages.PIMpage;
 import com.Pages.Usermanagementpage;
 import com.Utils.HelperClass;
 
@@ -17,6 +12,7 @@ import io.cucumber.datatable.DataTable;
 import junit.framework.Assert;
 
 public class UsermanagementAction {
+	public static String k = "";
 	WebDriver driver;
 	Usermanagementpage user  = null;
 	
@@ -38,6 +34,8 @@ public class UsermanagementAction {
   }
   public void Senddata(DataTable dataTable) throws InterruptedException {
 	  Map<String, String> data = dataTable.asMap(String.class, String.class);
+	  String baseUsername = data.get("Username");
+	  k = baseUsername + "_" + System.currentTimeMillis();
 	  user.userrole.click();
 	  Thread.sleep(3000);
 	  Actions act=new Actions(driver);
@@ -48,16 +46,17 @@ public class UsermanagementAction {
 	  user.status.click();
 	  Thread.sleep(3000);
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-	  user.username.sendKeys(data.get("Username"));
+	  user.username.sendKeys(k);
 	  user.pass.sendKeys(data.get("Password"));
 	  user.conpass.sendKeys(data.get("Confirm"));
   }
   public void saveform() {
 	  user.submit.click();
+	  
   }
   public void verify() {
 	  String actual=user.text.getText();
-	  String expected="Admin1";
+	  String expected=k;
 	  Assert.assertEquals(expected,actual);
 	  System.out.println("User added successfully");
 	  
@@ -87,7 +86,7 @@ public class UsermanagementAction {
   }
   public void verifysearch() {
 	  String actual=user.admintext.getText();
-	  String expected="Admin1";
+	  String expected=k;
 	  Assert.assertEquals(expected,actual);
 	  System.out.println("user found");
   }
