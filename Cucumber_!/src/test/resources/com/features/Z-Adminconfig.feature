@@ -1,5 +1,5 @@
 Feature: Dharani_28APR2025_OrangeHRM_Admin-Configuration
-Scenario: Add a new user 
+Scenario: Disable the recruitment module 
   Given the user is on the DashBoard page
   When the user click the Admin menu
   And the user click on Configuration and select Modules

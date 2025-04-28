@@ -14,7 +14,7 @@ public class AdminconfigDefinitions {
 	WebDriver driver;
     Adminconfigaction adcon=new Adminconfigaction();
 	@When("the user click on Configuration and select Modules")
-	public void the_user_click_on_configuration_and_select_modules() {
+	public void the_user_click_on_configuration_and_select_modules() throws InterruptedException {
 		adcon.config();
 	}
 
