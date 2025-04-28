@@ -1,7 +1,6 @@
 package com.Actions;
 
 import java.time.Duration;
-import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.By;
@@ -11,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -23,6 +21,7 @@ import io.cucumber.datatable.DataTable;
 public class PIMActions {
 	WebDriver driver;
 	PIMpage pimpage  = null;
+	WebDriverWait wait;
 	
 	public PIMActions() {
 	    driver = HelperClass.getDriver(); 
@@ -30,42 +29,42 @@ public class PIMActions {
 	    PageFactory.initElements(driver, pimpage);
 	}
 	  public void pimclick() {
-		  pimpage.pim.click();
+		  clickMethod(pimpage.pim);
 	  }
 	  public void addclick() {
-		  pimpage.add.click();
+		  clickMethod(pimpage.add);
 	  }
 	  public void senddata(DataTable dataTable) {
 		    Map<String, String> data = dataTable.asMap(String.class, String.class);
-		    pimpage.firstname.sendKeys(data.get("Firstname"));
-		    pimpage.lastname.sendKeys(data.get("Lastname"));
+		    send(pimpage.firstname,data.get("Firstname"));
+		    send(pimpage.lastname,data.get("Lastname"));
 		    pimpage.id.clear();
-		    pimpage.id.sendKeys(data.get("Employeeid"));
+		    send(pimpage.id,data.get("Employeeid"));
 		    Actions act=new Actions(driver);
 		    act.sendKeys(Keys.ENTER);
 		}
 	  public void saveclick() throws InterruptedException {
-		  Thread.sleep(3000);
-		  pimpage.save.click();
-		  Thread.sleep(3000);
+		  clickMethod(pimpage.save);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 	  }
+	  
 	  public void addempclcik() {
-		  pimpage.addemployee.click();
+		  clickMethod(pimpage.addemployee);
 	  }
 	  public void clickreportto() {
-		  pimpage.reportto.click();
+		  clickMethod(pimpage.reportto);
 	  }
 	  public void clicksuperadd() {
-		  pimpage.superviseradd.click();
+		  clickMethod(pimpage.superviseradd);
 	  }
 	  public void senddataforsuper(DataTable datatable) throws InterruptedException {
 		  Map<String, String> data = datatable.asMap(String.class, String.class);
 		  Actions actions = new Actions(driver);
-		  pimpage.name.sendKeys(data.get("Name"));
-		  Thread.sleep(3000); 
+		  send(pimpage.name,data.get("Name"));
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
-		  pimpage.reportdrop.click();
-		  Thread.sleep(3000);
+		  clickMethod(pimpage.reportdrop);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 		}
 	  public void verifysuper() {
@@ -80,20 +79,28 @@ public class PIMActions {
       }
       
       public void save1() throws InterruptedException {
-    	  Thread.sleep(3000);
-    	  pimpage.saveemp1.click();
-    	  Thread.sleep(3000);
+    	  
+    	  clickMethod(pimpage.saveemp1);
+    	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-loading-spinner")));
       }
       public void sendemployeedettails(String firstname,String middlename,String lastname,String id) {
-    	  pimpage.firstname.sendKeys(firstname);
-    	  pimpage.middlename.sendKeys(middlename);
+    	  send(pimpage.firstname,firstname);
+    	  send(pimpage.middlename,middlename);
 		    //pimpage.lastname.sendKeys(lastname);
 		    Actions act=new Actions(driver);
-		    pimpage.lastname.sendKeys(lastname);
+		    send(pimpage.lastname,lastname);
 		    act.sendKeys(Keys.ENTER).build().perform();	  
       }
       public void verifyerror(String expected) {
     	  String actual=pimpage.nameerr.getText();
     	  Assert.assertEquals(expected,actual);
+      }
+      public void clickMethod(WebElement element) {
+    	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+          wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+      }
+      public void send(WebElement ele,String msg) {
+    	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+          wait.until(ExpectedConditions.visibilityOf(ele)).sendKeys(msg);
       }
 }

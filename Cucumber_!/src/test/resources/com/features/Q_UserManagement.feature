@@ -1,4 +1,4 @@
-Feature: User Management functionality in OrangeHRM
+Feature: Dharani_12APR2025_OrangeHRM_Q_UserManagement
 @Adduser
  Scenario: Add a new user 
   Given the user is on the DashBoard page

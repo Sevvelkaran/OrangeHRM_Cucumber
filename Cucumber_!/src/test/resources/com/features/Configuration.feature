@@ -1,4 +1,4 @@
-Feature: Validate OrangeHRM PIM Configuration Menu
+Feature: Dharani_13APR2025_OrangeHRM_Configuration
 
 @AddOptionalFields 
 Scenario: Enable optional fields in PIM configuration

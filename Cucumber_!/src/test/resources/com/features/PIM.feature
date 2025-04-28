@@ -1,4 +1,4 @@
-Feature: Admin Functionalities
+Feature: Dharani_10APR2025_OrangeHRM_PIM
 @AddEmployee  
 Scenario: Add two new employees and assign a supervisor
   Given the user is on the DashBoard page
@@ -20,7 +20,7 @@ Scenario: Add two new employees and assign a supervisor
     |Firstname|Thoushi|
     |Middlename||
     |Lastname|F|
-    |Employeeid|61|
+    |Employeeid|62|
   And the user click the Save button
   And the user click the Report-to
   And the user click the Add button under Assigned Supervisors
@@ -31,7 +31,7 @@ Scenario: Add two new employees and assign a supervisor
   Then the user should be added to the supervisor Records
   
   @SearchEmployee
-Scenario Outline: Search employee with valid credentials
+Scenario Outline: Search employee with Invalid credentials
   Given the user is on the DashBoard page
   When the user click the PIM menu
   And the user click the Add Button
@@ -41,5 +41,5 @@ Scenario Outline: Search employee with valid credentials
 Examples:
   | Firstname | Middlename | Lastname | Employeeid |message |
   |           |            | M        | 102        |Required|
-  | Thoushi   |    Mary    |          | 10921      |Required|
+  | Guhanathan|    Mary    |          | 10921      |Required|
   |           |            |          |            |Required| 
