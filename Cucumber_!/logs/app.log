@@ -8570,3 +8570,6 @@ Session ID: e8208ffb-2555-41ad-af6d-604b42f7d97f
 2025-04-27 20:58:58 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Clicked the Search button
 2025-04-27 20:58:58 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Error Message Displayed
 2025-04-27 20:58:59 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - Clicked on Create Timesheet
+2025-04-28 21:56:55 [TestNG-PoolService-1] INFO  com.Definations.SocialMediaDefinations - Navigated to OrangeHRM Login Page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-28 21:56:57 [TestNG-PoolService-1] INFO  com.Definations.SocialMediaDefinations - Clicked on LinkedIn icon
+2025-04-28 21:56:57 [TestNG-PoolService-1] ERROR com.Definations.SocialMediaDefinations - LinkedIn redirection failed. Expected: https://www.linkedin.com/company/orangehrm/, Found: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
