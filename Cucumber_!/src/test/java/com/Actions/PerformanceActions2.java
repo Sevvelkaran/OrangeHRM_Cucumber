@@ -40,9 +40,8 @@ public class PerformanceActions2 {
             String actualJobTitle = pages.jobTitle.getText().trim();
             String actualReviewStatus = pages.reviewStatus.getText().trim();
             System.out.println("Asserted the Job Title and Review Status");
-            // Assert.assertEquals(actualJobTitle, expectedJobTitle, "Job Title does not match");
-            // Assert.assertEquals(actualReviewStatus, expectedReviewStatus, "Review Status does not match");
-            System.out.println("Asserted the Job Title and Review Status");
+//             Assert.assertEquals(actualJobTitle, expectedJobTitle, "Job Title does not match");
+//             Assert.assertEquals(actualReviewStatus, expectedReviewStatus, "Review Status does not match");
         }
     }
     
