@@ -26,18 +26,20 @@ public class AdminActions2 {
     }
 
     public void enterNationalityName(String nationality) {
-        adminpages.nameInput.sendKeys(nationality);
+        if (nationality != null && !nationality.trim().isEmpty()) {
+            adminpages.nameInput.sendKeys(nationality);
+        }
     }
+
 
     public void clickSaveButton() {
         adminpages.saveButton.click();
     }
     
-    
-    
-    
-    
-    public String getActualRecordsFoundText() {
-        return adminpages.getRecordsFoundText();
+    public boolean isRequiredMessageDisplayed() {
+        return adminpages.requiredMessage.isDisplayed();
     }
+   
+
+
 }

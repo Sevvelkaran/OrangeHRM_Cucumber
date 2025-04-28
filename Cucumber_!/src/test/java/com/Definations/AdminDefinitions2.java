@@ -20,41 +20,22 @@ public class AdminDefinitions2 {
         adminActions.clickNationalities();
     }
 
-//    @And("clicks the Add button")
-//    public void clicks_the_add_button() {
-//        adminActions.clickAddButton();
-//    }
-
     @And("enters the following Nationality")
     public void enters_the_following_nationality(DataTable dataTable) {
         String nationalityName = dataTable.cell(1, 0);
         adminActions.enterNationalityName(nationalityName);
     }
 
-//    @And("clicks to the Save button")
-//    public void clicks_to_the_save_button() {
-//        adminActions.clickSaveButton();
-//    }
 
     @Then("verify that the Nationality is successfully added")
     public void verify_that_the_nationality_is_successfully_added() {
         System.out.println("Nationality added successfully");
     }
     
-   
+    @Then("verify that the Required message is displayed")
+    public void verify_that_the_required_message_is_displayed() {
+        Assert.assertTrue(adminActions.isRequiredMessageDisplayed(), "Required message not displayed");
+    }
     
     
-//    @Then("verify that the Nationality is successfully added")
-//    public void validateRecordsFoundText() {
-//        String actualText = adminActions.getActualRecordsFoundText();
-//        String expectedText = "194 Records Found";
-//
-//        try {
-//            Assert.assertEquals(actualText, expectedText, "Records count mismatch");
-//            System.out.println("Assertion Passed: Correct number of records found");
-//        } catch (AssertionError e) {
-//            System.out.println("Assertion Failed: " + e.getMessage());
-//            throw e;
-//        }
-//    }
 }

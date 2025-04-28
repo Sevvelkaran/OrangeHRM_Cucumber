@@ -58,18 +58,9 @@ public class AdminPage2 {
 
     @FindBy(xpath = "//button[normalize-space()='Save']")
     public WebElement saveButton;
-    
-    
-    
 
-    @FindBy(xpath = "//div[@class=\"orangehrm-horizontal-padding orangehrm-vertical-padding\"]")
-    WebElement recordsFoundTextElement;
-
-
-    public String getRecordsFoundText() {
-        return recordsFoundTextElement.getText();
-    }
-
+    @FindBy(xpath = "//span[text()='Required']")
+    public WebElement requiredMessage;
 
 }
 

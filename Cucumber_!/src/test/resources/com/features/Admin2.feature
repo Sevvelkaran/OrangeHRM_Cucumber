@@ -15,3 +15,15 @@ Background:
       | Indian     |
     And clicks to the Save button
    Then verify that the Nationality is successfully added
+   
+   
+   @NationalitiesNegative
+   Scenario: Leaving Nationality field in Qualifications
+   And the user navigates on to the Admin module
+   And the user clicks Nationalities
+   And clicks the Add button
+   And enters the following Nationality
+      | Name       |
+      |            |
+   And clicks to the Save button
+   Then verify that the Required message is displayed
