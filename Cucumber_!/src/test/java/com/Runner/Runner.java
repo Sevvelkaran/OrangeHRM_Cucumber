@@ -20,7 +20,6 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
   	          "src/test/resources/com/features/Performance.feature",
               "src/test/resources/com/features/Performance2.feature",
   	          "src/test/resources/com/features/Buzz.feature",
-//	          //"src/test/resources/com/features/Admin.feature",
 	  	       // "src/test/resources/com/features/TimePage.feature",
 	  	       // "src/test/resources/com/features/Claim.feature",
 	  	       "src/test/resources/com/features/Admin2.feature",
