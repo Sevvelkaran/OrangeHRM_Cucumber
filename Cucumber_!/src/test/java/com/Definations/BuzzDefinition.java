@@ -151,5 +151,16 @@ public class BuzzDefinition {
             LogManagers.logError("Error asserting Buzz post presence: " + e.getMessage());
         }
     }
+    @When("I navigated to the Buzz module and click Help button")
+    public void i_navigated_to_the_buzz_module_and_click_help_button() {
+        objActions.buzz();
+        objActions.clickHelp();
+    }
+
+    @Then("I should see the Admin User Guide page opened")
+    public void i_should_see_the_admin_user_guide_page_opened() {
+        objActions.verifyHelpPageURL();
+    }
+
 
 }

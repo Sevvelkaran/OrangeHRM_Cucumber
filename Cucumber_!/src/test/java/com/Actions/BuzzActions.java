@@ -1,7 +1,13 @@
 package com.Actions;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import static org.testng.Assert.assertEquals;
 
+import java.time.Duration;
+import java.util.Set;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import com.Pages.BuzzPages;
 import com.Pages.DashboardPages;
 import com.Utils.HelperClass;
@@ -25,13 +31,32 @@ public class BuzzActions {
 	public void like() {
 		pages.Heart.click();
 	}
-
+	
 	public void buzz() {
-		// TODO Auto-generated method stub
 		pages.Buzz.click();
 
 	}
 	
+	public void clickHelp() {
+	    WebDriver driver = HelperClass.getDriver();
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.elementToBeClickable(pages.HelpButton)).click();
+	}
+
+	public void verifyHelpPageURL() {
+	    WebDriver driver = HelperClass.getDriver();
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+	    wait.until(d -> d.getWindowHandles().size() > 1);
+
+	    for (String handle : driver.getWindowHandles()) {
+	        driver.switchTo().window(handle);
+	    }
+	    wait.until(ExpectedConditions.urlContains("starterhelp.orangehrm.com/hc/en-us"));
+	    assertEquals(driver.getCurrentUrl(), "https://starterhelp.orangehrm.com/hc/en-us");
+	    driver.close();
+	}
+
 	
 	
 }
