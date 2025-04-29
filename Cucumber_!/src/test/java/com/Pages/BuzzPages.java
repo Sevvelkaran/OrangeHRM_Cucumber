@@ -29,4 +29,5 @@ public class BuzzPages {
 
     @FindBy(xpath = "//header[@class='page-header']")
     public WebElement AdminUserGuideHeader;
+
 }
