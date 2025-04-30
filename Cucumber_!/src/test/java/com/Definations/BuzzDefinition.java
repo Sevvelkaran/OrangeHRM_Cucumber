@@ -77,5 +77,4 @@ public class BuzzDefinition {
     public void i_should_see_the_admin_user_guide_page_opened() {
         objActions.verifyHelpPageURL();
     }
-
 }

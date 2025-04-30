@@ -21,7 +21,7 @@ Feature: Thoushika_29APR2025_OrangeHRM_Buzz
   When the user clicks on Dashboard menu
   And Assert The post to check its pressence
   
-   @Buzz_AdminUserGuide
+  @Buzz_AdminUserGuide
   Scenario: Accessing the Admin User Guide from the Buzz Module
     Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
     When The user enters the username and password to login
