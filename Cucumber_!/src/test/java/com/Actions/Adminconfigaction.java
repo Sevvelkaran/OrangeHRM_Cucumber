@@ -63,7 +63,7 @@ public class Adminconfigaction {
 	   wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-loading-spinner")));
    }
    public void verifylang(String expected) {
-	   String actual=adcon.lang.getText();
+	   
    }
    public void clickMethod(WebElement element) {
  	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
