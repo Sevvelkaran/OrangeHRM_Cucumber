@@ -77,4 +77,15 @@ public class BuzzDefinition {
     public void i_should_see_the_admin_user_guide_page_opened() {
         objActions.verifyHelpPageURL();
     }
+    
+    @When("I navigated to the Buzz module")
+    public void i_navigated_to_the_buzz_module() {
+        objActions.buzz();
+        System.out.println("Navigated to the Buzz module");
+    }
+    
+   @Then("check the Upcoming Work Anniversaries section")
+    public void check_the_upcoming_work_anniversaries_section() {
+        objActions.verifyUpcomingAnniversariesSection();
+    }
 }
