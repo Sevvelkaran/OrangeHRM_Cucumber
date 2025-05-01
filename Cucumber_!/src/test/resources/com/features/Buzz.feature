@@ -27,4 +27,11 @@ Feature: Thoushika_29APR2025_OrangeHRM_Buzz
     When The user enters the username and password to login
     And I navigated to the Buzz module and click Help button
     Then I should see the Admin User Guide page opened
+    
+   @Buzz_UpcomingAnniversaries
+   Scenario: View Upcoming Work Anniversaries from the Buzz Module
+      Given I want to go into OrangeHRM "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+      When The user enters the username and password to login
+      And I navigated to the Buzz module
+      Then  check the Upcoming Work Anniversaries section
  

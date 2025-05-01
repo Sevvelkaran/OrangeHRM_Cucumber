@@ -30,5 +30,6 @@ public class BuzzPages {
     @FindBy(xpath = "//header[@class='page-header']")
     public WebElement AdminUserGuideHeader;
 
-
+    @FindBy(xpath = "//p[@class=\"oxd-text oxd-text--p orangehrm-buzz-anniversary-job-details\"]")
+    public WebElement UpcomingAnniversaries;
 }
