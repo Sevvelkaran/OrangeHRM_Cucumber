@@ -15,4 +15,14 @@ public class Adminconfigpage {
   public WebElement save;
   @FindBy(xpath="(//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'])[5]")
   public WebElement text;
+  
+  //localization
+  @FindBy(xpath="//a[text()='Localization']/parent::li")
+  public WebElement local;
+  @FindBy(xpath="(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']/parent::div)[1]")
+  public WebElement lang;
+  @FindBy(xpath="(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']/parent::div)[2]")
+  public WebElement date;
+  @FindBy(xpath="//button[@type='submit']")
+  public WebElement submit;
 }
