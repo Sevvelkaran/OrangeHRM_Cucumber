@@ -44,19 +44,19 @@ import org.openqa.selenium.support.FindBy;
 
 public class AdminPage2 {
 
-    @FindBy(xpath = "//span[text()='Admin']")
+    @FindBy(xpath = "(//*[@class=\"oxd-icon oxd-main-menu-item--icon\"]//following-sibling::span)[1]")
     public WebElement adminModule;
 
     @FindBy(xpath = "//a[text()='Nationalities']")
     public WebElement nationalitiesOption;
 
-    @FindBy(xpath = "//button[normalize-space()='Add']")
+    @FindBy(xpath = "//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary\"]")
     public WebElement addButton;
 
     @FindBy(xpath = "//label[text()='Name']/following::input[1]")
     public WebElement nameInput;
 
-    @FindBy(xpath = "//button[normalize-space()='Save']")
+    @FindBy(xpath = "//button[@class=\"oxd-button oxd-button--medium oxd-button--ghost\"]//following-sibling::button")
     public WebElement saveButton;
 
     @FindBy(xpath = "//span[text()='Required']")

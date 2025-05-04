@@ -12,7 +12,7 @@ public class BuzzPages {
 	@FindBy(xpath="//textarea[@placeholder=\"What's on your mind?\"]")
 	public WebElement TextArea;
 	
-	@FindBy(xpath = "//button[text()=' Post ']")
+	@FindBy(xpath = "//div[@class=\"oxd-buzz-post-slot\"]//child::button")
 	public WebElement Post;
 	
 	@FindBy(xpath = "//*[@id=\"heart-svg\"]")
@@ -21,7 +21,7 @@ public class BuzzPages {
 	@FindBy(xpath = "//p[text()='Selenium Cucumber Java']")
 	public WebElement Home;
 	
-    @FindBy(xpath = "//i[@class='oxd-icon bi-question-lg']")
+    @FindBy(xpath = "(//button[@class=\"oxd-icon-button\"]//child::i)[1]")
     public WebElement HelpButton;
 
     @FindBy(xpath = "//a[text()='Admin Guide']")

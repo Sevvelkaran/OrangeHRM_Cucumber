@@ -14,7 +14,7 @@ public class PerformancePages {
     @FindBy(xpath = "(//a[@class=\"oxd-topbar-body-nav-tab-link\"])[2]")
     public WebElement trackersLink;
 
-    @FindBy(css = "#app > div.oxd-layout.orangehrm-upgrade-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-paper-container > div.orangehrm-header-container > button")
+    @FindBy(xpath="//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary\"]")
     public WebElement addTrackerButton;
 
 
