@@ -11,6 +11,26 @@ Scenario: Add two new employees and assign a supervisor
     |Employeeid|60|
   And the user click the Save Button
   
+  @AddEmergencycontacts
+Scenario: Add a Emergency contact
+  Given the user is on the DashBoard page
+  When the user click the PIM menu
+  And the user click the Add Button
+  And the user fill the Employee form with details:
+    |Firstname|Gayu|
+    |Middlename||
+    |Lastname|R|
+    |Employeeid|60|
+  And the user click the Save Button
+ And the user clicks the Emergency Contacts section
+  And the user clicks the Add button in Emergency Contacts
+  And the user fills the emergency contact form with:
+    | Name         | Priya         |
+    | Relationship | Sister        |
+    | Mobile       | 9876543210    |
+  And the user clicks the Save button in Emergency Contacts
+  Then the contact should be saved in the Emergency Contacts records
+  
   
   Scenario: Assign a supervisor
   Given the user is on the DashBoard page

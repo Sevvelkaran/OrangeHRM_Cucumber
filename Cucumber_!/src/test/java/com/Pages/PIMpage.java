@@ -1,12 +1,14 @@
+
+
 package com.Pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class PIMpage {
-  @FindBy(xpath="//span[text()='PIM']")
+  @FindBy(xpath="(//a/child::span)[2]")
   public WebElement pim;
-  @FindBy(xpath="//i[@class='oxd-icon bi-plus oxd-button-icon']")
+  @FindBy(xpath="(//nav/descendant::a)[15]")
   public WebElement add;
   @FindBy(xpath="//input[@name='firstName']")
   public WebElement firstname;
@@ -20,13 +22,13 @@ public class PIMpage {
   public WebElement nameofemp;
   @FindBy(xpath="//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
   public WebElement saveemp1;
-  @FindBy(xpath="//button[text()=' Save ']")
+  @FindBy(css=".oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space")
   public WebElement save;
   @FindBy(xpath="(//a[@class='oxd-topbar-body-nav-tab-item'])[2]")
   public WebElement addemployee;
   @FindBy(xpath="//a[text()='Report-to']")
   public WebElement reportto;
-  @FindBy(xpath="(//button[@class='oxd-button oxd-button--medium oxd-button--text'])[1]")
+  @FindBy(xpath="(//h6/following::button)[3]")
   public WebElement superviseradd;
   @FindBy(css=".oxd-autocomplete-text-input > input")
   public WebElement name;
@@ -42,4 +44,19 @@ public class PIMpage {
   public WebElement savedemp;
   @FindBy(xpath="(//span[text()='Required'])[1]")
   public WebElement nameerr;
+  
+  //emergeny contacts
+  @FindBy(xpath="(//div[@class='orangehrm-tabs-wrapper']/child::a)[3]")
+  public WebElement emergency;
+  @FindBy(xpath="((//button)[4])/child::i")
+  public WebElement emergencyadd;
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
+  public WebElement emergencyname;
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
+  public WebElement relationship;
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[4]")
+  public WebElement mobile;
+ @FindBy(xpath="//div[@class='oxd-table-cell oxd-padding-cell'][2]/div[1]")
+ public WebElement emertext;
+ 
 }

@@ -22,7 +22,7 @@ public class PIMStepdefinition {
 	public void the_user_is_on_the_dash_board_page() {
 		try {
 			HelperClass.openPage("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-			log.Valid(); 
+			log.enterUsernameAndPassword("Admin","admin123"); 
 			log.Login();
 			LogManagers.logInfo("WebPage Opened");
 			LogManagers.logInfo("Credentials Entered");
@@ -164,4 +164,30 @@ public class PIMStepdefinition {
 			throw e;
 		}
 	}
+	//Add emergency contacts
+	@When("the user clicks the Emergency Contacts section")
+	public void the_user_clicks_the_emergency_contacts_section() {
+		pimact.clickemergency();
+	}
+
+	@When("the user clicks the Add button in Emergency Contacts")
+	public void the_user_clicks_the_add_button_in_emergency_contacts() {
+	    pimact.emergencyAdd();
+	}
+
+	@When("the user fills the emergency contact form with:")
+	public void the_user_fills_the_emergency_contact_form_with(io.cucumber.datatable.DataTable dataTable) {
+	   pimact.senddatas(dataTable);
+	}
+
+	@When("the user clicks the Save button in Emergency Contacts")
+	public void the_user_clicks_the_save_button_in_emergency_contacts() {
+	  pimact.emergencysave();
+	}
+
+	@Then("the contact should be saved in the Emergency Contacts records")
+	public void the_contact_should_be_saved_in_the_emergency_contacts_records() {
+	  pimact.emergencyverify();
+	}
+
 }
