@@ -12,9 +12,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	    },
 	    		
 	    features = {
-	    	   "src/test/resources/com/features/A_Login.feature",
+	    	 //  "src/test/resources/com/features/A_Login.feature",
 //	  	       "src/test/resources/com/features/PIM.feature",
-	  	       "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
+	  	     //  "src/test/resources/com/features/B_TimePunchoutDashboard.feature",
 //	  	       "src/test/resources/com/features/Configuration.feature",
 //	  	       "src/test/resources/com/features/Q_UserManagement.feature",
 // 	          "src/test/resources/com/features/Performance.feature",
@@ -23,7 +23,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //	  	       "src/test/resources/com/features/TimePage.feature",
 //	  	       "src/test/resources/com/features/Admin2.feature",
 //	  	      "src/test/resources/com/features/Z-Adminconfig.feature",
-	  	      "src/test/resources/com/features/SocialMedia.feature"
+	  	 //     "src/test/resources/com/features/SocialMedia.feature"
+	    		 "src/test/resources/com/features/AssignLeave.feature"
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,

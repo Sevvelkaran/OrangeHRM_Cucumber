@@ -8832,3 +8832,143 @@ Session ID: a58c6e95-26b2-4d90-8387-f0d6e48fcd5d
 2025-05-04 19:24:21 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
 2025-05-04 19:24:22 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - My Timesheet Asserted
 2025-05-04 19:24:27 [TestNG-PoolService-5] ERROR org.apache.logging.log4j.LogManager - Error during punch out flow: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Time']/following-sibling::div//input' (tried for 10 second(s) with 500 milliseconds interval)
+2025-05-05 16:52:28 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 16:52:28 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 16:52:29 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 16:52:31 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:02:16 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:02:16 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:02:17 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:02:18 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:03:07 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:03:07 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:03:08 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:03:09 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:06:11 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:06:11 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:06:12 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:06:14 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:10:58 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:10:58 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:10:59 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:11:01 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:12:01 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:12:01 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:12:02 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:12:04 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:15:58 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:15:58 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:16:00 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:16:01 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:18:06 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:18:06 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:18:07 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:18:09 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 17:21:22 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 17:21:22 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 17:21:24 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 17:21:26 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 18:26:38 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 18:26:38 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 18:26:40 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 18:26:41 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 18:27:48 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 18:27:48 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 18:27:50 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 18:27:52 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 18:51:04 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 18:51:04 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 18:51:06 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 18:51:07 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:11:42 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:11:43 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:11:44 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:11:46 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:12:51 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:12:51 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:12:53 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:12:54 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:14:49 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:14:49 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:14:52 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:14:54 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:14:56 [main] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-05 19:14:56 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
+2025-05-05 19:18:37 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:18:37 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:18:39 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:18:41 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:21:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:21:08 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:21:09 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:21:11 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:24:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:24:08 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:24:10 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:24:12 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:25:23 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:25:23 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:25:25 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:25:26 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:27:52 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:27:52 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:27:53 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:27:55 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:29:04 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:29:04 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:29:07 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:29:13 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:30:19 [main] ERROR org.apache.logging.log4j.LogManager - Error during login: Unable to locate element: *[name='username']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [09c39cf3-2e78-4d54-86b3-1cee88692743, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 59500, moz:profile: C:\Users\drcha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 09c39cf3-2e78-4d54-86b3-1cee88692743
+2025-05-05 19:31:11 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:31:12 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:31:13 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:31:15 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:32:34 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:32:34 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:32:35 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:32:38 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:34:37 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:34:37 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:34:38 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:34:40 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:35:44 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:35:44 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:35:45 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:35:48 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:37:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:37:08 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:37:09 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:37:11 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:37:15 [main] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-05 19:37:15 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
+2025-05-05 19:38:17 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:38:17 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:38:19 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:38:20 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:38:24 [main] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-05 19:38:24 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
+2025-05-05 19:41:08 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:41:08 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:41:09 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:41:11 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:41:14 [main] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-05 19:41:14 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
+2025-05-05 19:42:01 [main] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:42:01 [main] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:42:03 [main] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:42:04 [main] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:42:06 [main] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-05 19:42:06 [main] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
+2025-05-05 19:43:12 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 19:43:12 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 19:43:14 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 19:43:15 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 19:43:18 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-05 19:43:18 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
