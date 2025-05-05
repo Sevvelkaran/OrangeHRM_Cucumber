@@ -5,25 +5,25 @@ import org.openqa.selenium.support.FindBy;
 
 public class DashboardPages {
 	
-	@FindBy(xpath="//button[@class=\"oxd-icon-button oxd-icon-button--solid-main orangehrm-attendance-card-action\"]")
+	@FindBy(xpath="//p[text()='Punch In']/following::button[1]")
 	public WebElement ClockIcon;
 	
-	@FindBy(xpath = "//input[@placeholder=\"hh:mm\"]")
+	@FindBy(xpath = "//label[text()='Time']/following-sibling::div//input")
 	public WebElement TimeInsert;
 	
 	//Click
 	
 	
 	//click
-	@FindBy(xpath="//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\"]")
+	@FindBy(xpath="//p[text()='Punch Out']/following::button[1]")
 	public WebElement Out;
 
 	//Click Dashboard
-	@FindBy(xpath = "//span[text()='Dashboard']")
+	@FindBy(xpath = "///ul//li[.//span[text()='Dashboard']]/a/span")
 	public WebElement Dashboard;
 	
-	@FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[3]/div/div[2]/div/div[1]/button/svg/g/path\n")
+	@FindBy(xpath="//p[text()='Assign Leave']/following::button[1]//path")
 	public WebElement AssignLeave;
-	@FindBy(xpath = "//i[@class=\"oxd-icon bi-chevron-down oxd-icon-button__icon oxd-time-minute-input-down\"]")
+	@FindBy(xpath = "//input[@placeholder='hh:mm']/following::i[contains(@class,'minute-input-down')]")
 	public WebElement Arrow; 
 }

@@ -12,16 +12,16 @@ public class LoginPages {
 	@FindBy(xpath = "//input[@placeholder=\"Password\"]")
 	public WebElement Password;
 	
-	@FindBy(xpath="//button[@class=\"oxd-button oxd-button--medium oxd-button--main orangehrm-login-button\"]")
+	@FindBy(xpath="//button[contains(.,'Login')]")
 	public WebElement Loginbtn;
 	
-	@FindBy(xpath="//p[text()='Forgot your password? ']")
+	@FindBy(xpath="//p[contains(.,'Forgot your password?')]")
 	public WebElement Forgot;
 	
 	@FindBy(xpath = "//p[@class=\"oxd-userdropdown-name\"]")
 	public WebElement Drop;
 	
-	@FindBy(xpath="//a[text()='Logout']")
+	@FindBy(xpath="//a[contains(@href, '/web/index.php/auth/logout')]")
 	public WebElement Logout;
 	
 	@FindBy(xpath = "//h6[text()='Reset Password']")
