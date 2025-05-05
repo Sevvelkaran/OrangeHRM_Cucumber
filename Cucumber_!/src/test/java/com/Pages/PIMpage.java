@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class PIMpage {
-  @FindBy(xpath="//span[text()='PIM']")
+  @FindBy(xpath="(//a/child::span)[2]")
   public WebElement pim;
-  @FindBy(xpath="//i[@class='oxd-icon bi-plus oxd-button-icon']")
+  @FindBy(xpath="(//nav/descendant::a)[15]")
   public WebElement add;
   @FindBy(xpath="//input[@name='firstName']")
   public WebElement firstname;
@@ -28,7 +28,7 @@ public class PIMpage {
   public WebElement addemployee;
   @FindBy(xpath="//a[text()='Report-to']")
   public WebElement reportto;
-  @FindBy(xpath="(//button[@class='oxd-button oxd-button--medium oxd-button--text'])[1]")
+  @FindBy(xpath="(//h6/following::button)[3]")
   public WebElement superviseradd;
   @FindBy(css=".oxd-autocomplete-text-input > input")
   public WebElement name;
@@ -52,11 +52,11 @@ public class PIMpage {
   public WebElement emergencyadd;
   @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
   public WebElement emergencyname;
-  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[3]")
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
   public WebElement relationship;
-  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[5]")
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[4]")
   public WebElement mobile;
- @FindBy(xpath="(//div[@class='oxd-table-cell oxd-padding-cell'])[2]/child::div[1]")
+ @FindBy(xpath="//div[@class='oxd-table-cell oxd-padding-cell'][2]/div[1]")
  public WebElement emertext;
  
 }

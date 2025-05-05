@@ -113,6 +113,7 @@ public class PIMActions {
       }
       public void emergencysave() {
     	  clickMethod(pimpage.save);
+    	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
       }
       public void emergencyverify() {
     	  String expected="Priya";
