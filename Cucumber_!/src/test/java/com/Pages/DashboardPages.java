@@ -19,7 +19,7 @@ public class DashboardPages {
 	public WebElement Out;
 
 	//Click Dashboard
-	@FindBy(xpath = "///ul//li[.//span[text()='Dashboard']]/a/span")
+	@FindBy(xpath = "//ul//li[.//span[text()='Dashboard']]/a/span")
 	public WebElement Dashboard;
 	
 	@FindBy(xpath="//p[text()='Assign Leave']/following::button[1]//path")
