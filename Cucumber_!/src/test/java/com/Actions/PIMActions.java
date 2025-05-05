@@ -1,3 +1,4 @@
+
 package com.Actions;
 
 import java.time.Duration;
@@ -93,6 +94,29 @@ public class PIMActions {
       }
       public void verifyerror(String expected) {
     	  String actual=pimpage.nameerr.getText();
+    	  Assert.assertEquals(expected,actual);
+      }
+      
+      //Add emergency contacts
+      public void clickemergency() {
+    	  clickMethod(pimpage.emergency);
+      }
+      public void emergencyAdd() {
+    	  clickMethod(pimpage.emergencyadd);
+      }
+      public void senddatas(DataTable datatable) {
+    	  Map<String, String> data = datatable.asMap(String.class, String.class);
+		  send(pimpage.emergencyname,data.get("Name"));
+		  send(pimpage.relationship,data.get("Relationship"));
+		  send(pimpage.mobile,data.get("Mobile"));
+    	  
+      }
+      public void emergencysave() {
+    	  clickMethod(pimpage.save);
+      }
+      public void emergencyverify() {
+    	  String expected="Priya";
+    	  String actual=pimpage.emertext.getText();
     	  Assert.assertEquals(expected,actual);
       }
       public void clickMethod(WebElement element) {

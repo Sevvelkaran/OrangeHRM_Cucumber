@@ -1,3 +1,5 @@
+
+
 package com.Pages;
 
 import org.openqa.selenium.WebElement;
@@ -20,7 +22,7 @@ public class PIMpage {
   public WebElement nameofemp;
   @FindBy(xpath="//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
   public WebElement saveemp1;
-  @FindBy(xpath="//button[text()=' Save ']")
+  @FindBy(css=".oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space")
   public WebElement save;
   @FindBy(xpath="(//a[@class='oxd-topbar-body-nav-tab-item'])[2]")
   public WebElement addemployee;
@@ -42,4 +44,19 @@ public class PIMpage {
   public WebElement savedemp;
   @FindBy(xpath="(//span[text()='Required'])[1]")
   public WebElement nameerr;
+  
+  //emergeny contacts
+  @FindBy(xpath="(//div[@class='orangehrm-tabs-wrapper']/child::a)[3]")
+  public WebElement emergency;
+  @FindBy(xpath="((//button)[4])/child::i")
+  public WebElement emergencyadd;
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
+  public WebElement emergencyname;
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[3]")
+  public WebElement relationship;
+  @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[5]")
+  public WebElement mobile;
+ @FindBy(xpath="(//div[@class='oxd-table-cell oxd-padding-cell'])[2]/child::div[1]")
+ public WebElement emertext;
+ 
 }
