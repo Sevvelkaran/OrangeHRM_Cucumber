@@ -208,7 +208,7 @@ public class PerformanceDefinition {
     @Given("The user launches the browser and navigates to the Performance module  {string}")
     public void the_user_launches_the_browser_and_navigates_to_the_performance_module(String url) {
         HelperClass.openPage(url);
-        login.Valid();
+        login.enterUsernameAndPassword("Admin","admin123");
         login.Login();
         LogManagers.logInfo("Entered Credentials and clicked login");
     }

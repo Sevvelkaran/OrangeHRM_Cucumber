@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 public class BuzzPages {
 	
 	
-	@FindBy(xpath = "//span[text()='Buzz']")
+	@FindBy(xpath = "(//a[@class=\"oxd-main-menu-item\"]//child::span)[11]")
 	public WebElement Buzz;
 	
-	@FindBy(xpath="//textarea[@placeholder=\"What's on your mind?\"]")
+	@FindBy(xpath="//div[@class=\"oxd-buzz-post oxd-buzz-post--active\"]//child::textarea")
 	public WebElement TextArea;
 	
 	@FindBy(xpath = "//div[@class=\"oxd-buzz-post-slot\"]//child::button")
@@ -18,7 +18,7 @@ public class BuzzPages {
 	@FindBy(xpath = "//*[@id=\"heart-svg\"]")
 	public WebElement Heart;
 	
-	@FindBy(xpath = "//p[text()='Selenium Cucumber Java']")
+	@FindBy(xpath = "(//p[@class=\"oxd-text oxd-text--p orangehrm-buzz-post-body-readmore\"]//preceding-sibling::p)[1]")
 	public WebElement Home;
 	
     @FindBy(xpath = "(//button[@class=\"oxd-icon-button\"]//child::i)[1]")
@@ -27,7 +27,7 @@ public class BuzzPages {
     @FindBy(xpath = "//a[text()='Admin Guide']")
     public WebElement AdminGuideLink;
 
-    @FindBy(xpath = "//header[@class='page-header']")
+    @FindBy(xpath = "//div[@class=\"category-content\"]//child::header")
     public WebElement AdminUserGuideHeader;
 
     @FindBy(xpath = "//p[@class=\"oxd-text oxd-text--p orangehrm-buzz-anniversary-job-details\"]")
