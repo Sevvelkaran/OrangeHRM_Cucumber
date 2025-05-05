@@ -8972,3 +8972,94 @@ Session ID: 09c39cf3-2e78-4d54-86b3-1cee88692743
 2025-05-05 19:43:15 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
 2025-05-05 19:43:18 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
 2025-05-05 19:43:18 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked Assign
+2025-05-05 21:58:40 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:40 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:47 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Entered credentials: /invalidPass
+2025-05-05 21:58:47 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 21:58:48 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 21:58:48 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Entered credentials: invalidUser/invalidPass
+2025-05-05 21:58:48 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 21:58:49 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: Admin
+2025-05-05 21:58:49 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: <username>
+2025-05-05 21:58:49 [TestNG-PoolService-6] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 21:58:49 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 21:58:49 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-05 21:58:49 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 21:58:49 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 21:58:49 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Valid login assertion passed
+2025-05-05 21:58:50 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 21:58:50 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: Admin
+2025-05-05 21:58:50 [TestNG-PoolService-5] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 21:58:55 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Forgot Password link clicked
+2025-05-05 21:58:57 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Empty login assertion passed
+2025-05-05 21:59:01 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Forgot Password assertion passed
+2025-05-05 21:59:06 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Invalid login assertion passed
+2025-05-05 21:59:06 [TestNG-PoolService-8] ERROR org.apache.logging.log4j.LogManager - Error while clicking clock icon: Unable to locate element: //p[text()='Punch In']/following::button[1]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2353cfd4-4744-4e92-8bff-58b200600d54, findElement {using=xpath, value=//p[text()='Punch In']/following::button[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 2579, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 2353cfd4-4744-4e92-8bff-58b200600d54
+2025-05-05 21:59:09 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
+2025-05-05 21:59:11 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
+2025-05-05 21:59:15 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Leave List Asserted
+2025-05-05 21:59:23 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Assign Leave Asserted
+2025-05-05 21:59:39 [TestNG-PoolService-8] ERROR org.apache.logging.log4j.LogManager - Error during punch out flow: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Time']/following-sibling::div//input' (tried for 10 second(s) with 500 milliseconds interval)
+2025-05-05 21:59:51 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:21 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:23 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 22:00:25 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 22:00:25 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: Admin
+2025-05-05 22:00:30 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:31 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 22:00:34 [TestNG-PoolService-8] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 22:00:39 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Error asserting dashboard name: Unable to locate element: //h6[text()='Dashboard']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8c37f4ea-b02e-4bef-9941-cdee786fed0a, findElement {using=xpath, value=//h6[text()='Dashboard']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 2768, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 8c37f4ea-b02e-4bef-9941-cdee786fed0a
+2025-05-05 22:00:40 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:42 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:47 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-05 22:00:47 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:48 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:57 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 22:00:58 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-05 22:00:58 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: Admin
+2025-05-05 22:00:59 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Entered credentials: Admin/admin123
+2025-05-05 22:01:00 [TestNG-PoolService-10] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 22:01:01 [TestNG-PoolService-9] INFO  org.apache.logging.log4j.LogManager - Login button clicked
+2025-05-05 22:01:06 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Error asserting quick action 'Apply Leave': Unable to locate element: //p[text()='Apply Leave']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8c37f4ea-b02e-4bef-9941-cdee786fed0a, findElement {using=xpath, value=//p[text()='Apply Leave']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 2768, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 8c37f4ea-b02e-4bef-9941-cdee786fed0a
+2025-05-05 22:01:19 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Error asserting dashboard name: Unable to locate element: //h6[text()='Dashboard']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ee39e2b0-7152-4958-9833-2686755a04ee, findElement {using=xpath, value=//h6[text()='Dashboard']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 2725, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: ee39e2b0-7152-4958-9833-2686755a04ee
+2025-05-05 22:01:19 [TestNG-PoolService-7] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-05 22:01:25 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: Admin
+2025-05-05 22:01:26 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Credentials Entered for username: Admin
+2025-05-05 22:01:26 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
+2025-05-05 22:01:29 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
+2025-05-05 22:01:30 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
