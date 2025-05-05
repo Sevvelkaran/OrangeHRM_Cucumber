@@ -1,7 +1,7 @@
 package com.Definations;
 
-import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +17,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
 public class LoginDefination {
+
     WebDriver driver;
     LoginPages objlog = new LoginPages();
     LoginActions objLogin = new LoginActions();
@@ -29,7 +30,7 @@ public class LoginDefination {
 
     @After
     public void tearDown() {
-        HelperClass.teardown(); 
+        HelperClass.teardown();
     }
 
     @Given("I want to go to OrangeHRM {string}")
@@ -43,11 +44,11 @@ public class LoginDefination {
         }
     }
 
-    @When("The user enters username and password")
-    public void the_user_enters_username_and_password() {
+    @When("The user enters username {string} and password {string}")
+    public void the_user_enters_username_and_password(String username, String password) {
         try {
-            objLogin.Valid();
-            LogManagers.logInfo("Credentials Entered");
+            objLogin.enterUsernameAndPassword(username, password);
+            LogManagers.logInfo("Entered credentials: " + username + "/" + password);
         } catch (Exception e) {
             LogManagers.logError("Failed to enter credentials: " + e.getMessage());
         }
@@ -57,76 +58,59 @@ public class LoginDefination {
     public void clicks_on_the_login_button() {
         try {
             objLogin.Login();
-            LogManagers.logInfo("Login button Clicked");
+            LogManagers.logInfo("Login button clicked");
         } catch (Exception e) {
-            LogManagers.logError("Failed to click login: " + e.getMessage());
+            LogManagers.logError("Login button click failed: " + e.getMessage());
         }
     }
 
     @Then("Assert them for valid login")
     public void assert_them_for_valid_login() {
         try {
-            String expected = "OrangeHRM";
-            String actual = driver.getTitle();
-            assertEquals(actual, expected);
-            LogManagers.logInfo("Login Assertion Passed");
+            String expectedTitle = "OrangeHRM";
+            String actualTitle = HelperClass.getDriver().getTitle();
+            assertEquals(actualTitle, expectedTitle, "Login failed: Page title mismatch");
+            LogManagers.logInfo("Valid login assertion passed");
         } catch (AssertionError e) {
-            LogManagers.logError("Assertion failed for valid login: " + e.getMessage());
-        }
-    }
-
-    @Then("Logout")
-    public void logout() {
-        try {
-            objLogin.dro();
-            objLogin.logout();
-            LogManagers.logInfo("Logout performed");
-        } catch (Exception e) {
-            LogManagers.logError("Logout failed: " + e.getMessage());
-        }
-    }
-
-    @When("The user enters invalid username and invalid password")
-    public void the_user_enters_invalid_username_and_invalid_password() {
-        try {
-            objLogin.Invalid();
-            LogManagers.logInfo("Invalid Credentials Entered");
-        } catch (Exception e) {
-            LogManagers.logError("Failed to enter invalid credentials: " + e.getMessage());
+            LogManagers.logError("Valid login assertion failed: " + e.getMessage());
+            throw e;
         }
     }
 
     @Then("Assert them for invalid login")
     public void assert_them_for_invalid_login() {
         try {
-            String expected = "Invalid credentials";
-            WebElement errorMsg = driver.findElement(By.xpath("//p[text()='Invalid credentials']"));
-            assertEquals(errorMsg.getText(), expected);
+            WebElement errorMsg = HelperClass.getDriver().findElement(By.xpath("//p[text()='Invalid credentials']"));
+            assertTrue(errorMsg.isDisplayed(), "Error message not visible");
+            assertEquals(errorMsg.getText(), "Invalid credentials", "Error message text mismatch");
             LogManagers.logInfo("Invalid login assertion passed");
-        } catch (Exception e) {
+        } catch (AssertionError | Exception e) {
             LogManagers.logError("Invalid login assertion failed: " + e.getMessage());
-        }
-    }
-
-    @When("The user enters Empty username and invalid password as")
-    public void the_user_enters_empty_username_and_invalid_password_as() {
-        try {
-            objLogin.empty();
-            LogManagers.logInfo("Empty username and invalid password entered");
-        } catch (Exception e) {
-            LogManagers.logError("Failed to enter empty credentials: " + e.getMessage());
+            throw e;
         }
     }
 
     @Then("Assert them for empty login")
     public void assert_them_for_empty_login() {
         try {
-            String expectedUrl = driver.getCurrentUrl();
-            String actualUrl = driver.getCurrentUrl();
-            assertEquals(actualUrl, expectedUrl);
+            WebElement usernameField = HelperClass.getDriver().findElement(By.name("username"));
+            assertTrue(usernameField.isDisplayed(), "Expected to remain on login page");
             LogManagers.logInfo("Empty login assertion passed");
-        } catch (AssertionError e) {
+        } catch (AssertionError | Exception e) {
             LogManagers.logError("Empty login assertion failed: " + e.getMessage());
+            throw e;
+        }
+    }
+
+
+    @Then("Logout")
+    public void logout() {
+        try {
+            objLogin.dro();
+            objLogin.logout();
+            LogManagers.logInfo("User logged out successfully");
+        } catch (Exception e) {
+            LogManagers.logError("Logout failed: " + e.getMessage());
         }
     }
 
@@ -134,7 +118,7 @@ public class LoginDefination {
     public void the_user_clicks_on_the_forgot_password_link() {
         try {
             objLogin.forgot();
-            LogManagers.logInfo("Forgot Password clicked");
+            LogManagers.logInfo("Forgot Password link clicked");
         } catch (Exception e) {
             LogManagers.logError("Failed to click Forgot Password: " + e.getMessage());
         }
@@ -143,11 +127,10 @@ public class LoginDefination {
     @Then("Assert the Forgot Password page is displayed")
     public void assert_the_forgot_password_page_is_displayed() {
         try {
-            String expected = "Reset Password";
             WebElement forgotHeader = driver.findElement(By.xpath("//h6[text()='Reset Password']"));
-            assertEquals(forgotHeader.getText(), expected);
+            assertEquals(forgotHeader.getText(), "Reset Password", "Forgot password page not displayed");
             LogManagers.logInfo("Forgot Password assertion passed");
-        } catch (AssertionError | Exception e) {
+        } catch (Exception e) {
             LogManagers.logError("Forgot Password assertion failed: " + e.getMessage());
         } finally {
             driver.navigate().back();
