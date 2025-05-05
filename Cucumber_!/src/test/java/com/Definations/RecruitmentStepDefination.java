@@ -18,7 +18,7 @@ public void clicks_on_add() {
 @When("The user enters Firstname as {string}, MiddleName as {string} and LastName as {string}")
 public void the_user_enters_firstname_as_middle_name_as_and_last_name_as(String string, String string2, String string3) {
    
-
+}
 @When("Selects Vacancy")
 public void selects_vacancy() {
    
