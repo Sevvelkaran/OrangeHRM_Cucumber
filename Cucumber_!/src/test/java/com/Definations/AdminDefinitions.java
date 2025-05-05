@@ -38,7 +38,7 @@ public class AdminDefinitions {
     @Given("The user launches the browser and login")
     public void the_user_launches_the_browser_and_navigates_to_the_performance_module() {
         try {
-            login.Valid();
+        	login.enterUsernameAndPassword("Admin","admin123");
             login.Login();
         } catch (Exception e) {
             logger.error("Error occurred during login: " + e.getMessage(), e);
