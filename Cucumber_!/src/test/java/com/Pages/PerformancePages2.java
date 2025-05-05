@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class PerformancePages2 {
 
-    @FindBy(xpath = "//span[text()='Performance']")
+    @FindBy(xpath = "(//a[@class=\"oxd-main-menu-item\"]//child::span)[7]")
     public WebElement performanceTab;
 
     @FindBy(xpath = "(//span[@class=\"oxd-topbar-body-nav-tab-item\"]//child::i)[2]")
@@ -42,9 +42,5 @@ public class PerformancePages2 {
 
     @FindBy(xpath = "(//div[text()=\"Gayu R \"])[1]") 
     public WebElement resultEmployeeName;
-    
-
-    
-
-
+   
 }

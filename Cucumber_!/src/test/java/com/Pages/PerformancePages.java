@@ -45,10 +45,6 @@ public class PerformancePages {
     @FindBy(xpath = "//button[text()=' View ']")
     public WebElement viewButton;
 
-
-
-
-
 }
 
 
