@@ -18,6 +18,15 @@ Feature: Dharani_12APR2025_OrangeHRM_Q_UserManagement
   Scenario Outline: View user with valid credentials
   Given the user is on the DashBoard page
   When the user click the Admin menu
+  And the user click on User Management and select Users
+  And the user click the Add button
+  And the user fills in the user details:
+    | EmployeeName  | Thoushi F  |
+    | Username      | Admin1     |
+    | Password      | Admin@123  |
+    | Confirm       | Admin@123  |
+  And clicks the Save button
+  When the user click the Admin menu
   And the user fills in the filter fields with "<username>","<userrole>","<employeename>","<status>"
   And click the search button
   Then the user should be able to see the specific user in the list 

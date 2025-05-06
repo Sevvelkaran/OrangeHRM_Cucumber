@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
 public class Usermanagementpage {
-@FindBy(xpath="(//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'])[1]")
+@FindBy(xpath="(//a[@class='oxd-main-menu-item']/child::span)[1]")
 public WebElement admin;
 @FindBy(xpath="(//li/span)[2]")
 public WebElement usermanagement;
