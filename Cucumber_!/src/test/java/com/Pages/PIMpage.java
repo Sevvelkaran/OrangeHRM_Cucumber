@@ -58,5 +58,5 @@ public class PIMpage {
   public WebElement mobile;
  @FindBy(xpath="//div[@class='oxd-table-cell oxd-padding-cell'][2]/div[1]")
  public WebElement emertext;
- 
+
 }
