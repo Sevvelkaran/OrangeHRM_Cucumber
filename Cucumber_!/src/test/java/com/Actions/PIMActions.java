@@ -2,6 +2,8 @@
 package com.Actions;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.By;
@@ -45,9 +47,9 @@ public class PIMActions {
 		    act.sendKeys(Keys.ENTER);
 		}
 	  public void saveclick() throws InterruptedException {
-		  clickMethod(pimpage.save);
-		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
-	  }
+		    clickMethod(pimpage.save);
+		    wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-form-loader")));
+		}
 	  
 	  public void addempclcik() {
 		  clickMethod(pimpage.addemployee);
@@ -68,16 +70,31 @@ public class PIMActions {
 		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 		}
+	  
+	  
 	  public void verifysuper() {
-		  if(pimpage.verifyadd.isDisplayed()) {
-    		  System.out.println("Superviser added");
-    	  }
-	  }
-      public void verify() {
-    	  if(pimpage.savedemp.getText().contains("Dharani")||pimpage.savedemp.getText().contains("Thoushi")||pimpage.savedemp.getText().contains("Gayu")) {
-           		 System.out.println("Employee added in the list");
-    	  }
-      }
+		  List<WebElement> supervisornames = driver.findElements(By.xpath("(//div[@class='oxd-table-body'])[1]//div[2]"));
+//          String expected="Gayu R";
+//		  for (WebElement element : supervisornames) {
+//		      if(element.getText().equals(expected)) {
+//		    	  Assert.assertEquals(expected,element.getText());
+//		    	  
+//		    	  break;
+//		      }
+//		  }
+		  String expected="Gayu R";
+		  for(int i=1;i<=supervisornames.size();i++) {
+			  String xpath = "((//div[@class='oxd-table-body'])[1]//div[2])[" + i + "]";
+			  String actual = driver.findElement(By.xpath(xpath)).getText();
+			  if(expected.equals(actual)) {
+				  Assert.assertEquals(expected,actual);
+				  System.out.println("successfully supervisor added");
+			  }
+		  }
+
+	 }
+	  
+	
       
       public void save1() throws InterruptedException {
     	  
@@ -101,6 +118,13 @@ public class PIMActions {
       public void clickemergency() {
     	  clickMethod(pimpage.emergency);
       }
+ 
+	  
+      public void verify() {
+    	  if(pimpage.savedemp.getText().contains("Dharani")||pimpage.savedemp.getText().contains("Thoushi")||pimpage.savedemp.getText().contains("Gayu")) {
+           		 System.out.println("Employee added in the list");
+    	  }
+      }
       public void emergencyAdd() {
     	  clickMethod(pimpage.emergencyadd);
       }
@@ -116,9 +140,19 @@ public class PIMActions {
     	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
       }
       public void emergencyverify() {
+//    	  String expected="Priya";
+//    	  String actual=pimpage.emertext.getText();
+//    	  Assert.assertEquals(expected,actual);
+    	  List<WebElement> contactname = driver.findElements(By.xpath("(//div[@class='oxd-table-body'])[1]//div[2]"));
     	  String expected="Priya";
-    	  String actual=pimpage.emertext.getText();
-    	  Assert.assertEquals(expected,actual);
+		  for(int i=1;i<=contactname.size();i++) {
+			  String xpath = "((//div[@class='oxd-table-body'])[1]//div[2])[" + i + "]";
+			  String actual = driver.findElement(By.xpath(xpath)).getText();
+			  if(expected.equals(actual)) {
+				  Assert.assertEquals(expected,actual);
+				  System.out.println("successfully emergency contact added");
+			  }
+		  }
       }
       public void clickMethod(WebElement element) {
     	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));

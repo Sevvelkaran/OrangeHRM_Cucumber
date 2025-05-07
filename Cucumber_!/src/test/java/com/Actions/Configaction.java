@@ -2,37 +2,40 @@ package com.Actions;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import com.Pages.Configpage;
 import com.Utils.HelperClass;
 
-import junit.framework.Assert;
 
 public class Configaction {
 	WebDriver driver;
 	Configpage con = null;
-	
+	WebDriverWait wait;
 	public Configaction() {
 	    driver = HelperClass.getDriver(); 
 	    con=new Configpage();
 	    PageFactory.initElements(driver,con);
 	}
   public void menuclick() throws InterruptedException {
-	    con.config.click();
-	    con.optional.click();
-	    Thread.sleep(3000);
+	    clickMethod(con.config);
+	    clickMethod(con.optional);
+	   // Thread.sleep(3000);
+	    wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
   }
   public void enable() {
-	  con.button.click();
+	  clickMethod(con.button);
   }
   public void save() throws InterruptedException {
-	  con.save.click();
-	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	  clickMethod(con.save);
 	  wait.until(ExpectedConditions.elementToBeClickable(con.button));
 
   }
@@ -44,63 +47,107 @@ public class Configaction {
 		  System.out.println("Show Deprecated Fields is disabled");
 	  }
   }
+  //custom field
   public void customclick() {
-	  con.config.click();
-	  con.custom.click();
+	 clickMethod( con.config);
+	 clickMethod(con.custom);
   }
   public void Add() throws InterruptedException {
-	  con.add.click();
-	  Thread.sleep(3000);
+	  clickMethod(con.add);
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+	  //Thread.sleep(3000);
   }
   public void filldetail() {
-	  con.fieldname.sendKeys("Address");
+	  send(con.fieldname,"Address");
 	  Actions act=new Actions(driver);
-	  con.screendropdown.click();
+	  clickMethod(con.screendropdown);
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-	  con.typedropdown.click();
+	  clickMethod(con.typedropdown);
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 	  
   }
   public void savecustom() throws InterruptedException {
-	  con.savecustomfield.click();
-	  Thread.sleep(3000);
+	  clickMethod(con.savecustomfield);
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+	 // Thread.sleep(3000);
   }
   public void Verifycustomsave() {
 	  String expected="Address";
-	  String actual=con.verifycustomsave.getText();
-	  Assert.assertEquals(expected,actual);
-	  System.out.println("Asserted Custom field");
-	  con.delete.click();
-	  con.condelete.click();
+//	  String actual=con.verifycustomsave.getText();
+//	  Assert.assertEquals(expected,actual);
+//	  System.out.println("Asserted Custom field");
+//	  clickMethod(con.delete);
+//	  clickMethod(con.condelete);
+	  int i=2;
+	  while(true) {
+		 String actual= driver.findElement(By.xpath("(//div[@class='oxd-table-row oxd-table-row--with-border'])["+i+"]//div[@class='oxd-table-cell oxd-padding-cell'][2]")).getText();
+		 if(expected.equals(actual)) {
+			 Assert.assertEquals(expected,actual);
+			 clickMethod(con.delete);
+			  clickMethod(con.condelete);
+			 break;
+		 }
+		 i++;
+	  }
   }
   //reporting method
   public void clickreport() {
-	  con.config.click();
-	  con.reportingmethod.click();
+	  clickMethod(con.config);
+	  clickMethod(con.reportingmethod);
   }
   public void enterreportname() {
-	  con.reportmethodname.sendKeys("Administrative");
+	  send(con.reportmethodname,"Administrative");
   }
   public void verifyreportmethodname() {
 	  String expected="Administrative";
-	  String actual=con.reporttext.getText();
-	  Assert.assertEquals(expected,actual);
-	  con.delete.click();
-	  con.condelete.click();
+//	  String actual=con.reporttext.getText();
+//	  Assert.assertEquals(expected,actual);
+//	  clickMethod(con.delete);
+//	  clickMethod(con.condelete);
+	  int i=2;
+	  while(true) {
+		 String actual= driver.findElement(By.xpath("(//div[@class='oxd-table-row oxd-table-row--with-border'])["+i+"]//div[@class='oxd-table-cell oxd-padding-cell'][2]")).getText();
+		 if(expected.equals(actual)) {
+			 Assert.assertEquals(expected,actual);
+			 clickMethod(con.delete);
+			 clickMethod(con.condelete);
+			 break;
+		 }
+		 i++;
+	  }
   }
   //termination reason
   public void clickreason() {
-	  con.config.click();
-	  con.termination.click();
+	  clickMethod(con.config);
+	  clickMethod(con.termination);
   }
   public void enterterminationreason() {
-	  con.terminationreason.sendKeys("Attitude");
+	  send(con.terminationreason,"Attitude");
   }
   public void verifytermination() {
 	  String expected="Attitude";
-	  String actual=con.terminationtext.getText();
-	  Assert.assertEquals(expected,actual);
-	  con.delete.click();
-	  con.condelete.click();
+//	  String actual=con.terminationtext.getText();
+//	  Assert.assertEquals(expected,actual);
+//	  clickMethod(con.delete);
+//	  clickMethod(con.condelete);
+	  int i=2;
+	  while(true) {
+		 String actual= driver.findElement(By.xpath("(//div[@class='oxd-table-row oxd-table-row--with-border'])["+i+"]//div[@class='oxd-table-cell oxd-padding-cell'][2]")).getText();
+		 if(expected.equals(actual)) {
+			 Assert.assertEquals(expected,actual);
+			 clickMethod(con.delete);
+			 clickMethod(con.condelete);
+			 break;
+		 }
+		 i++;
+	  }
+  }
+  public void clickMethod(WebElement element) {
+	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+      wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+  }
+  public void send(WebElement ele,String msg) {
+	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+      wait.until(ExpectedConditions.visibilityOf(ele)).sendKeys(msg);
   }
 }

@@ -5,7 +5,7 @@ Scenario: Add two new employees and assign a supervisor
   When the user click the PIM menu
   And the user click the Add Button
   And the user fill the Employee form with details:
-    |Firstname|Gayu|
+    |Firstname|Gayu| 
     |Middlename||
     |Lastname|R|
     |Employeeid|60|
@@ -20,7 +20,7 @@ Scenario: Add a Emergency contact
     |Firstname|Gayu|
     |Middlename||
     |Lastname|R|
-    |Employeeid|60|
+    |Employeeid|61|
   And the user click the Save Button
  And the user clicks the Emergency Contacts section
   And the user clicks the Add button in Emergency Contacts
@@ -31,7 +31,7 @@ Scenario: Add a Emergency contact
   And the user clicks the Save button in Emergency Contacts
   Then the contact should be saved in the Emergency Contacts records
   
-  
+  @Assignasupervisor
   Scenario: Assign a supervisor
   Given the user is on the DashBoard page
   When the user click the PIM menu
@@ -41,11 +41,16 @@ Scenario: Add a Emergency contact
     |Middlename||
     |Lastname|F|
     |Employeeid|62|
-  And the user click the Save button
+  And the user click the Save Button
   And the user click the Report-to
   And the user click the Add button under Assigned Supervisors
   And the user fill the Supervisor form with:
     |Name|Gayu R|
+    |ReportingMethod|Direct|
+  And the user click the Save button
+  And the user click the Add button under Assigned Supervisors
+  And the user fill the Supervisor form with:
+    |Name|Thoushi F|
     |ReportingMethod|Direct|
   And the user click the Save button
   Then the user should be added to the supervisor Records
