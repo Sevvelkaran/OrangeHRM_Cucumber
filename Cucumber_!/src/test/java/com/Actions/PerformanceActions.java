@@ -45,12 +45,12 @@ public class PerformanceActions {
 
         wait.until(ExpectedConditions.visibilityOf(performancePages.employeeName));
         performancePages.employeeName.sendKeys(employeeName);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-autocomplete-option')]")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
         actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 
         wait.until(ExpectedConditions.visibilityOf(performancePages.reviewers));
         performancePages.reviewers.sendKeys(reviewers);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-autocomplete-option')]")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
         actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
     }
 
