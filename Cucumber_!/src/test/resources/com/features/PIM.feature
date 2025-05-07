@@ -1,6 +1,6 @@
 Feature: Dharani_10APR2025_OrangeHRM_PIM
 @AddEmployee  
-Scenario: Add two new employees and assign a supervisor
+Scenario: Add a new employee
   Given the user is on the DashBoard page
   When the user click the PIM menu
   And the user click the Add Button
@@ -17,10 +17,10 @@ Scenario: Add a Emergency contact
   When the user click the PIM menu
   And the user click the Add Button
   And the user fill the Employee form with details:
-    |Firstname|Gayu|
+    |Firstname|Gayu| 
     |Middlename||
     |Lastname|R|
-    |Employeeid|61|
+    |Employeeid|60|
   And the user click the Save Button
  And the user clicks the Emergency Contacts section
   And the user clicks the Add button in Emergency Contacts
@@ -33,24 +33,20 @@ Scenario: Add a Emergency contact
   
   @Assignasupervisor
   Scenario: Assign a supervisor
+Scenario: Add a new employee
   Given the user is on the DashBoard page
   When the user click the PIM menu
-  And the user click the Add Employee button
+  And the user click the Add Button
   And the user fill the Employee form with details:
-    |Firstname|Thoushi|
+    |Firstname|Thoushi| 
     |Middlename||
     |Lastname|F|
-    |Employeeid|62|
+    |Employeeid|60|
   And the user click the Save Button
   And the user click the Report-to
   And the user click the Add button under Assigned Supervisors
   And the user fill the Supervisor form with:
     |Name|Gayu R|
-    |ReportingMethod|Direct|
-  And the user click the Save button
-  And the user click the Add button under Assigned Supervisors
-  And the user fill the Supervisor form with:
-    |Name|Thoushi F|
     |ReportingMethod|Direct|
   And the user click the Save button
   Then the user should be added to the supervisor Records
