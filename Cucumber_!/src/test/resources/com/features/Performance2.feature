@@ -36,5 +36,17 @@ Background:
   And Click Search
   Then verify the message "Invalid" is shown in Employee Trackers
   
+  
+  @AddLog
+   Scenario: Adding Timelog in Employee Trackers
+  When navigates to the Performance module
+  And the user clicks Employee Trackers
+  And clicks the view button
+  And clicks the Add Log button
+  And enters the following credentials
+    | Log     | Comment         |
+    | 3Hours  | Log Done success|
+  And clicks on to the save button
+  Then the Log should be added successfully
  
   

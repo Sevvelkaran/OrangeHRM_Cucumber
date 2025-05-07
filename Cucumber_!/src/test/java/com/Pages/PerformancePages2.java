@@ -14,7 +14,7 @@ public class PerformancePages2 {
     @FindBy(xpath = "(//a[@class=\"oxd-topbar-body-nav-tab-link\"])[2]")
     public WebElement myReviewsLink;
 
-    @FindBy(xpath = "(//span[@class='oxd-topbar-body-nav-tab-item']/child::i)[2]") 
+    @FindBy(xpath = "(//div[@class=\"oxd-table-cell oxd-padding-cell\"]//div)[1]") 
     public WebElement jobTitle;
 
     @FindBy(xpath = "(//div[@class=\"oxd-table-cell oxd-padding-cell\"])[6]") 
@@ -42,5 +42,22 @@ public class PerformancePages2 {
 
     @FindBy(xpath = "(//div[text()=\"Gayu R \"])[1]") 
     public WebElement resultEmployeeName;
-   
-}
+    
+    
+    @FindBy(xpath = "//button[text()=' View ']")
+    public WebElement viewBtn;
+
+    @FindBy(xpath = "//button[text()=' Add Log ']")
+    public WebElement addLogBtn;
+
+    @FindBy(xpath = "//textarea[@class=\"oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical\"]")
+    public WebElement commentField;
+
+    @FindBy(xpath = "(//input[@class=\"oxd-input oxd-input--active\"])[2]")
+    public WebElement logField;
+
+    @FindBy(xpath = "//button[text()=' Save ']")
+    public WebElement saveBtn;
+
+  
+  }
