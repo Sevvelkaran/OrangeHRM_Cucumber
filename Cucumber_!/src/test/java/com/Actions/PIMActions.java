@@ -47,9 +47,9 @@ public class PIMActions {
 		    act.sendKeys(Keys.ENTER);
 		}
 	  public void saveclick() throws InterruptedException {
-		  clickMethod(pimpage.save);
-		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-loading-spinner")));
-	  }
+		    clickMethod(pimpage.save);
+		    wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-form-loader")));
+		}
 	  
 	  public void addempclcik() {
 		  clickMethod(pimpage.addemployee);
