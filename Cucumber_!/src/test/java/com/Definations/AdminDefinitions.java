@@ -9,7 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.openqa.selenium.support.PageFactory;
 
 import com.Actions.AdminActions;
 import com.Actions.LoginActions;
@@ -25,8 +24,6 @@ public class AdminDefinitions {
     private AdminActions admin;
     private String level;  
     private String membershipName;
-    
-    // Create Logger instance
     private static final Logger logger = LogManager.getLogger(AdminDefinitions.class);
 
     public AdminDefinitions() {
@@ -41,7 +38,8 @@ public class AdminDefinitions {
         	login.enterUsernameAndPassword("Admin","admin123");
             login.Login();
         } catch (Exception e) {
-            logger.error("Error occurred during login: " + e.getMessage(), e);
+            logger.error("Error occurred during login: {}", e.getMessage(), e);
+
             throw e; 
         }
     }
@@ -51,7 +49,7 @@ public class AdminDefinitions {
         try {
             admin.goToAdminModule();
         } catch (Exception e) {
-            logger.error("Error navigating to Admin module: " + e.getMessage(), e);
+            logger.error("Error navigating to Admin module: {}", e.getMessage(), e);
             throw e; 
         }
     }
@@ -61,7 +59,7 @@ public class AdminDefinitions {
         try {
             admin.goToEducationSection();
         } catch (Exception e) {
-            logger.error("Error navigating to Education section: " + e.getMessage(), e);
+            logger.error("Error navigating to Education section: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -71,7 +69,7 @@ public class AdminDefinitions {
         try {
             admin.clickAddButton();
         } catch (Exception e) {
-            logger.error("Error clicking the Add button: " + e.getMessage(), e);
+            logger.error("Error clicking the Add button: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -83,7 +81,7 @@ public class AdminDefinitions {
             level = rows.get(0).get("Level");
             admin.enterEducationLevel(level);
         } catch (Exception e) {
-            logger.error("Error entering Education Details: " + e.getMessage(), e);
+            logger.error("Error entering Education Details: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -93,7 +91,7 @@ public class AdminDefinitions {
         try {
             admin.clickSaveButton();
         } catch (Exception e) {
-            logger.error("Error clicking the Save button: " + e.getMessage(), e);
+            logger.error("Error clicking the Save button: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -103,8 +101,8 @@ public class AdminDefinitions {
         try {
             Assert.assertTrue(admin.isEducationDisplayed(level), "Education level is invalid");
         } catch (AssertionError e) {
-            logger.error("Education level validation failed: " + e.getMessage(), e);
-            throw e; // rethrow to fail the test
+            logger.error("Education level validation failed: {}", e.getMessage(), e);
+            throw e; 
         }
     }
 
@@ -114,7 +112,7 @@ public class AdminDefinitions {
             Assert.assertTrue(admin.isDuplicateErrorDisplayed(errorMessage), 
                 "Expected error message '" + errorMessage + "' was not displayed");
         } catch (AssertionError e) {
-            logger.error("Error message validation failed: " + e.getMessage(), e);
+            logger.error("Error message validation failed: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -124,7 +122,7 @@ public class AdminDefinitions {
         try {
             admin.goToMembershipsSection();
         } catch (Exception e) {
-            logger.error("Error navigating to Memberships section: " + e.getMessage(), e);
+            logger.error("Error navigating to Memberships section: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -136,7 +134,7 @@ public class AdminDefinitions {
             membershipName = rows.get(0).get("Name");
             admin.enterMembershipName(membershipName);
         } catch (Exception e) {
-            logger.error("Error entering Membership Details: " + e.getMessage(), e);
+            logger.error("Error entering Membership Details: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -146,7 +144,7 @@ public class AdminDefinitions {
         try {
             Assert.assertTrue(admin.isMembershipDisplayed(membershipName), "Membership name is not displayed!");
         } catch (AssertionError e) {
-            logger.error("Membership name validation failed: " + e.getMessage(), e);
+            logger.error("Membership name validation failed: {}", e.getMessage(), e);
             throw e;
         }
     }
@@ -158,7 +156,7 @@ public class AdminDefinitions {
             String actualError = errorElement.getText();
             Assert.assertEquals(actualError, expectedError);
         } catch (Exception e) {
-            logger.error("Error validating the error message: " + e.getMessage(), e);
+            logger.error("Error validating the error message: {}", e.getMessage(), e);
             throw e;
         }
     }

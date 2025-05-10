@@ -167,7 +167,6 @@ package com.Definations;
 
 import com.Actions.LoginActions;
 import com.Actions.PerformanceActions;
-import com.Pages.LoginPages;
 import com.Pages.PerformancePages;
 import com.Utils.HelperClass;
 import com.Utils.LogManagers;
@@ -282,9 +281,8 @@ public class PerformanceDefinition {
         for (Map<String, String> row : data) {
             String trackerName  = row.get("Tracker Name");
             String employeeName = row.get("Employee Name");
-            String reviewers    = row.get("Reviewers");
 
-            per.addTrackerWithInvalidData1(trackerName, employeeName, reviewers);
+            per.addTrackerWithInvalidData1(trackerName, employeeName);
             performancePages.saveButton.click();
         }
         LogManagers.logInfo("Invalid Tracker details entered");
