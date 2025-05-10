@@ -8,7 +8,7 @@ public class PerformancePages {
     @FindBy(xpath = "(//a[@class=\"oxd-main-menu-item\"]//child::span)[7]")
     public WebElement performanceTab;
 
-    @FindBy(xpath = "//li[@class=\"oxd-topbar-body-nav-tab --parent\"]//child::span")
+    @FindBy(xpath = "(//span[@class='oxd-topbar-body-nav-tab-item'])[1]")
     public WebElement configureTab;
 
     @FindBy(xpath = "(//a[@class=\"oxd-topbar-body-nav-tab-link\"])[2]")

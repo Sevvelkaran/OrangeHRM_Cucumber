@@ -7,29 +7,29 @@ public class BuzzPages {
 	
 	
 	@FindBy(xpath = "(//a[@class=\"oxd-main-menu-item\"]//child::span)[11]")
-	public WebElement Buzz;
+	public WebElement buzz;
 	
 	@FindBy(xpath="//div[@class=\"oxd-buzz-post oxd-buzz-post--active\"]//child::textarea")
-	public WebElement TextArea;
+	public WebElement textArea;
 	
 	@FindBy(xpath = "//div[@class=\"oxd-buzz-post-slot\"]//child::button")
-	public WebElement Post;
+	public WebElement post;
 	
 	@FindBy(xpath = "//*[@id=\"heart-svg\"]")
-	public WebElement Heart;
+	public WebElement heart;
 	
 	@FindBy(xpath = "(//p[@class=\"oxd-text oxd-text--p orangehrm-buzz-post-body-readmore\"]//preceding-sibling::p)[1]")
-	public WebElement Home;
+	public WebElement home;
 	
     @FindBy(xpath = "(//button[@class=\"oxd-icon-button\"]//child::i)[1]")
-    public WebElement HelpButton;
+    public WebElement helpButton;
 
     @FindBy(xpath = "//a[text()='Admin Guide']")
-    public WebElement AdminGuideLink;
+    public WebElement adminGuideLink;
 
     @FindBy(xpath = "//div[@class=\"category-content\"]//child::header")
-    public WebElement AdminUserGuideHeader;
+    public WebElement adminUserGuideHeader;
 
     @FindBy(xpath = "//p[@class=\"oxd-text oxd-text--p orangehrm-buzz-anniversary-job-details\"]")
-    public WebElement UpcomingAnniversaries;
+    public WebElement upcomingAnniversaries;
 }
