@@ -1,6 +1,7 @@
 package com.Definations;
 
 import java.util.List;
+
 import java.util.Map;
 
 import org.apache.logging.log4j.Logger;
@@ -9,7 +10,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.openqa.selenium.support.PageFactory;
 
 import com.Actions.AdminActions;
 import com.Actions.LoginActions;

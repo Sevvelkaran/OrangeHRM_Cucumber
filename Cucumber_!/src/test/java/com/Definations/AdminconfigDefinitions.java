@@ -1,11 +1,10 @@
 package com.Definations;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Test;
+
 
 import com.Actions.Adminconfigaction;
-import com.Actions.LoginActions;
-import com.Actions.PIMActions;
+
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

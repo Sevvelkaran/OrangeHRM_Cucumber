@@ -1,5 +1,5 @@
 package com.Definations;
-import java.util.logging.LogManager;
+
 
 import org.openqa.selenium.WebDriver;
 
@@ -8,7 +8,6 @@ import com.Actions.LoginActions;
 import com.Utils.HelperClass;
 import com.Utils.LogManagers;
 
-import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
