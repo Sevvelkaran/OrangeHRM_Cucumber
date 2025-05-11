@@ -8,18 +8,18 @@ public class RecuritmentPage {
 	
 	//Recuirtment click
 	@FindBy(xpath = "//li[@class=\"oxd-main-menu-item-wrapper\"]/following::span[text()='Recruitment']")
-	public WebElement rclick;
-	//add click
+	public WebElement Rclick;
+	//Add click
 	@FindBy(xpath = "//div[@class=\"orangehrm-header-container\"]/button")
-	public WebElement add;
+	public WebElement Add;
 	
-	// click First name, middle name and lastName
+	// click First name, middle name and lastname
 	@FindBy(xpath = "//input[@name=\"firstName\"]")
-	public WebElement firstName;
+	public WebElement FirstName;
 	@FindBy(xpath = "//input[@name=\"middleName\"]")
-	public WebElement middleName;
+	public WebElement MiddleName;
 	@FindBy(xpath = "//input[@name=\"lastName\"]")
-	public WebElement lastName;
+	public WebElement LastName;
 	//Selects vacancy 
 	@FindBy(xpath = "//div[@class=\"oxd-select-text-input\"]")
 	public WebElement Vacancy;
@@ -27,11 +27,11 @@ public class RecuritmentPage {
 	@FindBy(xpath = "//label[text()='Email']/following::input[1]")
 	public WebElement email;
 	@FindBy(xpath = "//label[text()='Email']/following::input[2]")
-	public WebElement contact;
+	public WebElement Contact;
 	//keywords
-	@FindBy(xpath = "//label[text()='keywords']/following::input[1]")
-	public WebElement keyword;
+	@FindBy(xpath = "//label[text()='Keywords']/following::input[1]")
+	public WebElement Keyword;
 	//click on save
 	@FindBy(xpath = "//button[@type=\"submit\"]")
-	public WebElement save;
+	public WebElement Save;
 }
