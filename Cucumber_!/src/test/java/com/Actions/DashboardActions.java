@@ -20,7 +20,7 @@ public class DashboardActions {
 	    }
 	 
 	 public void clock() {
-		 objPages.ClockIcon.click();
+		 objPages.clockIcon.click();
 	 }
 	 
 	  public void time() {
@@ -28,21 +28,21 @@ public class DashboardActions {
 
 	        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-form-loader")));
 
-	        wait.until(ExpectedConditions.elementToBeClickable(objPages.TimeInsert));
+	        wait.until(ExpectedConditions.elementToBeClickable(objPages.timeInsert));
 
-	        objPages.TimeInsert.click();
+	        objPages.timeInsert.click();
 	    }
 	 
 	 public void arrow() {
-		 objPages.Arrow.click();
+		 objPages.arrow.click();
 	 }
 	 
 	 public void out() {
-		 objPages.Out.click();
+		 objPages.out.click();
 	 }
 	 
 	 public void DashBoard() {
-		 objPages.Dashboard.click();
+		 objPages.dashboard.click();
 	 }
 
 }

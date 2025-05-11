@@ -19,16 +19,16 @@ public class SocialMediaActions {
 	    }
 	
 	 public void linkedin() {
-		 objsocial.LinkedIN.click();		 
+		 objsocial.linkedIN.click();		 
 	 }
 	 public void facebook() {
-		 objsocial.Facebook.click();
+		 objsocial.facebook.click();
 	 }
 	 public void twitter() {
-		 objsocial.Twitter.click();
+		 objsocial.twitter.click();
 	 }
 	 public void youtube() {
-		 objsocial.Youtube.click();
+		 objsocial.youtube.click();
 	 }
 	 
 

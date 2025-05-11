@@ -16,26 +16,26 @@ public class LoginActions {
     }
 
     public void enterUsernameAndPassword(String username, String password) {
-        loginpages.Username.clear();
-        loginpages.Password.clear();
-        loginpages.Username.sendKeys(username);
-        loginpages.Password.sendKeys(password);
+        loginpages.username.clear();
+        loginpages.password.clear();
+        loginpages.username.sendKeys(username);
+        loginpages.password.sendKeys(password);
     }
 
     public void Login() {
-        loginpages.Loginbtn.click();
+        loginpages.loginbtn.click();
     }
 
     public void logout() {
-        loginpages.Logout.click();
+        loginpages.logout.click();
     }
 
     public void forgot() {
-        loginpages.Forgot.click();
+        loginpages.forgot.click();
     }
 
     public void dro() {
-        loginpages.Drop.click();
+        loginpages.drop.click();
     }
 
 }
