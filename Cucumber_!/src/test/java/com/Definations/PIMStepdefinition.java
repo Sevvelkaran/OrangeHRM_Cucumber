@@ -1,13 +1,11 @@
 package com.Definations;
 
-
 import org.openqa.selenium.WebDriver;
 
 import com.Actions.PIMActions;
 import com.Actions.LoginActions;
 import com.Utils.HelperClass;
 import com.Utils.LogManagers;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -83,17 +81,6 @@ public class PIMStepdefinition {
 			LogManagers.logInfo("Clicked the save button");
 		} catch (Exception e) {
 			LogManagers.logError("Error clicking Save button (saveclick): " + e.getMessage());
-			throw e;
-		}
-	}
- 
-	@When("the user click the Add Employee button")
-	public void the_user_click_the_add_employee_button() {
-		try {
-			pimact.addempclcik();
-			LogManagers.logInfo("Clicked the Add Employee");
-		} catch (Exception e) {
-			LogManagers.logError("Error clicking Add Employee button: " + e.getMessage());
 			throw e;
 		}
 	}

@@ -16,13 +16,11 @@ import org.testng.Assert;
 public class PerformanceActions {
 
     private WebDriver driver;
-    private LoginPages loginPages;
     private PerformancePages performancePages = null;
     private WebDriverWait wait;
 
     public PerformanceActions() {
         driver = HelperClass.getDriver();
-        loginPages = new LoginPages();
         performancePages = new PerformancePages();
         PageFactory.initElements(driver, performancePages);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -45,21 +43,16 @@ public class PerformanceActions {
 
         wait.until(ExpectedConditions.visibilityOf(performancePages.employeeName));
         performancePages.employeeName.sendKeys(employeeName);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-autocomplete-option')]")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
         actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 
         wait.until(ExpectedConditions.visibilityOf(performancePages.reviewers));
         performancePages.reviewers.sendKeys(reviewers);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-autocomplete-option')]")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
         actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
     }
 
-    public boolean isTrackerAddedSuccessfully(String trackerName) {
-        String successMessage = performancePages.successMessage.getText();
-        return successMessage.contains("Sevvel");
-    }
-
-    public void addTrackerWithInvalidData1(String trackerNamee, String employeeNamee, String reviewerss) {
+    public void addTrackerWithInvalidData1(String trackerNamee, String employeeNamee) {
         performancePages.trackerName.sendKeys(trackerNamee);
 
         if (employeeNamee != null) {

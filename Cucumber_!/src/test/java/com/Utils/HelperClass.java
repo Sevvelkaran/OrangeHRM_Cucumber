@@ -14,7 +14,7 @@ public class HelperClass {
 
     public static void setUpDriver() {
     	FirefoxOptions opt = new FirefoxOptions();
-//    	opt.addArguments("--headless");
+       	opt.addArguments("--headless");
         WebDriver localDriver = new FirefoxDriver(opt); 
         driver.set(localDriver);
         

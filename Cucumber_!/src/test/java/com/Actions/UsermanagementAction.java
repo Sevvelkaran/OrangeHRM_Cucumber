@@ -1,10 +1,17 @@
 package com.Actions;
 
+import java.time.Duration;
 import java.util.Map;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.Pages.Usermanagementpage;
 import com.Utils.HelperClass;
 
@@ -15,43 +22,43 @@ public class UsermanagementAction {
 	public static String k = "";
 	WebDriver driver;
 	Usermanagementpage user  = null;
-	
+	WebDriverWait wait;
 	public UsermanagementAction() {
 	    driver = HelperClass.getDriver(); 
 	    user = new Usermanagementpage();
 	    PageFactory.initElements(driver,user);
 	}
 	public void clickAdmin() {
-		user.admin.click();
+		clickMethod(user.admin);
 	}
   public void clickUsers() throws InterruptedException {
-	  user.usermanagement.click();
-	  Thread.sleep(3000);
-	  user.users.click();
+	  clickMethod(user.usermanagement);
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+	  clickMethod(user.users);
   }
   public void clickAdd() {
-	  user.Add.click();
+	  clickMethod(user.Add);
   }
   public void Senddata(DataTable dataTable) throws InterruptedException {
 	  Map<String, String> data = dataTable.asMap(String.class, String.class);
 	  String baseUsername = data.get("Username");
 	  k = baseUsername + "_" + System.currentTimeMillis();
-	  user.userrole.click();
-	  Thread.sleep(3000);
+	  clickMethod(user.userrole);
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 	  Actions act=new Actions(driver);
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-	  user.empname.sendKeys(data.get("EmployeeName"));
-	  Thread.sleep(3000);
+	  send(user.empname,data.get("EmployeeName"));
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-	  user.status.click();
-	  Thread.sleep(3000);
+	  clickMethod(user.status);
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-	  user.username.sendKeys(k);
-	  user.pass.sendKeys(data.get("Password"));
-	  user.conpass.sendKeys(data.get("Confirm"));
+	  send(user.username,k);
+	  send(user.pass,data.get("Password"));
+	  send(user.conpass,data.get("Confirm"));
   }
   public void saveform() {
-	  user.submit.click();
+	  clickMethod(user.submit);
 	  
   }
   public void verify() {
@@ -63,26 +70,26 @@ public class UsermanagementAction {
   }
   //search
   public void searchdatas(String username,String userrole,String empname,String status) throws InterruptedException {
-	  user.un.sendKeys(username);
+	  send(user.un,username);
 	  Actions act=new Actions(driver);
 	  if(status!="") {
-		  user.status.click();
-		  Thread.sleep(3000);
+		  clickMethod(user.status);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 		  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 	  }
 	  if(userrole!="") {
-		  user.userrole.click();
-		  Thread.sleep(3000);
+		  clickMethod(user.userrole);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 		  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 	  }  
 	  if(empname!="") {
-	  user.en.sendKeys(empname);
-	  Thread.sleep(3000);
+	  send(user.en,empname);
+	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
 	  act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 	  }
   }
   public void clicksearch() {
-	  user.search.click();
+	  clickMethod(user.search);
   }
   public void verifysearch() {
 	  String actual=user.admintext.getText();
@@ -108,5 +115,13 @@ public class UsermanagementAction {
   }
   public void ConformDelete() {
 	  user.condelete.click();
+  }
+  public void clickMethod(WebElement element) {
+	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+      wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+  }
+  public void send(WebElement ele,String msg) {
+	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+      wait.until(ExpectedConditions.visibilityOf(ele)).sendKeys(msg);
   }
 }

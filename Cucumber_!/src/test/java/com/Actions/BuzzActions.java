@@ -5,11 +5,9 @@ import org.openqa.selenium.support.PageFactory;
 import static org.testng.Assert.assertEquals;
 
 import java.time.Duration;
-import java.util.Set;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.Pages.BuzzPages;
-import com.Pages.DashboardPages;
 import com.Utils.HelperClass;
 
 public class BuzzActions {
@@ -22,25 +20,25 @@ public class BuzzActions {
 	
 
 	public void text() {
-		pages.TextArea.click();
+		pages.textArea.click();
 	}
 	public void post() {
-		pages.Post.click();
+		pages.post.click();
 	}
 	
 	public void like() {
-		pages.Heart.click();
+		pages.heart.click();
 	}
 	
 	public void buzz() {
-		pages.Buzz.click();
+		pages.buzz.click();
 
 	}
 	
 	public void clickHelp() {
 	    WebDriver driver = HelperClass.getDriver();
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    wait.until(ExpectedConditions.elementToBeClickable(pages.HelpButton)).click();
+	    wait.until(ExpectedConditions.elementToBeClickable(pages.helpButton)).click();
 	}
 
 	public void verifyHelpPageURL() {
@@ -63,8 +61,8 @@ public class BuzzActions {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	    try {
-	        wait.until(ExpectedConditions.visibilityOf(pages.UpcomingAnniversaries));
-	        assertEquals(pages.UpcomingAnniversaries.isDisplayed(), true, "Upcoming Work Anniversaries section is not displayed.");
+	        wait.until(ExpectedConditions.visibilityOf(pages.upcomingAnniversaries));
+	        assertEquals(pages.upcomingAnniversaries.isDisplayed(), true, "Upcoming Work Anniversaries section is not displayed.");
 	    } catch (Exception e) {
 	        throw new AssertionError("Upcoming Work Anniversaries section is NOT visible.", e);
 	    }

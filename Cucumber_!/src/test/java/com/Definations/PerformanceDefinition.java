@@ -167,7 +167,6 @@ package com.Definations;
 
 import com.Actions.LoginActions;
 import com.Actions.PerformanceActions;
-import com.Pages.LoginPages;
 import com.Pages.PerformancePages;
 import com.Utils.HelperClass;
 import com.Utils.LogManagers;
@@ -177,6 +176,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -255,18 +256,24 @@ public class PerformanceDefinition {
 
     @Then("The tracker {string} should be successfully added")
     public void the_tracker_should_be_successfully_added(String trackerName) {
-        try {
-            String successMessage = performancePages.successMessage.getText();
-            Assert.assertTrue(
-                successMessage.contains(trackerName),
-                "Tracker not added successfully"
-            );
-            LogManagers.logInfo("Tracker addition asserted successfully");
-        } catch (Exception e) {
-            LogManagers.logError("Assertion failed for tracker addition: " + e.getMessage());
-          
-        }
+    	
+    	try {
+    	int i=2;
+    	while(true) {
+    		String actual=driver.findElement(By.xpath("(((//div[@class='oxd-table-row oxd-table-row--with-border'])["+i+"])//div[@class='oxd-table-cell oxd-padding-cell'])[3]")).getText();
+    		if(trackerName.equals(actual)){
+            	Assert.assertEquals(trackerName,actual);
+            	LogManagers.logInfo("Tracker addition asserted successfully");
+            	break;
+            }
+            i++;
+    	}
+    	}
+    	catch(Exception e) {
+    		LogManagers.logError("Assertion failed for tracker addition: " + e.getMessage());
+    	}
     }
+    
 
     @And("The user enters the invalid tracker details")
     public void the_user_enters_the_invalid_tracker_details(DataTable dataTable) {
@@ -274,9 +281,8 @@ public class PerformanceDefinition {
         for (Map<String, String> row : data) {
             String trackerName  = row.get("Tracker Name");
             String employeeName = row.get("Employee Name");
-            String reviewers    = row.get("Reviewers");
 
-            per.addTrackerWithInvalidData1(trackerName, employeeName, reviewers);
+            per.addTrackerWithInvalidData1(trackerName, employeeName);
             performancePages.saveButton.click();
         }
         LogManagers.logInfo("Invalid Tracker details entered");

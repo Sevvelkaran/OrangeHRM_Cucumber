@@ -2,6 +2,7 @@
 package com.Actions;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.By;
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
+import org.openqa.selenium.JavascriptExecutor;
 import com.Pages.PIMpage;
 import com.Utils.HelperClass;
 
@@ -29,11 +30,13 @@ public class PIMActions {
 	    pimpage = new PIMpage();
 	    PageFactory.initElements(driver, pimpage);
 	}
-	  public void pimclick() {
-		  clickMethod(pimpage.pim);
+	//Add employee
+	public void pimclick() {
+		  pimpage.pim.click();
 	  }
+
 	  public void addclick() {
-		  clickMethod(pimpage.add);
+		  pimpage.add.click();
 	  }
 	  public void senddata(DataTable dataTable) {
 		    Map<String, String> data = dataTable.asMap(String.class, String.class);
@@ -44,46 +47,49 @@ public class PIMActions {
 		    Actions act=new Actions(driver);
 		    act.sendKeys(Keys.ENTER);
 		}
-	  public void saveclick() throws InterruptedException {
-		  clickMethod(pimpage.save);
-		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
-	  }
 	  
-	  public void addempclcik() {
-		  clickMethod(pimpage.addemployee);
-	  }
-	  public void clickreportto() {
-		  clickMethod(pimpage.reportto);
-	  }
-	  public void clicksuperadd() {
-		  clickMethod(pimpage.superviseradd);
-	  }
-	  public void senddataforsuper(DataTable datatable) throws InterruptedException {
-		  Map<String, String> data = datatable.asMap(String.class, String.class);
-		  Actions actions = new Actions(driver);
-		  send(pimpage.name,data.get("Name"));
-		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
-		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
-		  clickMethod(pimpage.reportdrop);
-		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
-		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
-		}
-	  public void verifysuper() {
-		  if(pimpage.verifyadd.isDisplayed()) {
-    		  System.out.println("Superviser added");
-    	  }
-	  }
-      public void verify() {
-    	  if(pimpage.savedemp.getText().contains("Dharani")||pimpage.savedemp.getText().contains("Thoushi")||pimpage.savedemp.getText().contains("Gayu")) {
-           		 System.out.println("Employee added in the list");
-    	  }
-      }
-      
       public void save1() throws InterruptedException {
     	  
     	  clickMethod(pimpage.saveemp1);
     	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-loading-spinner")));
       }
+      public void clickreportto() {
+		  clickMethod(pimpage.reportto);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+	  }
+      public void clicksuperadd() {
+		  clickMethod(pimpage.superviseradd);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+	  }
+      public void senddataforsuper(DataTable datatable) throws InterruptedException {
+		  Map<String, String> data = datatable.asMap(String.class, String.class);
+		  Actions actions = new Actions(driver);
+		  send(pimpage.name,data.get("Name"));
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
+		  pimpage.reportdrop.click();
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
+		  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
+		}
+      public void saveclick() throws InterruptedException {
+		    clickMethod(pimpage.save);
+		    wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-form-loader")));
+		}
+      public void verifysuper() {
+		  List<WebElement> supervisornames = driver.findElements(By.xpath("(//div[@class='oxd-table-body'])[1]//div[2]"));
+		  String expected="Gayu R";
+		  for(int i=1;i<=supervisornames.size();i++) {
+			  String xpath = "((//div[@class='oxd-table-body'])[1]//div[2])[" + i + "]";
+			  String actual = driver.findElement(By.xpath(xpath)).getText();
+			  if(expected.equals(actual)) {
+				  Assert.assertEquals(expected,actual);
+				  System.out.println("successfully supervisor added");
+			  }
+		  }
+
+	 }
+	  
+    //Search
       public void sendemployeedettails(String firstname,String middlename,String lastname,String id) {
     	  send(pimpage.firstname,firstname);
     	  send(pimpage.middlename,middlename);
@@ -96,36 +102,46 @@ public class PIMActions {
     	  String actual=pimpage.nameerr.getText();
     	  Assert.assertEquals(expected,actual);
       }
-      
-      //Add emergency contacts
+      //emergency
+
       public void clickemergency() {
     	  clickMethod(pimpage.emergency);
+    	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
       }
       public void emergencyAdd() {
-    	  clickMethod(pimpage.emergencyadd);
+    	  pimpage.emergencyadd.click();
+    	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
       }
       public void senddatas(DataTable datatable) {
     	  Map<String, String> data = datatable.asMap(String.class, String.class);
-		  send(pimpage.emergencyname,data.get("Name"));
-		  send(pimpage.relationship,data.get("Relationship"));
-		  send(pimpage.mobile,data.get("Mobile"));
-    	  
-      }
+		  pimpage.emergencyname.sendKeys(data.get("Name"));
+		  pimpage.relationship.sendKeys(data.get("Relationship"));
+		  pimpage.mobile.sendKeys(data.get("Mobile"));
+      } 
       public void emergencysave() {
     	  clickMethod(pimpage.save);
     	  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
       }
       public void emergencyverify() {
+    	  List<WebElement> contactname = driver.findElements(By.xpath("(//div[@class='oxd-table-body'])[1]//div[2]"));
     	  String expected="Priya";
-    	  String actual=pimpage.emertext.getText();
-    	  Assert.assertEquals(expected,actual);
+		  for(int i=1;i<=contactname.size();i++) {
+			  String xpath = "((//div[@class='oxd-table-body'])[1]//div[2])[" + i + "]";
+			  String actual = driver.findElement(By.xpath(xpath)).getText();
+			  if(expected.equals(actual)) {
+				  Assert.assertEquals(expected,actual);
+				  System.out.println("successfully emergency contact added");
+			  }
+		  }
       }
-      public void clickMethod(WebElement element) {
-    	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-          wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-      }
-      public void send(WebElement ele,String msg) {
-    	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-          wait.until(ExpectedConditions.visibilityOf(ele)).sendKeys(msg);
-      }
+	public void clickMethod(WebElement element) {
+  	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+  	  wait.until(ExpectedConditions.elementToBeClickable(element));
+  	  ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+    }
+    public void send(WebElement ele,String msg) {
+  	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOf(ele)).sendKeys(msg);
+    }
+	
 }

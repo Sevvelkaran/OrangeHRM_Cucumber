@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class PIMpage {
   @FindBy(xpath="(//a/child::span)[2]")
   public WebElement pim;
-  @FindBy(xpath="(//nav/descendant::a)[15]")
+  @FindBy(xpath="//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
   public WebElement add;
   @FindBy(xpath="//input[@name='firstName']")
   public WebElement firstname;
@@ -46,9 +46,9 @@ public class PIMpage {
   public WebElement nameerr;
   
   //emergeny contacts
-  @FindBy(xpath="(//div[@class='orangehrm-tabs-wrapper']/child::a)[3]")
+  @FindBy(xpath="//a[text()='Emergency Contacts']")
   public WebElement emergency;
-  @FindBy(xpath="((//button)[4])/child::i")
+  @FindBy(xpath="(//button[@class='oxd-button oxd-button--medium oxd-button--text'])[1]")
   public WebElement emergencyadd;
   @FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")
   public WebElement emergencyname;
@@ -58,5 +58,5 @@ public class PIMpage {
   public WebElement mobile;
  @FindBy(xpath="//div[@class='oxd-table-cell oxd-padding-cell'][2]/div[1]")
  public WebElement emertext;
- 
+
 }
