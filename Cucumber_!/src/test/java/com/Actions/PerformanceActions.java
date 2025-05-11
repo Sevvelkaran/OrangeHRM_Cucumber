@@ -52,11 +52,6 @@ public class PerformanceActions {
         actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
     }
 
-//    public boolean isTrackerAddedSuccessfully(String trackerName) {
-//        String successMessage = performancePages.successMessage.getText();
-//        return successMessage.contains("Sevvel");
-//    }
-
     public void addTrackerWithInvalidData1(String trackerNamee, String employeeNamee) {
         performancePages.trackerName.sendKeys(trackerNamee);
 
