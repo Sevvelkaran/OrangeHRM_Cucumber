@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.Pages.AdminPage;
 import com.Utils.HelperClass;
+import java.util.List;
+import org.openqa.selenium.WebElement;
 
 public class AdminActions {
 
@@ -41,35 +43,21 @@ public class AdminActions {
     public void clickSaveButton() {
         adminPages.saveButton.click();
     }
+//    public boolean isEducationDisplayed(String levelName) {
+//        String xpath = "//div[@class='oxd-table-body']//div[text()='" + levelName + "']";
+//        return driver.findElement(By.xpath(xpath)).isDisplayed();
+//       
+//    }
     public boolean isEducationDisplayed(String levelName) {
-        String xpath = "//div[@class='oxd-table-body']//div[text()='" + levelName + "']";
-        return driver.findElement(By.xpath(xpath)).isDisplayed();
-       
+        List<WebElement> educationLevels = driver.findElements(By.xpath("//div[@class='oxd-table-body']//div[@role='cell']"));
+
+        for (WebElement level : educationLevels) {
+            if (level.getText().equalsIgnoreCase(levelName)) {
+                return true;
+            }
+        }
+        return false;
     }
     
-    public boolean isDuplicateErrorDisplayed(String expectedError) {
-        String xpath = "//span[text()='" + expectedError + "']";
-        return driver.findElement(By.xpath(xpath)).isDisplayed();
-    }
-
-    public boolean isDuplicateErrorDisplayed() {
-        return adminPages.duplicateError.isDisplayed();
-    }
-    public void goToMembershipsSection() {
-        adminPages.qualificationsTab.click();
-        adminPages.membershipsLink.click();
-    }
-
-
-    public void enterMembershipName(String membershipName) {
-        if (membershipName != null) {
-            adminPages.membershipNameInput.sendKeys(membershipName);
-        }
-        
-    }
-    public boolean isMembershipDisplayed(String membershipName) {
-        String xpath = "//div[@class='oxd-table-body']//div[text()='" + membershipName + "']";
-        return driver.findElement(By.xpath(xpath)).isDisplayed();
-    }  
 }
 
