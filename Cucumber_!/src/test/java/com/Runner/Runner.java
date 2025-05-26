@@ -25,7 +25,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 	  	      "src/test/resources/com/features/Z-Adminconfig.feature",
 	  	      "src/test/resources/com/features/SocialMedia.feature",
 	    	  "src/test/resources/com/features/AssignLeave.feature",
-	    	  "src/test/resources/com/features/Admin.feature"
+	    	  "src/test/resources/com/features/Admin.feature",
+	    	  "src/test/resources/com/features/Recruitment.feature"
 	    },
 	    glue = "com.Definations",
 	    monochrome = false,
