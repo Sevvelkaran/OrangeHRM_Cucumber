@@ -9063,3 +9063,243 @@ Session ID: ee39e2b0-7152-4958-9833-2686755a04ee
 2025-05-05 22:01:26 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
 2025-05-05 22:01:29 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
 2025-05-05 22:01:30 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - Dashboard name asserted: Dashboard
+2025-05-12 22:14:18 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:14:18 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:14:28 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [92832f82-3fff-470f-9f26-ffa3f7765919, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 88444, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 92832f82-3fff-470f-9f26-ffa3f7765919
+2025-05-12 22:14:29 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [855f904a-53b4-4087-ae03-0bbd0ea29137, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 9796, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 855f904a-53b4-4087-ae03-0bbd0ea29137
+2025-05-12 22:14:34 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:14:37 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:14:38 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [92832f82-3fff-470f-9f26-ffa3f7765919, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 88444, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 92832f82-3fff-470f-9f26-ffa3f7765919
+2025-05-12 22:14:39 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Valid login assertion passed
+2025-05-12 22:14:39 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [855f904a-53b4-4087-ae03-0bbd0ea29137, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 9796, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 855f904a-53b4-4087-ae03-0bbd0ea29137
+2025-05-12 22:14:45 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2cfda2de-9099-46b6-b5b6-65faf759cf72, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 79848, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2cfda2de-9099-46b6-b5b6-65faf759cf72
+2025-05-12 22:14:47 [TestNG-PoolService-4] ERROR org.apache.logging.log4j.LogManager - Failed to click Forgot Password: Unable to locate element: //p[contains(.,'forgot your password?')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fd41f5cf-a138-4849-b325-cb14df3f2c1d, findElement {using=xpath, value=//p[contains(.,'forgot your password?')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 53156, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: fd41f5cf-a138-4849-b325-cb14df3f2c1d
+2025-05-12 22:14:50 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Invalid login assertion failed: Unable to locate element: //p[text()='Invalid credentials']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [855f904a-53b4-4087-ae03-0bbd0ea29137, findElement {using=xpath, value=//p[text()='Invalid credentials']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 9796, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 855f904a-53b4-4087-ae03-0bbd0ea29137
+2025-05-12 22:14:55 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2cfda2de-9099-46b6-b5b6-65faf759cf72, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 79848, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2cfda2de-9099-46b6-b5b6-65faf759cf72
+2025-05-12 22:14:56 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Empty login assertion passed
+2025-05-12 22:14:58 [TestNG-PoolService-4] ERROR org.apache.logging.log4j.LogManager - Forgot Password assertion failed: Unable to locate element: //h6[text()='Reset Password']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fd41f5cf-a138-4849-b325-cb14df3f2c1d, findElement {using=xpath, value=//h6[text()='Reset Password']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 53156, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: fd41f5cf-a138-4849-b325-cb14df3f2c1d
+2025-05-12 22:17:24 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:17:24 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:17:24 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:17:34 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:17:34 [TestNG-PoolService-4] ERROR org.apache.logging.log4j.LogManager - Failed to click Forgot Password: Unable to locate element: //p[contains(.,'forgot your password?')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5ebec6c3-c890-4203-9613-dd599308bea6, findElement {using=xpath, value=//p[contains(.,'forgot your password?')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18528, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5ebec6c3-c890-4203-9613-dd599308bea6
+2025-05-12 22:17:34 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7129a6d6-87e5-427b-939f-3f5db42dc403, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 61960, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7129a6d6-87e5-427b-939f-3f5db42dc403
+2025-05-12 22:17:35 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b0d7cd1b-8305-45b1-98dc-a18473e089ed, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 28076, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b0d7cd1b-8305-45b1-98dc-a18473e089ed
+2025-05-12 22:17:44 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e04bf57a-6294-465a-9ffb-685057311bde, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 53720, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e04bf57a-6294-465a-9ffb-685057311bde
+2025-05-12 22:17:44 [TestNG-PoolService-4] ERROR org.apache.logging.log4j.LogManager - Forgot Password assertion failed: Unable to locate element: //h6[text()='Reset Password']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5ebec6c3-c890-4203-9613-dd599308bea6, findElement {using=xpath, value=//h6[text()='Reset Password']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18528, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5ebec6c3-c890-4203-9613-dd599308bea6
+2025-05-12 22:17:45 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7129a6d6-87e5-427b-939f-3f5db42dc403, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 61960, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7129a6d6-87e5-427b-939f-3f5db42dc403
+2025-05-12 22:17:45 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Empty login assertion passed
+2025-05-12 22:17:46 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b0d7cd1b-8305-45b1-98dc-a18473e089ed, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 28076, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b0d7cd1b-8305-45b1-98dc-a18473e089ed
+2025-05-12 22:17:46 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Valid login assertion passed
+2025-05-12 22:17:54 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e04bf57a-6294-465a-9ffb-685057311bde, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 53720, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e04bf57a-6294-465a-9ffb-685057311bde
+2025-05-12 22:18:05 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Invalid login assertion failed: Unable to locate element: //p[text()='Invalid credentials']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e04bf57a-6294-465a-9ffb-685057311bde, findElement {using=xpath, value=//p[text()='Invalid credentials']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 53720, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e04bf57a-6294-465a-9ffb-685057311bde
+2025-05-12 22:20:07 [TestNG-PoolService-2] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:20:07 [TestNG-PoolService-4] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:20:07 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:20:09 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-12 22:20:17 [TestNG-PoolService-4] ERROR org.apache.logging.log4j.LogManager - Failed to click Forgot Password: Unable to locate element: //p[contains(.,'forgot your password?')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e4d2e56-7064-473a-899c-94fda7b21770, findElement {using=xpath, value=//p[contains(.,'forgot your password?')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 84472, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4e4d2e56-7064-473a-899c-94fda7b21770
+2025-05-12 22:20:17 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cdb9ea78-1d4e-462b-8927-a947315c7d91, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 80948, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: cdb9ea78-1d4e-462b-8927-a947315c7d91
+2025-05-12 22:20:18 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [764c1bdc-37d9-4b5b-82fe-997408af0c6b, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 71124, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 764c1bdc-37d9-4b5b-82fe-997408af0c6b
+2025-05-12 22:20:19 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Failed to enter credentials: Unable to locate element: //input[@placeholder="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3ed5516a-a33c-4c7e-875c-c99e3cea2138, findElement {using=xpath, value=//input[@placeholder="username"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 85644, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3ed5516a-a33c-4c7e-875c-c99e3cea2138
+2025-05-12 22:20:27 [TestNG-PoolService-4] ERROR org.apache.logging.log4j.LogManager - Forgot Password assertion failed: Unable to locate element: //h6[text()='Reset Password']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e4d2e56-7064-473a-899c-94fda7b21770, findElement {using=xpath, value=//h6[text()='Reset Password']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 84472, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4e4d2e56-7064-473a-899c-94fda7b21770
+2025-05-12 22:20:27 [TestNG-PoolService-3] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cdb9ea78-1d4e-462b-8927-a947315c7d91, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 80948, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: cdb9ea78-1d4e-462b-8927-a947315c7d91
+2025-05-12 22:20:27 [TestNG-PoolService-3] INFO  org.apache.logging.log4j.LogManager - Empty login assertion passed
+2025-05-12 22:20:28 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [764c1bdc-37d9-4b5b-82fe-997408af0c6b, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 71124, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 764c1bdc-37d9-4b5b-82fe-997408af0c6b
+2025-05-12 22:20:29 [TestNG-PoolService-1] ERROR org.apache.logging.log4j.LogManager - Login button click failed: Unable to locate element: //button[contains(.,'Login')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3ed5516a-a33c-4c7e-875c-c99e3cea2138, findElement {using=xpath, value=//button[contains(.,'Login')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 85644, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3ed5516a-a33c-4c7e-875c-c99e3cea2138
+2025-05-12 22:20:29 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Valid login assertion passed
+2025-05-12 22:20:38 [TestNG-PoolService-2] ERROR org.apache.logging.log4j.LogManager - Invalid login assertion failed: Unable to locate element: //p[text()='Invalid credentials']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [764c1bdc-37d9-4b5b-82fe-997408af0c6b, findElement {using=xpath, value=//p[text()='Invalid credentials']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 71124, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 764c1bdc-37d9-4b5b-82fe-997408af0c6b
+2025-05-26 10:39:39 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - WebPage Opened
+2025-05-26 10:39:39 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Credentials Entred
+2025-05-26 10:39:41 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Navigated to Leave module
+2025-05-26 10:39:42 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Opened Assign Leave
+2025-05-26 10:39:44 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Entered leave details for: Trystan Sipes
+2025-05-26 10:39:44 [TestNG-PoolService-1] INFO  org.apache.logging.log4j.LogManager - Clicked Assign

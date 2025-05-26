@@ -6,24 +6,24 @@ import org.openqa.selenium.support.FindBy;
 public class DashboardPages {
 	
 	@FindBy(xpath="//p[text()='Punch In']/following::button[1]")
-	public WebElement ClockIcon;
+	public WebElement clockIcon;
 	
 	@FindBy(xpath = "//label[text()='Time']/following-sibling::div//input")
-	public WebElement TimeInsert;
+	public WebElement timeInsert;
 	
 	//Click
 	
 	
 	//click
-	@FindBy(xpath="//p[text()='Punch Out']/following::button[1]")
-	public WebElement Out;
+	@FindBy(xpath="//p[text()='Punch out']/following::button[1]")
+	public WebElement out;
 
-	//Click Dashboard
-	@FindBy(xpath = "//ul//li[.//span[text()='Dashboard']]/a/span")
-	public WebElement Dashboard;
+	//Click dashboard
+	@FindBy(xpath = "//ul//li[.//span[text()='dashboard']]/a/span")
+	public WebElement dashboard;
 	
 	@FindBy(xpath="//p[text()='Assign Leave']/following::button[1]//path")
-	public WebElement AssignLeave;
+	public WebElement assignLeave;
 	@FindBy(xpath = "//input[@placeholder='hh:mm']/following::i[contains(@class,'minute-input-down')]")
-	public WebElement Arrow; 
+	public WebElement arrow; 
 }

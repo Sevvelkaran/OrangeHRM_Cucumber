@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class TimePage {
 
-    // Login
+  
     @FindBy(name = "username")
     public WebElement username;
 
@@ -15,7 +15,7 @@ public class TimePage {
     @FindBy(tagName = "button")
     public WebElement loginBtn;
 
-    // Time menu flow
+  
     @FindBy(xpath = "//span[text()='Time']")
     public WebElement timeModule;
 

@@ -6,24 +6,24 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPages {
 
 	
-	@FindBy(xpath="//input[@placeholder=\"Username\"]")
-	public WebElement Username;
+	@FindBy(xpath="//input[@placeholder=\"username\"]")
+	public WebElement username;
 	
-	@FindBy(xpath = "//input[@placeholder=\"Password\"]")
-	public WebElement Password;
+	@FindBy(xpath = "//input[@placeholder=\"password\"]")
+	public WebElement password;
 	
 	@FindBy(xpath="//button[contains(.,'Login')]")
-	public WebElement Loginbtn;
+	public WebElement loginbtn;
 	
-	@FindBy(xpath="//p[contains(.,'Forgot your password?')]")
-	public WebElement Forgot;
+	@FindBy(xpath="//p[contains(.,'forgot your password?')]")
+	public WebElement forgot;
 	
 	@FindBy(xpath = "//p[@class=\"oxd-userdropdown-name\"]")
-	public WebElement Drop;
+	public WebElement drop;
 	
 	@FindBy(xpath="//a[contains(@href, '/web/index.php/auth/logout')]")
-	public WebElement Logout;
+	public WebElement logout;
 	
-	@FindBy(xpath = "//h6[text()='Reset Password']")
-	public WebElement forgotPasswordHeader;
+	@FindBy(xpath = "//h6[text()='Reset password']")
+	public WebElement forgotpasswordHeader;
 }
