@@ -22,16 +22,7 @@ public class AdminPage{
 
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement saveButton;
-    
-    @FindBy(xpath = "//span[@class=\"oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message\"]")
-    public WebElement duplicateError;
-
-    @FindBy(xpath = "//a[text()='Memberships']")
-    public WebElement membershipsLink;
-
-    @FindBy(xpath = "//label[text()='Name']/../following-sibling::div/input")
-    public WebElement membershipNameInput;
-  
+ 
 }
 
 
