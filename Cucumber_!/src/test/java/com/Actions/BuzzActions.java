@@ -55,19 +55,6 @@ public class BuzzActions {
 	    assertEquals(driver.getCurrentUrl(), "https://starterhelp.orangehrm.com/hc/en-us");
 	    driver.close();
 	}
-	
-	
-//	public void verifyUpcomingAnniversariesSection() {
-//	    WebDriver driver = HelperClass.getDriver();
-//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//	    try {
-//	        wait.until(ExpectedConditions.visibilityOf(pages.upcomingAnniversaries));
-//	        assertEquals(pages.upcomingAnniversaries.isDisplayed(), true, "Upcoming Work Anniversaries section is not displayed.");
-//	    } catch (Exception e) {
-//	        throw new AssertionError("Upcoming Work Anniversaries section is NOT visible.", e);
-//	    }
-//	}
 	public void verifyUpcomingAnniversariesSection() {
 	    WebDriver driver = HelperClass.getDriver();
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

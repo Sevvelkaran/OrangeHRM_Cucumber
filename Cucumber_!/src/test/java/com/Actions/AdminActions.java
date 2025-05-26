@@ -43,11 +43,7 @@ public class AdminActions {
     public void clickSaveButton() {
         adminPages.saveButton.click();
     }
-//    public boolean isEducationDisplayed(String levelName) {
-//        String xpath = "//div[@class='oxd-table-body']//div[text()='" + levelName + "']";
-//        return driver.findElement(By.xpath(xpath)).isDisplayed();
-//       
-//    }
+    
     public boolean isEducationDisplayed(String levelName) {
         List<WebElement> educationLevels = driver.findElements(By.xpath("//div[@class='oxd-table-body']//div[@role='cell']"));
 
