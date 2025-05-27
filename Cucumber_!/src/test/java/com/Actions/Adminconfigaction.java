@@ -52,18 +52,33 @@ public class Adminconfigaction {
 	   clickMethod(adcon.local);
 	   wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("spinner")));
    }
-   public void selectlang() {
-//	   adcon.lang.sendKeys(Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER);
-   }
-   public void selectdate() {
-//	   adcon.date.sendKeys(Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER);
-   }
+   public void selectlang(String language) {
+       Actions actions = new Actions(driver);
+       if(!adcon.lang.getText().equals(language)) {
+    	   clickMethod(adcon.lang);
+    	   while(!adcon.lang.getText().equals(language)) {
+    	  actions.sendKeys(Keys.ARROW_DOWN).perform();
+    	   }
+    	   clickMethod(adcon.lang);
+       }
+       }
+   public void selectdate(String date) {
+	   Actions actions = new Actions(driver);
+       if(!adcon.date.getText().contains(date)) {
+    	   clickMethod(adcon.date);
+    	   while(!adcon.date.getText().contains(date)) {
+    	  actions.sendKeys(Keys.ARROW_DOWN).perform();
+    	  }
+    	   clickMethod(adcon.date);
+       }
+ }
    public void clicksubmit() {
 	   clickMethod(adcon.submit);
 	   wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("oxd-loading-spinner")));
    }
    public void verifylang(String expected) {
-	   
+	   String actual=adcon.lang.getText();
+	   Assert.assertEquals(expected,actual);
    }
    public void clickMethod(WebElement element) {
  	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));

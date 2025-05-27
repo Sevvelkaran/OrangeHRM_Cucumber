@@ -19,9 +19,9 @@ public class Adminconfigpage {
   //localization
   @FindBy(xpath="//a[text()='Localization']/parent::li")
   public WebElement local;
-  @FindBy(xpath="(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']/parent::div)[1]")
+  @FindBy(xpath="(//div[@class='oxd-select-text-input'])[1]")
   public WebElement lang;
-  @FindBy(xpath="(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']/parent::div)[2]")
+  @FindBy(xpath="(//div[@class='oxd-select-text oxd-select-text--active'])[2]")
   public WebElement date;
   @FindBy(xpath="//button[@type='submit']")
   public WebElement submit;

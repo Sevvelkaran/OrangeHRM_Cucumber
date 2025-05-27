@@ -12,7 +12,7 @@ Scenario: Modify Localization
   When the user click the Admin menu
   And the user clicks on Configuration and selects Localization
   And the user selects "English (United States)" as the language
-  And the user selects the date format as "yyyy-dd-mm"
+  And the user selects the date format as "yyyy-mm-dd"
   And the user click the Save 
   Then the user should see the interface in the selected language
 
