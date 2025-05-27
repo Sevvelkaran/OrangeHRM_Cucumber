@@ -41,12 +41,12 @@ public class AdminconfigDefinitions {
 
 	@When("the user selects {string} as the language")
 	public void the_user_selects_as_the_language(String string) {
-	    adcon.selectlang();
+	    adcon.selectlang(string);
 	}
 
 	@When("the user selects the date format as {string}")
 	public void the_user_selects_the_date_format_as(String string) {
-	    adcon.selectdate();
+	    adcon.selectdate(string);
 	}
 
 	@When("the user click the Save")
