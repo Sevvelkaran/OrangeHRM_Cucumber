@@ -26,7 +26,7 @@ public class PIMpage {
   public WebElement save;
   @FindBy(xpath="(//a[@class='oxd-topbar-body-nav-tab-item'])[2]")
   public WebElement addemployee;
-  @FindBy(xpath="//a[text()='Report-to']")
+  @FindBy(xpath="(//a[@class='orangehrm-tabs-item'])[7]")
   public WebElement reportto;
   @FindBy(xpath="(//h6/following::button)[3]")
   public WebElement superviseradd;
@@ -42,11 +42,11 @@ public class PIMpage {
   public WebElement verifyadd;
   @FindBy(xpath="//h6[@class='oxd-text oxd-text--h6 --strong']")
   public WebElement savedemp;
-  @FindBy(xpath="(//span[text()='Required'])[1]")
+  @FindBy(xpath="//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']")
   public WebElement nameerr;
   
   //emergeny contacts
-  @FindBy(xpath="//a[text()='Emergency Contacts']")
+  @FindBy(xpath="//div[@class='orangehrm-tabs-wrapper'][3]/child::a")
   public WebElement emergency;
   @FindBy(xpath="(//button[@class='oxd-button oxd-button--medium oxd-button--text'])[1]")
   public WebElement emergencyadd;
