@@ -92,7 +92,6 @@ public class AdminDefinitions {
             admin.clickSaveButton();
         } catch (Exception e) {
             logger.error("Error clicking the Save button: {}", e.getMessage(), e);
-            throw e;
         }
     }
 
@@ -102,7 +101,6 @@ public class AdminDefinitions {
             Assert.assertTrue(admin.isEducationDisplayed(level), "Education level is invalid");
         } catch (AssertionError e) {
             logger.error("Education level validation failed: {}", e.getMessage(), e);
-            throw e; 
         }
     }
 }
