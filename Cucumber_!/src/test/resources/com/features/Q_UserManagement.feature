@@ -1,5 +1,5 @@
 Feature: Dharani_12APR2025_OrangeHRM_Q_UserManagement
-@Adduser
+
  Scenario: Add a new user 
   Given the user is on the DashBoard page
   When the user click the Admin menu
@@ -14,7 +14,7 @@ Feature: Dharani_12APR2025_OrangeHRM_Q_UserManagement
   Then the user should be added to the records
   
   
-  @Viewuserwith_validcredentials
+
   Scenario Outline: View user with valid credentials
   Given the user is on the DashBoard page
   When the user click the Admin menu
@@ -45,8 +45,7 @@ Feature: Dharani_12APR2025_OrangeHRM_Q_UserManagement
   |          | Admin        | Thoushi F    | Enabled  |
   |          |              | Thoushi F    | Enabled  |  
   
-  
-  @Viewuserwith_Invalidcredentials
+
   Scenario Outline: View user with Invalid credentials
   Given the user is on the DashBoard page
   When the user click the Admin menu
