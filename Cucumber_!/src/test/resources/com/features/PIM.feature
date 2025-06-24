@@ -1,5 +1,4 @@
-Feature: Dharani_10APR2025_OrangeHRM_PIM
-@AddEmployee  
+Feature: Dharani_10APR2025_OrangeHRM_PIM  
 Scenario: Add a new employee
   Given the user is on the DashBoard page
   When the user click the PIM menu
@@ -11,7 +10,6 @@ Scenario: Add a new employee
     |Employeeid|60|
   And the user click the Save Button
   
-  @AddEmergencycontacts
 Scenario: Add a Emergency contact
   Given the user is on the DashBoard page
   When the user click the PIM menu
@@ -31,7 +29,6 @@ Scenario: Add a Emergency contact
   And the user clicks the Save button in Emergency Contacts
   Then the contact should be saved in the Emergency Contacts records
   
-  @Assignasupervisor
   Scenario: Assign a supervisor
 Scenario: Add a new employee
   Given the user is on the DashBoard page
@@ -51,7 +48,7 @@ Scenario: Add a new employee
   And the user click the Save button
   Then the user should be added to the supervisor Records
   
-  @SearchEmployee
+
 Scenario Outline: Search employee with Invalid credentials
   Given the user is on the DashBoard page
   When the user click the PIM menu
